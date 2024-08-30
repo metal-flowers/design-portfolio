@@ -1,5 +1,8 @@
 ---
-
+const pageTitle = "resume";
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import '../styles/global.css';
 ---
 
 <html lang="en">
@@ -8,17 +11,46 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Projects</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
-        <nav>
-            <ul>
-                <li><a href="/">Info</a></li>
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/resume">Resume</a></li>
-                <li><a href="/visual-journal">Visual Journal</a></li>
-            </ul>
-        </nav>
-		<h1>Projects</h1>
+		<Header />
+		<h1>{pageTitle}</h1>
+
+
+		<section id="select-projects">
+			<div class="project-grid">
+
+				<div class="project-card">
+					<img src="project1-image.jpg" alt="Project 1 Image">
+						<div class="card-content">
+							<h2 class="project-title">Project 1</h2>
+							<p class="project-description">Type design</p>
+							<p class="project-link"><a href="#">View Project</a></div>
+						</div>
+				</div>
+
+				<div class="project-card">
+					<img src="project1-image.jpg" alt="Project 2 Image">
+						<div class="card-content">
+							<h2 class="project-title">Project 2</h2>
+							<p class="project-description">Type design</p>
+							<p class="project-link"><a href="#">View Project</a></div>
+						</div>
+				</div>
+
+				<div class="project-card">
+					<img src="project1-image.jpg" alt="Project 3 Image">
+						<div class="card-content">
+							<h2 class="project-title">Project 3</h2>
+							<p class="project-description">Type design</p>
+							<p class="project-link"><a href="#">View Project</a></div>
+						</div>
+				</div>
+
+
+			</div>
+			
+		<Footer />
 	</body>
 </html>

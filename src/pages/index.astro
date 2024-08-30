@@ -1,24 +1,65 @@
 ---
+const pageTitle = "info";
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Navigation from '../components/Navigation.astro';
 
 ---
 
 <html lang="en">
+
+
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>{pageTitle} | Annie Szafranski</title>
 	</head>
+
+
 	<body>
-		 <nav>
-            <ul>
-                <li><a href="/">Info</a></li>
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/resume">Resume</a></li>
-                <li><a href="/visual-journal">Visual Journal</a></li>
-            </ul>
-        </nav>
-		<h1>Astro!</h1>
-	</body>
+		<Header />
+		<h1>{pageTitle}</h1>
+
+		<main>
+			<div class="grid-container">
+				
+			
+				<section id="about">
+					<div class="about-text">
+						<p>Annie Szafranski is a California based graphic designer and typographer designing editorial experiences across the web and in print. She is a student in the Type West Online program for 2024, a year-long type design program through the Letterform Archive—a dream! She’s not taking any additional work this year, but would absolutely love to be considered for new type-driven projects in 2025.</p>
+						<p>You can take a look at select projects and find occasional updates on the blog.</p>
+					</div>
+				</section>
+				<aside class="about">
+					<img src="/src/assets/images/desk-shot.jpg" alt="[Your Name]">
+				</aside>
+
+
+				<section class="project-row">
+						<div id="project-1-img"></div>
+							<div class="project-row-info">
+								<h2 class="project-row-title">Signals and Stories</h2>
+								<p class="project-row-type">Web Design</p>
+								<p class="project-row-year">2024</p>
+								<p class="project-row-link"><a href="#">View Project</a></p>
+							</div>			
+						</div>
+				</section>
+
+
+
+		</main>
+	
+	</div>
+
+		<Footer />
+		<script>
+		  document.querySelector('.hamburger').addEventListener('click', () => {
+			document.querySelector('.nav-links').classList.toggle('expanded');
+		  });
+		</script>
+	  </body>
 </html>
