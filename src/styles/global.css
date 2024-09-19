@@ -1,61 +1,58 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  /* Box sizing rules */
+ /* Box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* Prevent font size inflation */
-html {
-  -moz-text-size-adjust: none;
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Remove default margin in favour of better control in authored CSS */
-body, h1, h2, h3, h4, p,
-figure, blockquote, dl, dd {
-  margin-block-end: 0;
-}
-
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
+/* Remove list-style and text decoration for common elements */
+ul, ol {
   list-style: none;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default border and outline from common form elements */
+input, textarea, button {
+  border: none;
+  outline: none;
+}
+
 
 
   html {
     background-color: #F6F7FD;
     font-family: sans-serif;
   }
-  
+
   body {
     margin: 0 auto;
     width: 100%;
-    padding: 1rem;
+    padding: 1rem 2rem;
   }
 
-    
   .nav-links {
+    display: inline-block;
     width: 100%;
     top: 5rem;
     left: 48px;
-    background-color: #ff9776;
-    margin: 0;
+    margin-bottom: 4%;
   }
   
   .nav-links a {
-    display: block;
-    text-align: center;
-    padding: 10px 0;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: bold;
+    display: inline;
+    font-size: 1.000rem;
+    font-weight: normal;
     text-transform: uppercase;
   }
   
@@ -68,24 +65,33 @@ ol[role='list'] {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 1em;
-  }
+    /*grid-template-areas: 
+    "header header"
+    "about about contact"
+    "project project"
+    "project project"
+    "project project"
+    "footer footer"; */
+    }
+
 
   .about {
     display: grid;
-    grid-column-end: 5;
+    grid-column-end: 6;
     grid-column-start: 1;
+  }
+
+  .contact {
+    margin-top: 4%;
+  }
+
+  .contact li {
+    display: inline;   
+    margin: 8px; 
   }
 
   .about p{
     font-size: 1.750rem;
-  }
-
-  .contact {
-    width: 100%;
-    grid-column-start: 5;
-    grid-column-end: 7;
-    grid-auto-flow: column;
-    align-content: stretch;    
   }
 
 
@@ -93,7 +99,7 @@ ol[role='list'] {
     display: grid;
     grid-column-end: 7;
     grid-column-start: 1;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
     grid-gap: 20px;
 }
 
@@ -104,15 +110,16 @@ ol[role='list'] {
 
 .project img {
   width: 100%;
-  height: 400px; /* Adjust the height as needed */
+  height: 340px; /* Adjust the height as needed */
   object-fit: cover; /* Ensures the image covers the area while maintaining its aspect ratio */
   border-radius: 16px;
+  margin-bottom: 2%;
 }
 
 
 h2.project-title {
   font-size: 1.312rem;
-  line-height: 1rem;
+  line-height: 2.0rem;
 }
 
 p.project-type, .project-year {
