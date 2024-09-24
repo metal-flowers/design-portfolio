@@ -1,5 +1,5 @@
 ---
-const pageTitle = "resume";
+const pageTitle = "projects";
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import '../styles/global.css';
@@ -15,41 +15,26 @@ import '../styles/global.css';
 	</head>
 	<body>
 		<Header />
-		<h1>{pageTitle}</h1>
 
+		<main>
+			<div class="grid">
+				<h1>{pageTitle}</h1>
 
-		<section id="select-projects">
-			<div class="project-grid">
+				<section class="project-info">
 
-				<div class="project-card">
-					<img src="project1-image.jpg" alt="Project 1 Image">
-						<div class="card-content">
-							<h2 class="project-title">Project 1</h2>
-							<p class="project-description">Type design</p>
-							<p class="project-link"><a href="#">View Project</a></div>
-						</div>
-				</div>
+				</section>
 
-				<div class="project-card">
-					<img src="project1-image.jpg" alt="Project 2 Image">
-						<div class="card-content">
-							<h2 class="project-title">Project 2</h2>
-							<p class="project-description">Type design</p>
-							<p class="project-link"><a href="#">View Project</a></div>
-						</div>
-				</div>
+				<section class="project-photos">
 
-				<div class="project-card">
-					<img src="project1-image.jpg" alt="Project 3 Image">
-						<div class="card-content">
-							<h2 class="project-title">Project 3</h2>
-							<p class="project-description">Type design</p>
-							<p class="project-link"><a href="#">View Project</a></div>
-						</div>
-				</div>
+				</section>
+
+				<section class="project-description">
+
+				</section>
 
 
 			</div>
+
 			
 		<Footer />
 	</body>
