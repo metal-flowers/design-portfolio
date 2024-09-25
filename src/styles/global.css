@@ -109,6 +109,7 @@ p {
 
   .about p{
     font-size: 1.750rem;
+    line-height: 2.25rem;
   }
 
 
@@ -215,6 +216,9 @@ h3.description-heading {
   grid-area: colophon;
 }
 
+
+
+/* TYPOGRPAHY */
 
 
 h1 {
