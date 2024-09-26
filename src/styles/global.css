@@ -239,6 +239,12 @@ h2 {
   line-height: 2.25rem;
 }
 
+h2.project-title {
+  font-size: 1.750rem;
+  font-weight: normal;
+  line-height: 2.25rem;
+}
+
 h3 {
   font-size: 1.312rem;
   font-weight: bold;
