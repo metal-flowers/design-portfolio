@@ -74,17 +74,13 @@ input, textarea, button {
     grid-template-columns: repeat(6, 1fr);
     gap: 1em;
     grid-template-areas: 
-    "about about about about about contact"
+    "about about about about about about"
     "project-grid project-grid project-grid project-grid project-grid project-grid"
     "main main main main main main"
     "project-photos project-photos project-photos project-photos project-photos project-photos"
     "colophon colophon colophon . . ."
     }
 
-
-p {
-    margin-top: 1%;
-}
 
   .about {
     /* display: grid;
@@ -218,6 +214,57 @@ h3.description-heading {
 
 
 
+/* RESUME */
+h3.resume {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 0.750rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2%;
+  border-top: 1px solid #ccc;
+}
+
+#experience, #education, #volunteer, #continued-learning {
+grid-column-start: 3;
+grid-column-end: 7;
+}
+
+#resume-intro {
+  grid-column-start:1;
+  grid-column-end: 3;
+}
+
+.resume-section {
+  margin-bottom: 4%;
+}
+
+    /* RESUME MEDIA QUERIES */
+
+    /* Medium Screens (Tablets, Small Laptops) - 600px to 992px */
+@media (max-width: 992px) {
+  #experience, #education, #volunteer, #continued-learning {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    }
+
+    #resume-intro {
+      grid-column-start:1;
+      grid-column-end: 7;
+    }
+  }
+
+  /* Small Screens (Mobile) - less than 600px */
+@media (max-width: 600px) {
+  .resume-section {
+    margin-bottom: 10%;
+}
+  }
+
+
+
+
+
+
 /* TYPOGRPAHY */
 
 
@@ -228,26 +275,22 @@ h1 {
   margin-bottom: 0.40rem;
 }
 
-/* h2 {
-  font-size: 2.375rem;
-  font-weight: normal;
-} */
-
 h2 {
   font-size: 1.750rem;
   font-weight: normal;
-  line-height: 2.25rem;
+  line-height: 2.5rem;
 }
 
 h2.project-title {
   font-size: 1.750rem;
   font-weight: normal;
-  line-height: 2.25rem;
+  line-height: 2.5rem;
 }
 
 h3 {
   font-size: 1.312rem;
-  font-weight: bold;
+  font-weight: normal;
+  line-height: 2rem;
 }
 
 h4 {
@@ -261,7 +304,7 @@ h5 {
 }
 
 p {
-  font-weight: 1.000rem;
+  font-weight: normal;
   line-height: 1.800rem;
 }
 
