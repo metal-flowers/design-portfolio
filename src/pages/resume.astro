@@ -2,7 +2,8 @@
 const pageTitle = "resume";
 import '../styles/global.css';
 import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
+import Navigation from '../components/Navigation.astro';
+import Logotype from '../components/Logotype.astro';
 
 ---
 
@@ -13,11 +14,11 @@ import Header from '../components/Header.astro';
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{pageTitle}</title>
+		<Logotype />
 	</head>
 	<body>
-		<Header />
-		<main>
-			<div class="grid-container">
+		<Navigation />
+			<main class="grid-container">
 				
 
 			<!-------------- INTRO -------------->
@@ -26,7 +27,7 @@ import Header from '../components/Header.astro';
 
 					<h3 class="resume">Intro</h3>
 					<article class="resume-section">
-						<h2>10+ years of in-house design experience in tech—working across brand, interactive, and product. Full resume available on request.</h2>
+						<h2>Annie Szafranski brings 10+ years of in-house design experience working across brand, interactive, and product. She's assionate about design foundations, typography, and whatever the interest of the week is.</h2>
 					</article>
 				</section>
 
@@ -40,6 +41,37 @@ import Header from '../components/Header.astro';
 						<p>Senior Designer</p>
 						<p>2021 to Present</p>
 					</article>
+
+					<article class="resume-section">
+						<h2>Compass</h2>
+						<p>Senior Designer</p>
+						<p>2018 to 2021</p>
+					</article>
+
+					<article class="resume-section">
+						<h2>Everlane</h2>
+						<p>Graphic Designer</p>
+						<p>2015 to 2018</p>
+					</article>
+
+					<article class="resume-section">
+						<h2>Wanelo</h2>
+						<p>Communication Designer</p>
+						<p>2014</p>
+					</article>
+
+					<article class="resume-section">
+						<h2>Eventbrite</h2>
+						<p>Visual Designer</p>
+						<p>2013 to 2014</p>
+					</article>
+
+					<article class="resume-section">
+						<h2>Twitter</h2>
+						<p>Production Designer</p>
+						<p>2012 to 2013</p>
+					</article>
+
 				</section>
 			
 			<!-------------- EDUCATION -------------->
@@ -125,8 +157,6 @@ import Header from '../components/Header.astro';
 
 
 		</main>
-	
-	</div>
 
 		<Footer />
 	</body>

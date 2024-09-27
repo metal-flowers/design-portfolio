@@ -41,13 +41,19 @@ input, textarea, button {
     padding: 1rem 2rem;
   }
 
+  nav {
+    display: flex;
+    justify-content: space-between; /* This moves the logo to the left and nav items to the right */
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+
 
   .nav-links {
     display: inline-block;
     width: 100%;
     top: 5rem;
     left: 48px;
-    margin-bottom: 4%;
     text-align: right;
   }
   
@@ -226,13 +232,13 @@ h3.resume {
 }
 
 #experience, #education, #volunteer, #continued-learning {
-grid-column-start: 3;
+grid-column-start: 4;
 grid-column-end: 7;
 }
 
 #resume-intro {
   grid-column-start:1;
-  grid-column-end: 3;
+  grid-column-end: 4;
 }
 
 .resume-section {
@@ -286,6 +292,11 @@ grid-column-end: 7;
 
 /* TYPOGRPAHY */
 
+logo {
+  font-family: "PirelliALLVIPSub";
+  font-size: 4.188rem;
+  width: 100%;
+}
 
 h1 {
   font-size: 3.188rem;
@@ -297,13 +308,13 @@ h1 {
 h2 {
   font-size: 1.750rem;
   font-weight: normal;
-  line-height: 2.5rem;
+  line-height: 2.6rem;
 }
 
 h2.project-title {
   font-size: 1.750rem;
   font-weight: normal;
-  line-height: 2.5rem;
+  line-height: 2.6rem;
 }
 
 h3 {
@@ -325,7 +336,7 @@ h5 {
 
 p {
   font-weight: normal;
-  line-height: 1.800rem;
+  line-height: 1.600rem;
 }
 
 p a { 

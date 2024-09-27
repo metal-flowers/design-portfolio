@@ -1,8 +1,9 @@
 ---
 const pageTitle = "Marlborough Titling";
 import Footer from '../../components/Footer.astro';
-import Header from '../../components/Header.astro';
+import Navigation from '../../components/Navigation.astro';
 import '../../styles/global.css';
+import Logotype from '../../components/Logotype.astro';
 ---
 
 <html lang="en">
@@ -12,12 +13,12 @@ import '../../styles/global.css';
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{pageTitle}</title>
+          <Logotype />
 	</head>
 	<body>
-		<Header />
+		<Navigation />
 
-		<main>
-			<div class="grid-container">
+		<main class="grid-container">
 
      <!--   <div class="project-case-study"> --> 
 
@@ -117,7 +118,7 @@ import '../../styles/global.css';
                          <p><a href="https://letterformarchive.org/events/view/intro-to-modern-type-design-spring-2023/" target="_blank">Introduction to Modern Type Design</a> Taught by Kel Troughton through the <a href="https://letterformarchive.org/" target="_blank">Letterform Archive</a></p>
 					
                 </article>
-            </div>
+               </main>
 
 		<Footer />
 	</body>
