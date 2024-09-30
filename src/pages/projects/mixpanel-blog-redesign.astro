@@ -9,18 +9,18 @@ import Logotype from '../../components/Logotype.astro';
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image" href="/public/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle}</title>
+		<title>{pageTitle} | Annie Szafranski</title>
+          <meta name="author" content="Annie Szafranski" />
+          <meta name="description" content="Editorial art direction and blog redesign for a product analytics company." />
           <Logotype />
 	</head>
 	<body>
 		<Navigation />
 
 		<main class="grid-container">
-
-     <!--   <div class="project-case-study"> --> 
 
         
 <!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
@@ -73,6 +73,32 @@ import Logotype from '../../components/Logotype.astro';
                          <img src="/public/images/mixpanel-signals-and-stories/signals-and-stories-7.jpg" alt="Preview of the dark mode vs light mode reading experience">
                          <figcaption></figcaption>
                     </figure>
+
+                     <!-- Embedded Video -->
+                <figure class="video-container">
+                    <iframe 
+                    width="100%" 
+                    height="100%"
+                    src="https://res.cloudinary.com/listentoapril/video/upload/f_auto,q_auto/v1718408099/annie/signals-and-stories-homepage.mp4" 
+                    title="Signals and Stories: Blog Home Experience" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen style="border-radius: 24px;">
+                    </iframe>
+                    <figcaption></figcaption>
+                 </figure> <br>
+
+                         <!-- Embedded Video -->
+                <figure class="video-container">
+                    <iframe 
+                    width="100%" 
+                    height="100%"
+                    src="https://res.cloudinary.com/listentoapril/video/upload/f_auto,q_auto/v1718408102/annie/signals-and-stories-article.mp4" 
+                    title="Signals and Stories: Article Experience" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen style="border-radius: 24px;">
+                    </iframe>
+                    <figcaption></figcaption>
+                 </figure>
 
 			</section>
 

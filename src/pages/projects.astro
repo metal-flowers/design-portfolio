@@ -1,43 +1,92 @@
 ---
-const pageTitle = "projects";
+const pageTitle = "Design Projects";
+import '../styles/global.css';
 import Footer from '../components/Footer.astro';
 import Navigation from '../components/Navigation.astro';
-import '../styles/global.css';
-import '../styles/sora.css';
 import Logotype from '../components/Logotype.astro';
+
 ---
 
 <html lang="en">
+
+
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image" href="/public/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle}</title>
+		<title>{pageTitle} | Annie Szafranski</title>
+		<meta name="author" content="Annie Szafranski" />
+<meta name="description" content="Select type-driven projects from recent years across graphic design, editorial design, web design and type design." />
 		<Logotype />
+
 	</head>
+
+
 	<body>
 		<Navigation />
+	
+			<main class="grid-container">
 
-			<main class="grid">
-				<h1>{pageTitle}</h1>
 
-				<section class="project-info">
+				<section class="project-grid">
+
+				<!---------- PROJECT 1 ------------>
+
+						<div class="project">
+							<a href="projects/mixpanel-blog-redesign"><img src="/public/images/mixpanel-signals-and-stories/signals-and-stories-primary.jpg"></a>
+							<h2 class="project-title"><a href="projects/mixpanel-blog-redesign">Signals & Stories</a></h2>
+								<p class="project-type">Web Design</p>
+						</div>
+
+				<!---------- PROJECT 2 ------------>
+
+						<div class="project">
+							<a href="projects/beatrice-no-30-type-revival"><img src="/public/images/beatrice-no-30/beatrice-no-30_0.jpg"></a>
+							<h2 class="project-title"><a href="projects/beatrice-no-30-type-revival">Beatrice No. 30</a></h2>
+								<p class="project-type">Type Design</p>
+						</div>		
+
+				<!---------- PROJECT 3 ------------>
+
+						<div class="project">
+							<a href="projects/mixpanel-rebrand"><img src="/public/images/mixpanel-rebrand/mixpanel-rebrand.webp"></a>
+							<h2 class="project-title"><a href="projects/mixpanel-rebrand">Mixpanel Rebrand</a></h2>
+								<p class="project-type">Brand and Web Design</p>
+						</div>	
+
+				<!---------- PROJECT 4 ------------>
+						
+						<div class="project">
+							<a href="projects/marlborough-titling"><img src="/public/images/marlborough-titling/marlborough-titling_10.png"></a>
+							<h2 class="project-title"><a href="projects/marlborough-titling">Marlborough Titling</a></h2>
+								<p class="project-type">Type Design</p>
+						</div>	
+
+				<!---------- PROJECT 5 ------------>
+
+						<div class="project">
+							<a href="projects/taxes-retirement-home-album-design"><img src="/public/images/taxes-retirement-home/taxes-retirement-home-album_1.jpg"></a>
+							<h2 class="project-title"><a href="projects/taxes-retirement-home-album-design">Taxes: Retirement Home</a></h2>
+								<p class="project-type">Album Design</p>
+						</div>	
+
+				<!---------- PROJECT 6 ------------>
+
+						<div class="project">
+							<a href="projects/the-guide-to-product-analytics-book-design"><img src="/public/images/mixpanel-guide-to-product-analytics/guide-to-product-analytics-book.jpg"></a>
+							<h2 class="project-title"><a href="projects/the-guide-to-product-analytics-book-design">The Guide to Product Analytics</a></h2>
+								<p class="project-type">Book Design</p>						
+							</div>	
 
 				</section>
 
-				<section class="project-photos">
-
-				</section>
-
-				<section class="project-description">
-
-				</section>
 
 
-			</main>
+		</main>
+	
+	</div>
 
-			
 		<Footer />
-	</body>
+	  </body>
 </html>
