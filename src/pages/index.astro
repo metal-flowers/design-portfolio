@@ -1,6 +1,7 @@
 ---
-const pageTitle = "info";
+const pageTitle = "Info";
 import '../styles/global.css';
+
 import Footer from '../components/Footer.astro';
 import Navigation from '../components/Navigation.astro';
 import Logotype from '../components/Logotype.astro';
@@ -28,13 +29,13 @@ import Logotype from '../components/Logotype.astro';
 				
 			
 				<section class="about">
-						<h1>Annie is a California based designer and typographer designing editorial experiences across the web and in print. She is a Senior Designer at Mixpanel on the Brand and Interactive team, and a type design student in the Type West Online program for 2024 through the Letterform Archive.</h1>
+						<h1>Annie Szafranski is a California-based designer and typographer designing editorial experiences across the web and in print. She is a Senior Designer at <a href="https://mixpanel.com/" target="_blank">Mixpanel</a> on the Brand and Interactive team, and a type design student in the <a href="https://letterformarchive.org/type-west-online/" target="_blank">Type West Online</a> program through the <a href="https://letterformarchive.org/" target="_blank"> Letterform Archive.</a></h1>
 				
 						<aside class="contact">
-							<h3>Contact</h>
+							<h4>Contact</h4>
 							<ul>
 								<li><a href="https://www.linkedin.com/in/annieszafranski/?original_referer=https%3A%2F%2Fwww.annieszafranski.com%2F">LinkedIn</a></li>
-								<li><a>Email</a></li>
+								<li><a href="mailto:annieszaf@proton.me">Email</a></li>
 								<li><a href="https://www.instagram.com/a.szaf/">Instagram</a></li>
 								<li><a href="https://typo.social/@annie">Mastadon</a></li>
 							</ul>
@@ -49,56 +50,51 @@ import Logotype from '../components/Logotype.astro';
 				<!---------- PROJECT 1 ------------>
 
 						<div class="project">
-							<a href="/projects/mixpanel-blog-redesign"><img src="/src/assets/images/mixpanel-signals-and-stories/signals-and-stories-primary.jpg"></a>
-							<h2 class="project-title">Signals & Stories</h2>
+							<a href="projects/mixpanel-blog-redesign"><img src="/public/images/mixpanel-signals-and-stories/signals-and-stories-primary.jpg"></a>
+							<h2 class="project-title"><a href="projects/mixpanel-blog-redesign">Signals & Stories</a></h2>
 								<p class="project-type">Web Design</p>
 						</div>
 
 				<!---------- PROJECT 2 ------------>
 
 						<div class="project">
-							<a href="/projects/beatrice-no-30-type-revival"><img src="/src/assets/images/beatrice-no-30/beatrice-no-30_0.jpg"></a>
-							<h2 class="project-title">Beatrice No. 30</h2>
+							<a href="projects/beatrice-no-30-type-revival"><img src="/public/images/beatrice-no-30/beatrice-no-30_0.jpg"></a>
+							<h2 class="project-title"><a href="projects/beatrice-no-30-type-revival">Beatrice No. 30</a></h2>
 								<p class="project-type">Type Design</p>
 						</div>		
 
 				<!---------- PROJECT 3 ------------>
 
 						<div class="project">
-							<a href="projects/mixpanel-rebrand"><img src="/src/assets/images/mixpanel-rebrand/mixpanel-rebrand.webp"></a>
-							<h2 class="project-title">Mixpanel Rebrand</h2>
+							<a href="projects/mixpanel-rebrand"><img src="/public/images/mixpanel-rebrand/mixpanel-rebrand.webp"></a>
+							<h2 class="project-title"><a href="projects/mixpanel-rebrand">Mixpanel Rebrand</a></h2>
 								<p class="project-type">Brand and Web Design</p>
 						</div>	
 
 				<!---------- PROJECT 4 ------------>
 						
 						<div class="project">
-							<a href="projects/marlborough-titling"><img src="/src/assets/images/marlborough-titling/marlborough-titling_10.png"></a>
-							<h2 class="project-title">Marlborough Titling</h2>
+							<a href="projects/marlborough-titling"><img src="/public/images/marlborough-titling/marlborough-titling_10.png"></a>
+							<h2 class="project-title"><a href="projects/marlborough-titling">Marlborough Titling</a></h2>
 								<p class="project-type">Type Design</p>
 						</div>	
 
 				<!---------- PROJECT 5 ------------>
 
 						<div class="project">
-							<a href="projects/taxes-retirement-home-album-design"><img src="/src/assets/images/taxes-retirement-home/taxes-retirement-home-album_1.jpg"></a>
-							<h2 class="project-title">Taxes: Retirement Home</h2>
+							<a href="projects/taxes-retirement-home-album-design"><img src="/public/images/taxes-retirement-home/taxes-retirement-home-album_1.jpg"></a>
+							<h2 class="project-title"><a href="projects/taxes-retirement-home-album-design">Taxes: Retirement Home</a></h2>
 								<p class="project-type">Album Design</p>
 						</div>	
 
 				<!---------- PROJECT 6 ------------>
 
 						<div class="project">
-							<a href="projects/the-guide-to-product-analytics-book-design"><img src="/src/assets/images/mixpanel-guide-to-product-analytics/guide-to-product-analytics-book.jpg"></a>
-							<h2 class="project-title">The Guide to Product Analytics</h2>
+							<a href="projects/the-guide-to-product-analytics-book-design"><img src="/public/images/mixpanel-guide-to-product-analytics/guide-to-product-analytics-book.jpg"></a>
+							<h2 class="project-title"><a href="projects/the-guide-to-product-analytics-book-design">The Guide to Product Analytics</a></h2>
 								<p class="project-type">Book Design</p>						
 							</div>	
 
-				</section>
-
-				<section class="colophon">
-					<h3>Colophon</h3>
-					<p>This website was designed and built by Annie Szafranski using Astro. The typography is…</p>
 				</section>
 
 
@@ -108,10 +104,5 @@ import Logotype from '../components/Logotype.astro';
 	</div>
 
 		<Footer />
-		<script>
-		  document.querySelector('.hamburger').addEventListener('click', () => {
-			document.querySelector('.nav-links').classList.toggle('expanded');
-		  });
-		</script>
 	  </body>
 </html>

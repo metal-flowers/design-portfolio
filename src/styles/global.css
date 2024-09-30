@@ -28,24 +28,23 @@ input, textarea, button {
   outline: none;
 }
 
+html {
+  font-size: 18px;
+}
 
-
-  html {
-    background-color: #ececec;
-    font-family: sans-serif;
-  }
 
   body {
     margin: 0 auto;
     width: 100%;
-    padding: 1rem 2rem;
+    padding: 1% 2%;
+    background-color: #e4e4e4;
   }
 
   nav {
     display: flex;
     justify-content: space-between; /* This moves the logo to the left and nav items to the right */
     align-items: center;
-    margin-bottom: 4rem;
+    margin-bottom: 4%;
   }
 
 
@@ -72,7 +71,8 @@ input, textarea, button {
   
   .nav-links a:hover,
   .nav-links a:focus {
-    background-color: #ff9776;
+    background-color: #D73A18;
+    border-radius: 4px;
   }
   
   .grid-container {
@@ -83,8 +83,7 @@ input, textarea, button {
     "about about about about about about"
     "project-grid project-grid project-grid project-grid project-grid project-grid"
     "main main main main main main"
-    "project-photos project-photos project-photos project-photos project-photos project-photos"
-    "colophon colophon colophon . . ."
+    "project-photos project-photos project-photos project-photos project-photos project-photos";
     }
 
 
@@ -96,7 +95,7 @@ input, textarea, button {
   }
 
   .contact {
-    margin: 4% 0;
+    margin: 2% 0;
     grid-area: contact;
   }
 
@@ -106,7 +105,10 @@ input, textarea, button {
   }
 
   .contact a {
+    font-size: 1.0rem;
     font-weight: normal;
+    border-bottom: 1px solid;
+
   }
 
   .about p{
@@ -140,19 +142,6 @@ input, textarea, button {
 }
 
 
-h2.project-title {
-  font-size: 1.312rem;
-  line-height: 2.0rem;
-}
-
-p.project-type, .project-year {
-  font-size: 1.000rem;
-}
-
-footer {
-  text-align: right;
-}
-
 
 /* PROJECT PAGES */
 .project-case-study {
@@ -175,6 +164,10 @@ footer {
 
 a.read-more {
   margin-top: 2%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.600rem;
+  font-size: 1.000rem;
 }
 
 /* PROJECT PHOTOS SECTION */
@@ -198,22 +191,18 @@ a.read-more {
 /* PROJECT DESCRIPTION SECTION */
 
 h3.description-heading {
-  margin-top: 4%;
-  font-weight: 700;
+  margin: 4% 0 1% 0;
 }
 
 
 .project-description {
   display: grid;
   grid-column-start: 2;
-  grid-column-end: 6;
+  grid-column-end: 5;
   grid-gap: 1em;
   grid-template-columns: repeat(1, 1fr); /* 6 equal columns */
 }
 
-.project-description p {
-  font-size: 1.312rem;
- }
 
 .colophon {
   grid-area: colophon;
@@ -227,9 +216,16 @@ h3.resume {
   font-weight: normal;
   font-size: 0.750rem;
   letter-spacing: 0.1rem;
-  margin-bottom: 2%;
-  border-top: 1px solid #ccc;
+  margin: 2% 0;
+  border-top: 1px solid #666;
 }
+
+.resume-section h2 {
+  color: #000;
+  font-size: 1.556rem;
+  line-height: 2.2rem;
+}
+
 
 #experience, #education, #volunteer, #continued-learning {
 grid-column-start: 4;
@@ -239,6 +235,8 @@ grid-column-end: 7;
 #resume-intro {
   grid-column-start:1;
   grid-column-end: 4;
+  position: sticky;
+  top: 0;
 }
 
 .resume-section {
@@ -258,6 +256,7 @@ grid-column-end: 7;
       grid-column-start:1;
       grid-column-end: 7;
     }
+
   }
 
   /* Small Screens (Mobile) - less than 600px */
@@ -265,6 +264,7 @@ grid-column-end: 7;
   .resume-section {
     margin-bottom: 10%;
 }
+
   }
 
 
@@ -294,51 +294,258 @@ grid-column-end: 7;
 
 logo {
   font-family: "PirelliALLVIPSub";
-  font-size: 4.188rem;
+  font-size: 3.833rem;
   width: 100%;
 }
 
 h1 {
-  font-size: 3.188rem;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 2.444rem;
+  line-height: 3.2rem;
   font-weight: normal;
-  line-height: 3.88rem;
   margin-bottom: 0.40rem;
 }
 
+h1 a {
+  border-bottom: 2px solid black;
+}
+
 h2 {
-  font-size: 1.750rem;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.556rem;
   font-weight: normal;
-  line-height: 2.6rem;
+  line-height: 2.2rem;
+  color: #666;
 }
 
 h2.project-title {
-  font-size: 1.750rem;
-  font-weight: normal;
-  line-height: 2.6rem;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.556rem;
+  line-height: 2.2rem;
+  color: #000;
 }
 
 h3 {
-  font-size: 1.312rem;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.556rem;
   font-weight: normal;
-  line-height: 2rem;
+  line-height: 2.2rem;
 }
 
 h4 {
-  font-size: 1.000rem;
-  font-weight: bold;
-  margin-bottom: -.35rem;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.278rem;
+  font-weight: normal;
+  line-height: 2.4rem;
 }
 
 h5 {
-  font-size: 0.750rem;
-  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.000rem;
+  font-weight: 700;
+}
+
+h6 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.778rem;
+  font-weight: 700;
 }
 
 p {
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.600rem;
+  font-size: 1.000rem;
+}
+
+.colophon p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.750rem;
+  line-height: 1rem;
 }
 
 p a { 
   border-bottom: 1px solid #000;
+}
+
+li {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.600rem;
+  font-size: 1.000rem;
+}
+
+
+p.project-type, .project-year {
+  font-size: 1.000rem;
+}
+
+a:hover  {
+  background-color: #D73A18;
+  border-radius: 4px;
+}
+
+h2.project-title a:hover {
+  background-color: #D73A18;
+  border-radius: 4px;
+}
+
+
+.project a:hover {
+  background-color: transparent;
+  transform: scale(1.2); /* Enlarge image by 20% */
+}
+
+.project img {
+  transition: transform 0.3s ease, box-shadow 0.2s ease; /* Smooth transition for both transform and shadow */
+}
+
+.project img:hover {
+  transform: scale(1.040); /* Scale up image slightly */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Add drop shadow on hover */
+}
+
+
+
+/* MEDIA QUERIES FOR TYPOGRAPHY */
+
+
+
+  /* Small Screens (Mobile) - less than 600px */
+  @media (max-width: 600px) {
+
+      /* Styles for small devices, mobile phones */
+
+      nav {
+        margin-bottom: 8%;
+      }
+  
+  .project-photos img {
+    border-radius: 16px;
+    margin-bottom: 4%;
+  }
+
+  .project-description {
+    grid-column-start: 1;
+    grid-column-end: 7;
+  }
+
+  h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.944rem;
+    line-height: 2.6rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+  }
+
+
+
+  h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.556rem;
+    line-height: 2.2rem;
+  }
+
+  a.read-more {
+    margin-top: 6%;
+  }
+
+
+  }
+
+
+
+/* Small devices (mobile phones, 320px and up) */
+@media (min-width: 320px) {
+  /* Styles for small devices, mobile phones */
+  
+  
+  
+  h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.556rem;
+    font-weight: normal;
+    line-height: 2.2rem;
+  }
+  
+  h4 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.0rem;
+    font-weight: 700;
+    line-height: 1.0rem;
+    margin-top: 1%;
+  }
+  
+  h5 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.000rem;
+    font-weight: normal;
+  }
+  
+  h6 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.778rem;
+    font-weight: 700;
+  }
+
+
+}
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* Styles for medium devices, tablets */
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 1024px) {
+  /* Styles for large devices, desktops */
+}
+
+
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: footer;
+  margin: 2% 0 0 0;
+}
+
+footer p {
+  font-size: 0.778rem;
+  font-weight: normal;
+  color: #666;
+  text-align: left;
+  width: 100%;
+}
+
+
+.footer-links {
+  display: inline-block;
+  width: 100%;
+  top: 5rem;
+  text-align: right;
+}
+
+.footer-links li {
+display: inline;
+padding: 0 1% 0 0;
+
+}
+
+.footer-links a {
+  display: inline;
+  font-size: 0.778rem;
+  font-weight: normal;
+  color: #666;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+  background-color: #999;
+  border-radius: 4px;
 }
