@@ -263,9 +263,9 @@ grid-column-end: 7;
   /* Small Screens (Mobile) - less than 600px */
 @media (max-width: 600px) {
 
-.grid-container {
+/*.grid-container {
   width: 100vw;
-}
+} */
 
 
   .resume-section {
@@ -509,17 +509,6 @@ h2.project-title a:hover {
 
 }
 
-
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  /* Styles for medium devices, tablets */
-}
-
-/* Large devices (desktops, 1024px and up) */
-@media (min-width: 1024px) {
-  /* Styles for large devices, desktops */
-}
 
 
 
