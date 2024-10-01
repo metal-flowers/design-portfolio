@@ -262,6 +262,12 @@ grid-column-end: 7;
 
   /* Small Screens (Mobile) - less than 600px */
 @media (max-width: 600px) {
+
+.grid-container {
+  width: 100vw;
+}
+
+
   .resume-section {
     margin-bottom: 10%;
 }
