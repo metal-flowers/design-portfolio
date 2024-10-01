@@ -1,9 +1,13 @@
 ---
 const pageTitle = "Design Projects";
+const author = "Annie Szafranski";
+const pageDescription = "Select type-driven projects from recent years across graphic design, editorial design, web design and type design.";
+
 import '../styles/global.css';
 import Footer from '../components/Footer.astro';
 import Navigation from '../components/Navigation.astro';
 import Logotype from '../components/Logotype.astro';
+import Favicon from '../components/Favicon.astro';
 
 ---
 
@@ -12,12 +16,13 @@ import Logotype from '../components/Logotype.astro';
 
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image" href="/public/favicon.png" />
+		<link rel="icon" type="image" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle} | Annie Szafranski</title>
-		<meta name="author" content="Annie Szafranski" />
-<meta name="description" content="Select type-driven projects from recent years across graphic design, editorial design, web design and type design." />
+		<title>{pageTitle} | {author}</title>
+		<meta name="author" content={author} />
+		<meta name="description" content={pageDescription} />
+		<Favicon />
 		<Logotype />
 
 	</head>
@@ -30,6 +35,7 @@ import Logotype from '../components/Logotype.astro';
 
 
 				<section class="project-grid">
+
 
 				<!---------- PROJECT 1 ------------>
 

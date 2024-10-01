@@ -1,9 +1,13 @@
 ---
-const pageTitle = "resume";
+const pageTitle = "Resume";
+const author = "Annie Szafranski";
+const pageDescription = "Over 10 years of in-house design experience working across brand, interactive, and product. Mixpanel > Compass > Saatchi & Saatchi > Everlane > Wanelo > Eventbrite > Twitter.";
+
 import '../styles/global.css';
 import Footer from '../components/Footer.astro';
 import Navigation from '../components/Navigation.astro';
 import Logotype from '../components/Logotype.astro';
+import Favicon from '../components/Favicon.astro';
 
 ---
 
@@ -13,9 +17,10 @@ import Logotype from '../components/Logotype.astro';
 		<link rel="icon" type="image" href="/public/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle} | Annie Szafranski</title>
-		<meta name="author" content="Annie Szafranski" />
-		<meta name="description" content="Over 10 years of in-house design experience working across brand, interactive, and product. Mixpanel > Compass > Saatchi & Saatchi > Everlane > Wanelo > Eventbrite > Twitter." />
+		<title>{pageTitle} | {author}</title>
+		<meta name="author" content={author} />
+		<meta name="description" content={pageDescription} />
+		<Favicon />
 		<Logotype />
 	</head>
 	<body>

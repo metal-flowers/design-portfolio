@@ -1,20 +1,25 @@
 ---
 const pageTitle = "Beatrice No. 30";
-import Footer from '../../components/Footer.astro';
-import Navigation from '../../components/Navigation.astro';
+const author = "Annie Szafranski";
+const pageDescription = "Reviving a 19th Century typeface for Type West.";
+
 import '../../styles/global.css';
+import Favicon from '../../components/Favicon.astro';
 import Logotype from '../../components/Logotype.astro';
+import Navigation from '../../components/Navigation.astro';
+import Footer from '../../components/Footer.astro';
+
 ---
 
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image" href="/public/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle} | Annie Szafranski</title>
-		<meta name="author" content="Annie Szafranski" />
-		<meta name="description" content="Reviving a 19th Century typeface for Type West." />
+		<title>{pageTitle} | {author}</title>
+		<meta name="author" content={author} />
+		<meta name="description" content={pageDescription} />
+		<Favicon />
 		<Logotype />
 	</head>
 	<body>
@@ -39,64 +44,64 @@ import Logotype from '../../components/Logotype.astro';
 				
                 <section class="project-photos">
                     <figure>
-						<img src="/public/images/beatrice-no-30/beatrice-no-30_0.jpg" alt="Opening introductory card with a green overlay over an illustration from Dante's Purgatory with Beatrice No. 30 written front and center">
+						<img src="/design-portfolio/images/beatrice-no-30/beatrice-no-30_0.jpg" alt="Opening introductory card with a green overlay over an illustration from Dante's Purgatory with Beatrice No. 30 written front and center">
 						<figcaption></figcaption>
 					</figure>
 
 					<figure>
-						<img src="/public/images/beatrice-no-30/beatrice-no-30_1.jpg" alt="Open spread of original source material from Dante. Opening to the same illustration previewed in the first image.">
-						<figcaption></figcaption>
-					</figure>
-
-
-					<figure>
-						<img src="/public/images/beatrice-no-30/beatrice-no-30_2.jpg" alt="Additional source material pulled for reference from Bruce's Specimen Book and Bruce Old Style No. 31">
-						<figcaption></figcaption>
-					</figure>
-
-					<figure>
-						<img src="/public/images/beatrice-no-30/beatrice-no-30_3.jpg" alt="Photograph of an open spread of Dante's Inferno on a table, at an angle surrounded by light.">
-						<figcaption></figcaption>
-					</figure>
-
-					<figure>
-						<img src="/public/images/beatrice-no-30/beatrice-no-30_4.jpg" alt="Photograph of a 10x micro lens / loupe on top of a page of Dante's Pergatory.">
-						<figcaption></figcaption>
-					</figure>
-
-					<figure>
-						<img src="/public/images/beatrice-no-30/beatrice-no-30_5.jpg" alt="Preview of original type referenced next to my type work for Beatrice No. 30">
+						<img src="/design-portfolio/images/beatrice-no-30/beatrice-no-30_1.jpg" alt="Open spread of original source material from Dante. Opening to the same illustration previewed in the first image.">
 						<figcaption></figcaption>
 					</figure>
 
 
 					<figure>
-						<img src="/public/images/beatrice-no-30/beatrice-no-30_7.jpg" alt="Large capital A next to a lowercase a using black and an olive green">
+						<img src="/design-portfolio/images/beatrice-no-30/beatrice-no-30_2.jpg" alt="Additional source material pulled for reference from Bruce's Specimen Book and Bruce Old Style No. 31">
 						<figcaption></figcaption>
 					</figure>
 
 					<figure>
-						<img src="/public/images/beatrice-no-30/beatrice-no-30_8.jpg" alt="Olive green background with large black captial letters spelling: VENGEANCE BRIGHTNESS and CELESTIAL">
+						<img src="/design-portfolio/images/beatrice-no-30/beatrice-no-30_3.jpg" alt="Photograph of an open spread of Dante's Inferno on a table, at an angle surrounded by light.">
 						<figcaption></figcaption>
 					</figure>
 
 					<figure>
-						<img src="/public/images/beatrice-no-30/beatrice-no-30_9.jpg" alt="Black background with olive green text pulling text from Dante's Purgatory written in Beatrice No. 30">
+						<img src="/design-portfolio/images/beatrice-no-30/beatrice-no-30_4.jpg" alt="Photograph of a 10x micro lens / loupe on top of a page of Dante's Pergatory.">
 						<figcaption></figcaption>
 					</figure>
 
 					<figure>
-						<img src="/public/images/beatrice-no-30/beatrice-no-30_10.jpg" alt="Open spread of a book with the original font replaced and swapped for Beatrice No. 30">
+						<img src="/design-portfolio/images/beatrice-no-30/beatrice-no-30_5.jpg" alt="Preview of original type referenced next to my type work for Beatrice No. 30">
+						<figcaption></figcaption>
+					</figure>
+
+
+					<figure>
+						<img src="/design-portfolio/images/beatrice-no-30/beatrice-no-30_6.jpg" alt="Large capital A next to a lowercase a using black and an olive green">
 						<figcaption></figcaption>
 					</figure>
 
 					<figure>
-						<img src="/public/images/beatrice-no-30/beatrice-no-30_11.jpg" alt="Preview of a small paragraph set in different sizes using Beatrice No. 30">
+						<img src="/design-portfolio/images/beatrice-no-30/beatrice-no-30_7.jpg" alt="Olive green background with large black captial letters spelling: VENGEANCE BRIGHTNESS and CELESTIAL">
 						<figcaption></figcaption>
 					</figure>
 
 					<figure>
-						<img src="/public/images/beatrice-no-30/beatrice-no-30_12.jpg" alt="Full character preview set of Beatrice No. 30 in light grey on a black background">
+						<img src="/design-portfolio/images/beatrice-no-30/beatrice-no-30_8.jpg" alt="Black background with olive green text pulling text from Dante's Purgatory written in Beatrice No. 30">
+						<figcaption></figcaption>
+					</figure>
+
+					<figure>
+						<img src="/design-portfolio/images/beatrice-no-30/beatrice-no-30_9.jpg" alt="Open spread of a book with the original font replaced and swapped for Beatrice No. 30">
+						<figcaption></figcaption>
+					</figure>
+
+					<figure>
+						<img src="/design-portfolio/images/beatrice-no-30/beatrice-no-30_10.jpg" alt="Preview of a small paragraph set in different sizes using Beatrice No. 30">
+						<figcaption></figcaption>
+					</figure>
+
+					<figure>
+						<img src="/design-portfolio/images/beatrice-no-30/beatrice-no-30_11.jpg" alt="Full character preview set of Beatrice No. 30 in light grey on a black background">
 						<figcaption></figcaption>
 					</figure>
 

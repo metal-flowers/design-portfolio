@@ -58,13 +58,13 @@ html {
   
   .nav-links li {
   display: inline;
-  padding: 0 0 0 1em;
+  padding: 0 0 0 0.8rem;
   
   }
   
   .nav-links a {
     display: inline;
-    font-size: 1.000rem;
+    font-size: 0.778rem;
     font-weight: normal;
     text-transform: uppercase;
   }
