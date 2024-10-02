@@ -28,10 +28,6 @@ input, textarea, button {
   outline: none;
 }
 
-html {
-  font-size: 18px;
-}
-
 
   body {
     margin: 0 auto;
@@ -154,6 +150,66 @@ html {
     "main main main main main main"
     "project-photos project-photos project-photos project-photos project-photos project-photos";
     }
+
+
+
+
+    /* Adjust grid layout for mobile screens */
+@media (max-width: 768px) {
+  .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-areas: 
+      "about"
+      "project-grid"
+      "main"
+      "project-photos";
+  }
+  
+  .project-grid {
+      grid-template-columns: 1fr; /* Ensure it only has one column on smaller screens */
+  }
+}
+
+/* The project grid */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  grid-gap: 20px;
+  grid-area: project-grid;
+}
+
+/* Project cards */
+.project {
+  margin-bottom: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 20px;
+}
+
+/* Images for Project */
+.project img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 2%;
+}
+
+/* Project grid for mobile */
+@media (max-width: 768px) {
+  .project img {
+      height: auto; /* Remove fixed height on mobile for better scaling */
+  }
+}
+
+/* Project grid for mobile */
+@media (max-width: 768px) {
+  .project img {
+      height: auto; /* Remove fixed height on mobile for better scaling */
+  }
+}
+
+    
+
 
 
   .about {
