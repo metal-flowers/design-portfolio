@@ -149,7 +149,7 @@ input, textarea, button {
   }
 
   .contact {
-    margin: 4% 0 2% 0;
+    margin: 4% 0 4% 0;
     grid-area: contact;
   }
 
@@ -224,6 +224,7 @@ input, textarea, button {
         height: auto; /* Let the height adjust automatically for mobile */
         object-fit: contain; /* Ensure the image fits without cutting off parts */
     }
+
 }
 
 
@@ -555,10 +556,9 @@ h2.project-title a:hover {
   }
 
   .contact {
-    margin: 6% 0 4% 0;
+    margin: 12% 0 6% 0;
     grid-area: contact;
   }
-
 
   }
 
@@ -646,4 +646,26 @@ padding: 0 1% 0 0;
 .footer-links a:focus {
   background-color: #999;
   border-radius: 4px;
+}
+
+
+/* Responsive for mobile (stacked layout) */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column; /* Stack the footer content vertically */
+    align-items: center; 
+    text-align: center; 
+  }
+
+  footer p,
+  .footer-links {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-links li {
+    display: inline-block;
+    border-bottom: 1px solid #666;
+    margin-bottom: 4%;
+  }
 }
