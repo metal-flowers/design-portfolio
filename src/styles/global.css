@@ -40,6 +40,9 @@ html {
     background-color: #e4e4e4;
   }
 
+  /* NAV STYLES */
+
+
   nav {
     display: flex;
     justify-content: space-between; /* This moves the logo to the left and nav items to the right */
@@ -47,33 +50,99 @@ html {
     margin-bottom: 4%;
   }
 
+  /* General Styles */
+.nav-links {
+  display: inline-block;
+  width: 100%;
+  top: 5rem;
+  left: 48px;
+  text-align: right;
+}
+
+.nav-links li {
+  display: inline;
+  padding: 0 0.6rem;
+}
+
+.nav-links a {
+  display: inline;
+  font-size: 1rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.06rem;
+  border-radius: 4px;
+  padding: 1% 0;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  background-color: #D73A18;
+  border-radius: 4px;
+  padding: 1% 0;
+  transition: 0.4s ease-in-out;
+}
+
+/* Hamburger Styles */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;  /* Align the hamburger to the right side */
+  top: 20px;    /* Adjust top space */
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+  border-radius: 5px;
+}
+
+/* Responsive Styles for Tablet & Mobile */
+@media (max-width: 768px) {
+
 
   .nav-links {
-    display: inline-block;
-    width: 100%;
-    top: 5rem;
-    left: 48px;
-    text-align: right;
+      display: none; /* Hidden by default */
+      position: absolute;
+      top: 12%;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      height: 100vh;
+      padding: 4% 0;
   }
-  
+
+  .nav-links ul {
+      flex-direction: column;
+      padding: 0;
+  }
+
   .nav-links li {
-  display: inline;
-  padding: 0 0 0 0.8rem;
-  
+      display: block;
+      padding: 1rem 0;
   }
-  
+
   .nav-links a {
     display: inline;
-    font-size: 1.00rem;
+    font-size: 1.278rem;
     font-weight: normal;
     text-transform: uppercase;
   }
-  
-  .nav-links a:hover,
-  .nav-links a:focus {
-    background-color: #D73A18;
-    border-radius: 4px;
+
+  .hamburger {
+      display: flex; /* Show hamburger on small screens */
   }
+
+  .nav-links.active {
+      display: block; /* Show menu when active */
+     background-color: #e4e4e4;
+     z-index: 10;
+  }
+}
+
   
   .grid-container {
     display: grid;
@@ -396,11 +465,13 @@ p.project-type, .project-year {
 a:hover  {
   background-color: #D73A18;
   border-radius: 4px;
+  transition: 0.4s ease-in-out;
 }
 
 h2.project-title a:hover {
   background-color: #D73A18;
   border-radius: 4px;
+  transition: 0.4s ease-in-out;
 }
 
 
