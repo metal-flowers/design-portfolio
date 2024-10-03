@@ -281,7 +281,7 @@ a.read-more {
 /* PROJECT DESCRIPTION SECTION */
 
 h3.description-heading {
-  margin: 4% 0 1% 0;
+  margin: 4% 0 0 0;
 }
 
 
@@ -428,14 +428,15 @@ h3 {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.556rem;
   font-weight: normal;
-  line-height: 2.2rem;
+  line-height: 2.0rem;
 }
 
 h4 {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.278rem;
-  font-weight: normal;
-  line-height: 2.4rem;
+  font-size: 1.0rem;
+  font-weight: 700;
+  line-height: 1.20rem;
+  margin: 3% 0 0 0;
 }
 
 h5 {
@@ -515,10 +516,9 @@ h2.project-title a:hover {
   /* Small Screens (Mobile) - less than 600px */
   @media (max-width: 600px) {
 
-      /* Styles for small devices, mobile phones */
 
-      nav {
-        margin-bottom: 8%;
+  nav {
+     margin-bottom: 8%;
       }
   
   .project-photos img {
@@ -533,18 +533,52 @@ h2.project-title a:hover {
 
   h1 {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.944rem;
-    line-height: 2.6rem;
+    font-size: 1.556rem;
+    line-height: 2.2rem;
     font-weight: normal;
     margin-bottom: 1rem;
   }
 
 
-
   h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.278rem;
+    line-height: 1.8rem;
+  }
+
+
+  h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.000rem;
+    font-weight: normal;
+    line-height: 2.0rem;
+  }
+
+  h3.description-heading {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1.556rem;
     line-height: 2.2rem;
+    margin: 6% 0 0;
+  }
+  
+  h4 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.0rem;
+    font-weight: 700;
+    line-height: 1.0rem;
+    margin: 4% 0 0%;
+  }
+  
+  h5 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.000rem;
+    font-weight: normal;
+  }
+  
+  h6 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.778rem;
+    font-weight: 700;
   }
 
   a.read-more {
@@ -560,41 +594,6 @@ h2.project-title a:hover {
 
 
 
-/* Small devices (mobile phones, 320px and up) */
-@media (min-width: 320px) {
-  /* Styles for small devices, mobile phones */
-  
-  
-  
-  h3 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.556rem;
-    font-weight: normal;
-    line-height: 2.2rem;
-  }
-  
-  h4 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.0rem;
-    font-weight: 700;
-    line-height: 1.0rem;
-    margin-top: 1%;
-  }
-  
-  h5 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.000rem;
-    font-weight: normal;
-  }
-  
-  h6 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 0.778rem;
-    font-weight: 700;
-  }
-
-
-}
 
 
 
@@ -606,7 +605,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   grid-area: footer;
-  margin: 2% 0 0 0;
+  margin: 4% 0 0 0;
 }
 
 footer p {
@@ -654,6 +653,7 @@ padding: 0 1% 0 0;
 
     footer {
       flex-direction: column;
+      margin-top: 8%;
     }
 
     footer p {
