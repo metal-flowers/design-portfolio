@@ -33,6 +33,12 @@ input, textarea, button {
   src: url("/fonts/Resonay-Solid-Light.woff2") format("woff2");
 }
 
+@font-face { 
+  font-family: 'resonay-solid-regular';
+  src: url('Resonay-Solid-Regular.woff2') format('woff2');
+}
+
+
 html {
   font-size: 18px;
 }
@@ -522,7 +528,7 @@ h2.project-title a:hover {
   @media (max-width: 900px) {
 
     h1 {
-      font-family: "Resonay-Solid-Light", 'Times New Roman', Times, serif;
+      font-family: "Resonay-Solid-Regular", 'Times New Roman', Times, serif;
       font-size: 2.444rem;
       line-height: 3.24rem;
       font-weight: normal;
@@ -535,7 +541,7 @@ h2.project-title a:hover {
   
 
   }
-  
+
 
   /* Small Screens (Mobile) - less than 600px */
   @media (max-width: 650px) {
