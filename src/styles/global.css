@@ -28,6 +28,11 @@ input, textarea, button {
   outline: none;
 }
 
+@font-face {
+  font-family: "Resonay-Solid-Light";
+  src: url("/fonts/Resonay-Solid-Light.woff2") format("woff2");
+}
+
 html {
   font-size: 18px;
 }
@@ -398,9 +403,9 @@ logo {
 }
 
 h1 {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 2.444rem;
-  line-height: 3.2rem;
+  font-family: "Resonay-Solid-Light", 'Times New Roman', Times, serif;
+  font-size: 3.056rem;
+  line-height: 3.88rem;
   font-weight: normal;
   margin-bottom: 0.40rem;
 }
@@ -514,7 +519,21 @@ h2.project-title a:hover {
 
 
   /* Small Screens (Mobile) - less than 600px */
-  @media (max-width: 600px) {
+  @media (max-width: 900px) {
+
+    h1 {
+      font-family: "Resonay-Solid-Light", 'Times New Roman', Times, serif;
+      font-size: 2.444rem;
+      line-height: 3.24rem;
+      font-weight: normal;
+      margin-bottom: 1rem;
+    }
+
+
+  }
+
+  /* Small Screens (Mobile) - less than 600px */
+  @media (max-width: 650px) {
 
 
   nav {
@@ -532,9 +551,9 @@ h2.project-title a:hover {
   }
 
   h1 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.556rem;
-    line-height: 2.2rem;
+    font-family: "Resonay-Solid-Light", 'Times New Roman', Times, serif;
+    font-size: 1.944rem;
+    line-height: 2.6rem;
     font-weight: normal;
     margin-bottom: 1rem;
   }
@@ -543,7 +562,7 @@ h2.project-title a:hover {
   h2 {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1.278rem;
-    line-height: 1.8rem;
+    line-height: 1.88rem;
   }
 
 
