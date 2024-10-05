@@ -34,8 +34,8 @@ input, textarea, button {
 }
 
 @font-face { 
-  font-family: 'resonay-solid-regular';
-  src: url('Resonay-Solid-Regular.woff2') format('woff2');
+  font-family: "Resonay-Solid-Regular";
+  src: url("/fonts/Resonay-Solid-Regular.woff2") format("woff2");
 }
 
 
@@ -564,7 +564,7 @@ h2.project-title a:hover {
   h1 {
     font-family: "Resonay-Solid-Regular", 'Times New Roman', Times, serif;
     font-size: 1.556rem;
-    line-height: 2.0rem;
+    line-height: 2.2rem;
     font-weight: normal;
     margin-bottom: 1rem;
   }
