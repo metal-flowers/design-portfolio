@@ -529,8 +529,13 @@ h2.project-title a:hover {
       margin-bottom: 1rem;
     }
 
+    h1 a {
+      border-bottom: 1px solid black;
+    }
+  
 
   }
+  
 
   /* Small Screens (Mobile) - less than 600px */
   @media (max-width: 650px) {
@@ -552,12 +557,15 @@ h2.project-title a:hover {
 
   h1 {
     font-family: "Resonay-Solid-Light", 'Times New Roman', Times, serif;
-    font-size: 1.944rem;
-    line-height: 2.6rem;
+    font-size: 1.556rem;
+    line-height: 2.3rem;
     font-weight: normal;
     margin-bottom: 1rem;
   }
 
+  h1 a {
+    border-bottom: 1px solid black;
+  }
 
   h2 {
     font-family: Helvetica, Arial, sans-serif;
