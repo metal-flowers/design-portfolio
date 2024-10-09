@@ -38,11 +38,6 @@ input, textarea, button {
   src: url("/fonts/Resonay-Solid-Regular.woff2") format("woff2");
 }
 
-@font-face { 
-  font-family: "RizomaTestS-Regular";
-  src: url("/fonts/RizomaTestS-Regular.otf") format("opentype");
-}
-
 
 @font-face { 
   font-family: "SplineSans-Regular";
