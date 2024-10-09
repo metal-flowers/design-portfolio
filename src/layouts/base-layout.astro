@@ -1,0 +1,46 @@
+---
+const pageTitle = "";
+const author = "Annie Szafranski";
+const pageDescription = "";
+
+import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
+import Logotype from '../components/Logotype.astro';
+import Footer from '../components/Footer.astro';
+import Favicon from '../components/Favicon.astro';
+import GoogleTag from '../components/Google-tag.astro';
+import Hamburger from '../components/Hamburger.astro';
+
+---
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{pageTitle} | {author}</title>
+		<meta name="author" content= {author} />
+		<meta name="description" content={pageDescription}/>
+		<a rel="me" href="https://typo.social/@annie"></a>
+		<Favicon />
+		<Logotype />
+
+	</head>
+<GoogleTag />
+
+	<body>
+		<Navigation />
+			<main class="grid-container">
+		  </main>
+	</div>
+		<slot />
+		<Footer />
+
+		<script>		
+			import "../scripts/menu.js";
+		</script>
+
+	  </body>
+</html>

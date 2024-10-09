@@ -1,0 +1,86 @@
+---
+const pageTitle = "Page Not Found";
+const author = "Annie Szafranski";
+const pageDescription = "Oops, this page is not here";
+
+import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
+import Logotype from '../components/Logotype.astro';
+import Footer from '../components/Footer.astro';
+import Favicon from '../components/Favicon.astro';
+import GoogleTag from '../components/Google-tag.astro';
+import Hamburger from '../components/Hamburger.astro';
+
+---
+
+<html lang="en">
+
+
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{pageTitle} | {author}</title>
+		<meta name="author" content= {author} />
+		<meta name="description" content={pageDescription}/>
+		<Favicon />
+		<Logotype />
+	</head>
+<GoogleTag />
+
+	<body>
+		<Navigation />
+	
+			<main class="grid-container">
+				
+			
+				<section class="about">
+						<h1>Oops, that page does not exist anymore, or right now, if it ever did. Moving things around as I rebuild this website.</h1>
+				
+				</section>
+				
+
+
+				<section class="project-grid">
+
+				<!---------- PROJECT 1 ------------>
+
+						<div class="project">
+							<a href="/projects/mixpanel-blog-redesign"><img src="/images/mixpanel-signals-and-stories/signals-and-stories-primary.jpg"></a>
+							<h2 class="project-title"><a href="projects/mixpanel-blog-redesign">Signals & Stories</a></h2>
+								<p class="project-type">Web Design</p>
+						</div>
+
+				<!---------- PROJECT 2 ------------>
+
+						<div class="project">
+							<a href="/projects/beatrice-no-30-type-revival"><img src="/images/beatrice-no-30/beatrice-no-30_0.jpg"></a>
+							<h2 class="project-title"><a href="projects/beatrice-no-30-type-revival">Beatrice No. 30</a></h2>
+								<p class="project-type">Type Design</p>
+						</div>		
+
+				<!---------- PROJECT 3 ------------>
+
+						<div class="project">
+							<a href="/projects/mixpanel-rebrand"><img src="/images/mixpanel-rebrand/mixpanel-rebrand.webp"></a>
+							<h2 class="project-title"><a href="projects/mixpanel-rebrand">Mixpanel Rebrand</a></h2>
+								<p class="project-type">Brand and Web Design</p>
+						</div>	
+
+				</section>
+
+
+
+		</main>
+	
+	</div>
+
+		<Footer />
+
+		<script>		
+			import "../scripts/menu.js";
+		</script>
+
+	  </body>
+</html>

@@ -2,16 +2,16 @@
 title: 'My First Blog Post'
 pubDate: 2022-07-01
 description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
+author: 'Annie Szafranski'
 image:
     url: 'https://docs.astro.build/assets/rose.webp'
     alt: 'The Astro logo on a dark background with a pink glow.'
-tags: ["astro", "blogging", "learning in public"]
+category: ["design-inspiration"]
 
 ---
-# My First Blog Post
+# Souvenir Du Lido Des Champs Élysées
 
-Published on: 2022-07-01
+Published on: 2017-08-09
 
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
 

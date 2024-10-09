@@ -38,6 +38,29 @@ input, textarea, button {
   src: url("/fonts/Resonay-Solid-Regular.woff2") format("woff2");
 }
 
+@font-face { 
+  font-family: "RizomaTestS-Regular";
+  src: url("/fonts/RizomaTestS-Regular.otf") format("opentype");
+}
+
+
+@font-face { 
+  font-family: "SplineSans-Regular";
+  src: url("/fonts/SplineSans-Regular.woff2") format("woff2");
+}
+
+@font-face { 
+  font-family: "SplineSans-Light";
+  src: url("/fonts/SplineSans-Light.woff2") format("woff2");
+}
+
+
+@font-face { 
+  font-family: "SplineSans-SemiBold";
+  src: url("/fonts/SplineSans-SemiBold.woff2") format("woff2");
+}
+
+
 
 html {
   font-size: 18px;
@@ -75,6 +98,7 @@ html {
 }
 
 .nav-links a {
+  font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
   display: inline;
   font-size: 1rem;
   font-weight: normal;
@@ -154,13 +178,33 @@ html {
 }   
 
 
-
   .about {
     grid-area: about;
+    margin-bottom: 3%;
   }
 
+  .info-col-1 {
+grid-area: info-col-1;
+  }
+
+  .info-col-2 {
+    grid-area: info-col-2;
+  }
+
+  .info-sub-copy {
+    grid-area: info-sub-copy;
+  }
+
+  .info-col-1 img {
+      width: 100%;
+      height: 300px; /* Adjust the height as needed */
+      object-fit: cover; /* Ensures the image covers the area while maintaining its aspect ratio */
+      border-radius: 16px;
+    }
+
+
   .contact {
-    margin: 4% 0 4% 0;
+    margin: 4% 0 0 0;
     grid-area: contact;
   }
 
@@ -192,8 +236,18 @@ html {
     "about about about about about about"
     "project-grid project-grid project-grid project-grid project-grid project-grid"
     "main main main main main main"
-    "project-photos project-photos project-photos project-photos project-photos project-photos";
+    "project-photos project-photos project-photos project-photos project-photos project-photos"
     }
+
+  .grid-container-info {
+    display: grid;
+    grid-template-columns: repeat (6, 1fr);
+    gap: 1em;
+    grid-template-areas: 
+    "info-col-1 info-col-1 info-col-2 info-col-2 info-col-2 info-col-2"
+    ". . info-sub-copy info-sub-copy info-sub-copy .";
+
+  }
 
 
   .project-grid {
@@ -218,6 +272,7 @@ html {
     margin-bottom: 2%;
   }
 
+
   /* MEDIA QUERIES FOR GRID */
 
   @media (max-width: 768px) {
@@ -236,6 +291,21 @@ html {
         object-fit: contain; /* Ensure the image fits without cutting off parts */
     }
 
+
+    .grid-container-info {
+      grid-template-columns: 1fr; /* Single column layout on mobile */
+      gap: 1em;
+  }
+
+  .info-col-2 {
+      grid-template-columns: 1fr; /* One column for each project on mobile */
+      grid-gap: 20px;
+  }
+
+  .info-col-1 {
+    grid-template-columns: 1fr; /* One column for each project on mobile */
+    grid-gap: 20px;
+  }
 }
 
 
@@ -375,6 +445,10 @@ grid-column-end: 7;
   position: relative;
 }
 
+.resume-section h2 {
+margin: 0 0 2% 0;
+}
+
   }
 
 
@@ -416,57 +490,72 @@ h1 {
   margin-bottom: 0.40rem;
 }
 
+h1.info {
+  font-family: "Resonay-Solid-Light", 'Times New Roman', Times, serif;
+  font-size: 1.944rem;
+  line-height: 2.88rem;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+
+
 h1 a {
   border-bottom: 2px solid black;
 }
 
 h2 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "SplineSans-Light", Helvetica, Arial, sans-serif;
   font-size: 1.556rem;
-  font-weight: normal;
-  line-height: 2.2rem;
-  color: #666;
-}
-
-h2.project-title {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.556rem;
+  font-weight: 200;
   line-height: 2.2rem;
   color: #000;
 }
 
-h3 {
-  font-family: Helvetica, Arial, sans-serif;
+h2.project-title {
+  font-family: "SplineSans-Light", Helvetica, Arial, sans-serif;
   font-size: 1.556rem;
+  line-height: 2.0rem;
+  color: #000;
+  letter-spacing: -0.01rem;
+}
+
+h3 {
+  font-family: "SplineSans-SemiBold", Helvetica, Arial, sans-serif;
+  font-size: 1.278rem;
   font-weight: normal;
   line-height: 2.0rem;
 }
 
-h4 {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.0rem;
-  font-weight: 700;
-  line-height: 1.20rem;
+.contact h4 {
   margin: 3% 0 0 0;
 }
 
+h4 {
+  font-family: "SplineSans-SemiBold", Helvetica, Arial, sans-serif;
+  font-size: 1.0rem;
+  font-weight: 700;
+  line-height: 1.20rem;
+  margin: 3% 0 -1% 0;
+}
+
 h5 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
   font-size: 1.000rem;
   font-weight: 700;
 }
 
 h6 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
   font-size: 0.778rem;
   font-weight: 700;
 }
 
 p {
-  font-family: Helvetica, Arial, sans-serif;
+
+  font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.600rem;
-  font-size: 1.000rem;
 }
 
 .colophon p {
@@ -480,16 +569,16 @@ p a {
 }
 
 li {
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
   line-height: 1.600rem;
   font-size: 1.000rem;
 }
 
 
 p.project-type, .project-year {
-  font-size: 1.000rem;
+  font-size: 0.778rem;
 }
+
 
 a:hover  {
   background-color: #D73A18;
@@ -574,28 +663,28 @@ h2.project-title a:hover {
   }
 
   h2 {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "SplineSans-Light", Helvetica, Arial, sans-serif;
     font-size: 1.278rem;
     line-height: 1.88rem;
   }
 
 
   h3 {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
     font-size: 1.000rem;
     font-weight: normal;
     line-height: 2.0rem;
   }
 
   h3.description-heading {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.556rem;
+    font-family: "SplineSans-SemiBold", Helvetica, Arial, sans-serif;
+    font-size: 1.278rem;
     line-height: 2.2rem;
-    margin: 6% 0 0;
+    margin: 6% 0 -1% 0;
   }
   
   h4 {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
     font-size: 1.0rem;
     font-weight: 700;
     line-height: 1.0rem;
@@ -603,18 +692,19 @@ h2.project-title a:hover {
   }
   
   h5 {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
     font-size: 1.000rem;
     font-weight: normal;
   }
   
   h6 {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
     font-size: 0.778rem;
     font-weight: 700;
   }
 
   a.read-more {
+    font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
     margin-top: 6%;
   }
 
@@ -638,10 +728,11 @@ footer {
   justify-content: space-between;
   align-items: center;
   grid-area: footer;
-  margin: 4% 0 0 0;
+  margin: 3% 0 0 0;
 }
 
 footer p {
+  font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
   font-size: 0.778rem;
   font-weight: normal;
   color: #666;
