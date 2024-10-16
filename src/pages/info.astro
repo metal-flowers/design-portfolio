@@ -33,79 +33,37 @@ import Hamburger from '../components/Hamburger.astro';
 <body>
 	<Navigation />
 
-		<main class="grid-container">
+		<main class="grid-container-info">
 			
 		
-			<section class="about">
-					<h1>Annie Szafranski is a California-based designer and typographer designing editorial experiences across the web and in print. She is a Senior Designer at <a href="https://mixpanel.com/" target="_blank">Mixpanel</a> on the Brand and Interactive team, and a type design student in the <a href="https://letterformarchive.org/type-west-online/" target="_blank">Type West Online</a> program through the <a href="https://letterformarchive.org/" target="_blank"> Letterform Archive.</a></h1>
-			
-					<aside class="contact">
-						<h4>Contact</h4>
-						<ul>
-							<li><a href="https://www.linkedin.com/in/annieszafranski/?original_referer=https%3A%2F%2Fwww.annieszafranski.com%2F">LinkedIn</a></li>
-							<li><a href="mailto:annieszaf@proton.me">Email</a></li>
-							<li><a href="https://www.instagram.com/a.szaf/">Instagram</a></li>
-							<li><a href="https://typo.social/@annie">Mastadon</a></li>
-						</ul>
-					</aside>
-			
-			</section>
-			
-
-
-			<section class="project-grid">
-
-			<!---------- PROJECT 1 ------------>
-
-					<div class="project">
-						<a href="/projects/mixpanel-blog-redesign"><img src="/images/mixpanel-signals-and-stories/signals-and-stories-primary.jpg"></a>
-						<h2 class="project-title"><a href="projects/mixpanel-blog-redesign">Signals & Stories</a></h2>
-							<p class="project-type">Web Design</p>
-					</div>
-
-			<!---------- PROJECT 2 ------------>
-
-					<div class="project">
-						<a href="/projects/beatrice-no-30-type-revival"><img src="/images/beatrice-no-30/beatrice-no-30_0.jpg"></a>
-						<h2 class="project-title"><a href="projects/beatrice-no-30-type-revival">Beatrice No. 30</a></h2>
-							<p class="project-type">Type Design</p>
-					</div>		
-
-			<!---------- PROJECT 3 ------------>
-
-					<div class="project">
-						<a href="/projects/mixpanel-rebrand"><img src="/images/mixpanel-rebrand/mixpanel-rebrand.webp"></a>
-						<h2 class="project-title"><a href="projects/mixpanel-rebrand">Mixpanel Rebrand</a></h2>
-							<p class="project-type">Brand and Web Design</p>
-					</div>	
-
-			<!---------- PROJECT 4 ------------>
-					
-					<div class="project">
-						<a href="/projects/marlborough-titling"><img src="/images/marlborough-titling/marlborough-titling_10.png"></a>
-						<h2 class="project-title"><a href="projects/marlborough-titling">Marlborough Titling</a></h2>
-							<p class="project-type">Type Design</p>
-					</div>	
-
-			<!---------- PROJECT 5 ------------>
-
-					<div class="project">
-						<a href="/projects/taxes-retirement-home-album-design"><img src="/images/taxes-retirement-home/taxes-retirement-home-album_1.jpg"></a>
-						<h2 class="project-title"><a href="projects/taxes-retirement-home-album-design">Taxes: Retirement Home</a></h2>
-							<p class="project-type">Album Design</p>
-					</div>	
-
-			<!---------- PROJECT 6 ------------>
-
-					<div class="project">
-						<a href="/projects/the-guide-to-product-analytics-book-design"><img src="/images/mixpanel-guide-to-product-analytics/guide-to-product-analytics-book.jpg"></a>
-						<h2 class="project-title"><a href="projects/the-guide-to-product-analytics-book-design">The Guide to Product Analytics</a></h2>
-							<p class="project-type">Book Design</p>						
-						</div>	
-
+			<section class="info-col-1">
+				<img src="/images/headshot.jpg">					
 			</section>
 
+			<section class="info-col-2">
+				<h1 class="info">Hi, I’m Annie. I’m a designer and typographer designing editorial experiences. I’ve spent over 10 years as an in-house designer, primarily in the tech industry, working across brand and interactive teams.</h1>
+					<p>I design across print and web and have done so my whole career, working with companies like Eventrbite, Saatchi & Saatchi, Everlane, Compass, and more. I’m known for my strong foundation in design and typographic knowledge, as well as the attention to detail that goes along with it. I mantain a balance and appreciation across both disciplines—with each informing and pushing the other.</p><br>
+				<p>Typography and working with text is my happy place, so I am thrilled to be learning how to design typefaces this year through the Type West program through the Letterform Archive—a dream! The program has already brought me surprisingly closer to the web and makes me see type and my design practice differently. I'm excited to see what comes next in my journey!</p><br>
 
+				
+				<aside class="contact">
+					<h4>Contact</h4>
+					<ul>
+						<li><a href="https://www.linkedin.com/in/annieszafranski/?original_referer=https%3A%2F%2Fwww.annieszafranski.com%2F">LinkedIn</a></li>
+						<li><a href="mailto:annieszaf@proton.me">Email</a></li>
+						<li><a href="https://www.instagram.com/a.szaf/">Instagram</a></li>
+						<li><a href="https://typo.social/@annie">Mastadon</a></li>
+					</ul>
+				</aside>
+
+<!-- 
+				<aside class="contact">
+					<h4>Colophon</h4>
+					<p>This website was designed and built by Annie Szafranski using Astro, and is a work in progress. The logotype is set in Pirelli A VIP by Lineto. The Headline copy is set in Resonay by TypeMates. The body copy is set in Spline Sans by Eben Sorkin and Mirko Velimirović.</p>
+				</aside>
+			</section>
+-->
+		
 
 	</main>
 
@@ -113,7 +71,7 @@ import Hamburger from '../components/Hamburger.astro';
 
 	<Footer />
 
-	<script>		
+	<script>        
 		import "../scripts/menu.js";
 	</script>
 
