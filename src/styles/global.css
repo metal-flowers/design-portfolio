@@ -193,7 +193,7 @@ grid-area: info-col-1;
 
 
   .contact {
-    margin: 4% 0 0 0;
+    margin: 4% 0 8% 0;
     grid-area: contact;
   }
 
@@ -232,10 +232,7 @@ grid-area: info-col-1;
     display: grid;
     grid-template-columns: repeat (6, 1fr);
     gap: 1em;
-    grid-template-areas: 
-    "info-col-1 info-col-1 info-col-2 info-col-2 info-col-2 info-col-2 "
-    ". . info-sub-copy info-sub-copy info-sub-copy .";
-
+    row-gap: 0;
   }
 
 
@@ -298,6 +295,11 @@ grid-area: info-col-1;
 
   .contact {
     display: none;
+  }
+
+  #colophon-grid-lines {
+    display: none;
+    border-top: 1px solid;
   }
 
 }
@@ -397,7 +399,7 @@ grid-column-end: 7;
 #info-text {
   grid-column-start: 3;
   grid-column-end: 6;
-  padding: 0 2%;
+  padding: 0 3%;
   border-left: 1px solid;
   border-right: 1px solid;
 }
@@ -434,6 +436,9 @@ grid-column-end: 7;
       position: relative;
     }
   
+    #colophon-grid-lines {
+      display: none;
+    }
 
   }
 
@@ -590,10 +595,15 @@ p {
 
 #colophon {
   grid-column-start: 1;
-  grid-column-end: 7;
-  border-top: .5px solid #666;
-  border-bottom: .5px solid #666;
+  grid-column-end: 3;
   padding: 20px 0 40px 0;
+}
+
+#colophon-grid-lines {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  border-left: 1px solid;
+  border-right: 1px solid;
 }
 
 p a { 
