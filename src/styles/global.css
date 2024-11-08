@@ -591,8 +591,8 @@ p {
 #colophon {
   grid-column-start: 1;
   grid-column-end: 7;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
+  border-top: .5px solid #666;
+  border-bottom: .5px solid #666;
   padding: 20px 0 40px 0;
 }
 
