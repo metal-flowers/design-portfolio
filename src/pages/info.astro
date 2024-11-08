@@ -32,20 +32,14 @@ import Hamburger from '../components/Hamburger.astro';
 
 <body>
 	<Navigation />
+	<main class="grid-container">
 
-		<main class="grid-container-info">
-			
-		
-			<section class="info-col-1">
-				<img src="/images/headshot.jpg">					
-			</section>
 
-			<section class="info-col-2">
-				<h1 class="info">Hi, I’m Annie. I’m a designer and typographer designing editorial experiences. I’ve spent over 10 years as an in-house designer, primarily in the tech industry, working across brand and interactive teams.</h1>
-					<p>I design across print and web and have done so my whole career, working with companies like Eventrbite, Saatchi & Saatchi, Everlane, Compass, and more. I’m known for my strong foundation in design and typographic knowledge, as well as the attention to detail that goes along with it. I mantain a balance and appreciation across both disciplines—with each informing and pushing the other.</p><br>
-				<p>Typography and working with text is my happy place, so I am thrilled to be learning how to design typefaces this year through the Type West program through the Letterform Archive—a dream! The program has already brought me surprisingly closer to the web and makes me see type and my design practice differently. I'm excited to see what comes next in my journey!</p><br>
 
-				
+			<!-------------- INTRO -------------->
+
+			<section id="info-intro">
+				<img src="/images/headshot.jpg">
 				<aside class="contact">
 					<h4>Contact</h4>
 					<ul>
@@ -54,16 +48,24 @@ import Hamburger from '../components/Hamburger.astro';
 						<li><a href="https://www.instagram.com/a.szaf/">Instagram</a></li>
 						<li><a href="https://typo.social/@annie">Mastadon</a></li>
 					</ul>
-				</aside>
 
-<!-- 
-				<aside class="contact">
-					<h4>Colophon</h4>
-					<p>This website was designed and built by Annie Szafranski using Astro, and is a work in progress. The logotype is set in Pirelli A VIP by Lineto. The Headline copy is set in Resonay by TypeMates. The body copy is set in Spline Sans by Eben Sorkin and Mirko Velimirović.</p>
-				</aside>
 			</section>
--->
+
+		<!-------------- EXPERIENCE -------------->
+
+			<section id="info-text">
+
+				<h1 class="info">Hi, I’m Annie. I’m a designer and typographer designing editorial experiences. I’ve spent over 10 years as an in-house designer, primarily in the tech industry, working across brand and interactive teams.</h1>
+				<p>I’m currently a Senior Designer at Mixpanel and have previously worked on design teams at Eventrbite, Saatchi & Saatchi, Everlane, Compass, and more. I’m known for my strong foundation in traditional graphic design and my love for typographic details, which I carry across print and web seamlessly.</p><br>
+			<p>Typography is my happy place, so I am thrilled to be learning how to design typefaces this year through <a href="https://letterformarchive.org/type-west-online/">Type West</a>, a year-long type design and type history program through the <a href="https://letterformarchive.org/">Letterform Archive</a>—a dream! The program has brought me even closer to the web and makes me see type and my design practice in a new and inspiring way. I’m excited to see what comes next in my design journey, and welcome new design opportunities and collaborations!</p><br>
 		
+		</section>
+
+		<section id="colophon">
+			<h6>Colophon</h6>
+			<p>This static website is designed and built by Annie Szafranski using <a href="https://astro.build/">Astro</a> and GitHub pages—it is a work in progress. The logotype is set in <a href="https://lineto.com/typefaces/pirelli-vip">Pirelli</a> (A VIP) designed by Masahiro Nakamura and <a href="https://lineto.com/information/designers/lineto-designers/weichi-he">Weichi He</a>. The Headline copy is set in <a href="https://www.typemates.com/fonts/resonay">Resonay</a> by <a href="https://www.typemates.com/about/andrej-dienes">Andrej Dieneš</a>. The body copy is set in <a href="https://fonts.google.com/specimen/Spline+Sans">Spline Sans</a> by <a href="https://fonts.google.com/?query=Eben+Sorkin">Eben Sorkin</a> and <a href="https://fonts.google.com/?query=Mirko+Velimirovi%C4%87">Mirko Velimirović</a>.</p>
+				
+		</section>
 
 	</main>
 
