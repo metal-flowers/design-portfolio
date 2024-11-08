@@ -397,7 +397,7 @@ grid-column-end: 7;
 #info-text {
   grid-column-start: 3;
   grid-column-end: 6;
-  padding: 0 0 0 2%;
+  padding: 0 2%;
   border-left: 1px solid;
   border-right: 1px solid;
 }
