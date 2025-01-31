@@ -56,6 +56,44 @@ input, textarea, button {
 }
 
 
+/* TESTING PRIMITIV TEXT */
+
+
+@font-face { 
+  font-family: "PrimitivText-Backslant";
+  src: url("/fonts/PrimitivText-Backslant.woff2") format("woff2");
+}
+
+
+@font-face { 
+  font-family: "PrimitivText-Regular";
+  src: url("public/fonts/PrimitivText-Regular.woff2") format("woff2");
+}
+
+@font-face { 
+  font-family: "PrimitivText-Medium";
+  src: url("public/fonts/PrimitivText-Medium.woff2") format("woff2");
+}
+
+@font-face { 
+  font-family: "PrimitivText-Semibold";
+  src: url("/fonts/PrimitivText-Semibold.woff2") format("woff2");
+}
+
+@font-face { 
+  font-family: "PrimitivText-Bold";
+  src: url("/fonts/PrimitivText-Bold.woff2") format("woff2");
+}
+
+
+
+
+
+
+
+
+
+/* END OF TESTING PRIMITIV TEXT */
 
 html {
   font-size: 18px;
