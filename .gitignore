@@ -4,8 +4,10 @@ dist/
 .astro/
 
 # pages
-src/pages/temp-oldies/
-src/pages/projects
+pages/temp-oldies/
+new-index.astro
+original-index-and-projects.astro
+
 
 # dependencies
 node_modules/

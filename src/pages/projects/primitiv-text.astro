@@ -1,0 +1,129 @@
+---
+const pageTitle = "Primitiv Text";
+const author = "Annie Szafranski";
+const pageDescription = "An original font inspired by fundamental waveforms of synthesized sound.";
+
+
+import '../../styles/global.css';
+import Favicon from '../../components/Favicon.astro';
+import Logotype from '../../components/Logotype.astro';
+import Navigation from '../../components/Navigation.astro';
+import Footer from '../../components/Footer.astro';
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{pageTitle} | {author}</title>
+		<meta name="author" content={author} />
+		<meta name="description" content={pageDescription} />
+		<Favicon />
+		<Logotype />
+	</head>
+
+	<body>
+		<Navigation />
+
+			<main class="grid-container">
+
+        
+<!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
+
+				<section class="project-info">
+                    <h1>{pageTitle}</h1>
+                    <h2>An original font inspired by fundamental waveforms of synthesized sound.</h2>
+                    <a class ="read-more" href ="#project-description">Read More</a>
+				</section>
+
+
+
+
+<!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
+				
+                <section class="project-photos">
+                    <figure>
+						<img src="/images/primitiv-text/primitiv-text_1.png" alt="Opening introductory card with a green overlay over an illustration from Dante's Purgatory with Beatrice No. 30 written front and center">
+						<figcaption></figcaption>
+					</figure>
+
+					<figure>
+						<img src="/images/primitiv-text/primitiv-text_2.png" alt="Open spread of original source material from Dante. Opening to the same illustration previewed in the first image.">
+						<figcaption></figcaption>
+					</figure>
+
+
+					<figure>
+						<img src="/images/primitiv-text/primitiv-text_3.png" alt="Additional source material pulled for reference from Bruce's Specimen Book and Bruce Old Style No. 31">
+						<figcaption></figcaption>
+					</figure>
+
+					<figure>
+						<img src="/images/primitiv-text/primitiv-text_4.png" alt="Photograph of an open spread of Dante's Inferno on a table, at an angle surrounded by light.">
+						<figcaption></figcaption>
+					</figure>
+
+					<figure>
+						<img src="/images/primitiv-text/primitiv-text_5.png" alt="Photograph of a 10x micro lens / loupe on top of a page of Dante's Pergatory.">
+						<figcaption></figcaption>
+					</figure>
+
+					<figure>
+						<img src="/images/primitiv-text/primitiv-text_6.png" alt="Preview of original type referenced next to my type work for Beatrice No. 30">
+						<figcaption></figcaption>
+					</figure>
+
+
+					<figure>
+						<img src="/images/primitiv-text/primitiv-text_7.png" alt="Large capital A next to a lowercase a using black and an olive green">
+						<figcaption></figcaption>
+					</figure>
+
+					<figure>
+						<img src="/images/primitiv-text/primitiv-text_8.png" alt="Olive green background with large black captial letters spelling: VENGEANCE BRIGHTNESS and CELESTIAL">
+						<figcaption></figcaption>
+					</figure>
+
+					<figure>
+						<img src="/images/primitiv-text/primitiv-text_9.png" alt="Black background with olive green text pulling text from Dante's Purgatory written in Beatrice No. 30">
+						<figcaption></figcaption>
+					</figure>
+
+					<figure>
+						<img src="/images/primitiv-text/primitiv-text_10.png" alt="Open spread of a book with the original font replaced and swapped for Beatrice No. 30">
+						<figcaption></figcaption>
+					</figure>
+
+				</section>
+
+				    
+                
+
+<!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
+
+
+                <article class="project-description"><a id="project-description"></a>
+
+                   <h3 class="description-heading">About The Project</h3>
+                        <p>Primitiv Text is a geometric sans serif text typeface with a comfortably noisy texture and primitive forms. It is heavily inspired by fundamental waveform shapes of synthesized sound—triangle, sawtooth, and square waves—visualized through an oscilloscope. Additionally, it pulls inspiration from dense technical synthesizer manuals that describe said machines and how to use them. Primitiv Text is constructed with vertical, horizontal, and diagonal lines to create curves without curves, and includes four weights and a backslant to create a textured reading experience.</p>
+                
+						<h3 class="description-heading">Thanks</h3>
+						<p>Primitiv Text was created with the excellent guidance and support of the Type West Online instructors and teaching assistants.</p>
+						<p>Lead Instructor: Sahar Afshar<br>
+						Co-Instructor: Fer Cozzi<br>
+						TAs: Nora Warschewski and Allie Schmitz</p>
+
+					
+				</article>
+            </main>
+
+		<Footer />
+
+		<script>		
+			import "../../scripts/menu.js";
+		</script>
+		
+	</body>
+</html>
