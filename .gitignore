@@ -4,6 +4,7 @@ dist/
 .astro/
 
 # pages
+src/pages/temp-oldies/
 
 # dependencies
 node_modules/
