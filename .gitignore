@@ -5,6 +5,7 @@ dist/
 
 # pages
 src/pages/temp-oldies/
+src/pages/projects
 
 # dependencies
 node_modules/
