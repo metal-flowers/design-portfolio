@@ -4,9 +4,7 @@ dist/
 .astro/
 
 # pages
-pages/temp-oldies/
-new-index.astro
-original-index-and-projects.astro
+
 
 
 # dependencies

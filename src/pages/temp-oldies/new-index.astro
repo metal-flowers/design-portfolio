@@ -1,0 +1,116 @@
+---
+const pageTitle = "Home";
+const author = "Annie Szafranski";
+const pageDescription = "Annie Szafranski is a California based graphic designer and typographer designing editorial experiences across the web and in print.";
+
+import '../../styles/global.css';
+import Navigation from '../../components/Navigation.astro';
+import Logotype from '../../components/Logotype.astro';
+import Footer from '../../components/Footer.astro';
+import Favicon from '../../components/Favicon.astro';
+import Hamburger from '../../components/Hamburger.astro';
+
+---
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{pageTitle} | {author}</title>
+		<meta name="author" content= {author} />
+		<meta name="description" content={pageDescription}/>
+		<a rel="me" href="https://typo.social/@annie"></a>
+		<Favicon />
+		<Logotype />
+
+	</head>
+
+	<body>
+		<Navigation />
+	
+			<main class="grid-container">
+				
+			
+				<section class="about">
+						<h1>Annie Szafranski is a California-based designer, typographer, and aspiring type designer creating editorial experiences across the web and in print. She is wrapping up her year as type design student in the <a href="https://letterformarchive.org/type-west-online/" target="_blank">Type West Online</a> program.</h1>
+				
+					 
+						<aside class="contact">
+							<h4>Contact</h4>
+							<ul>
+								<li><a href="https://www.linkedin.com/in/annieszafranski/?original_referer=https%3A%2F%2Fwww.annieszafranski.com%2F">LinkedIn</a></li>
+								<li><a href="mailto:annieszaf@proton.me">Email</a></li>
+								<li><a href="https://www.instagram.com/a.szaf/">Instagram</a></li>
+								<li><a href="https://typo.social/@annie">Mastodon</a></li>
+							</ul>
+						</aside>
+
+			
+				
+				</section>
+				
+
+
+				<section class="project-grid">
+
+				<!---------- PROJECT 1 ------------>
+
+                <div class="project">
+                    <a href="/projects/primitiv-text"><img src="/images/primitiv-text/primitiv-text_10.png"></a>
+                    <h2 class="project-title"><a href="projects/primitiv-text">Primitiv Text</a></h2>
+                        <p class="project-type">Type Design</p>
+                </div>	
+
+
+				<!---------- PROJECT 2 ------------>
+	
+				<div class="project">
+                    <a href="/projects/beatrice-no-30-type-revival"><img src="/images/beatrice-no-30/beatrice-no-30_0.jpg"></a>
+                    <h2 class="project-title"><a href="projects/beatrice-no-30-type-revival">Beatrice No. 30</a></h2>
+                        <p class="project-type">Type Design</p>
+                </div>	
+
+
+				<!---------- PROJECT 3 ------------>
+
+
+				<div class="project">
+                    <a href="/projects/marlborough-titling"><img src="/images/marlborough-titling/marlborough-titling_10.png"></a>
+                    <h2 class="project-title"><a href="projects/marlborough-titling">Marlborough Titling</a></h2>
+                        <p class="project-type">Type Design</p>
+                </div>	
+
+
+				<!---------- PROJECT 4 ------------>
+
+				<div class="project">
+					<a href="/projects/taxes-retirement-home-album-design"><img src="/images/taxes-retirement-home/taxes-retirement-home-album_1.jpg"></a>
+					<h2 class="project-title"><a href="projects/taxes-retirement-home-album-design">Taxes: Retirement Home</a></h2>
+						<p class="project-type">Album Design</p>
+				</div>	
+
+
+				<!---------- PROJECT 5 ------------>
+
+				<!---------- PROJECT 6 ------------>
+
+
+				</section>
+
+
+
+		</main>
+	
+	</div>
+
+		<Footer />
+
+		<script>		
+			import "../scripts/menu.js";
+		</script>
+
+	  </body>
+</html>
