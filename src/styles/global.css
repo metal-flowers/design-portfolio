@@ -311,8 +311,8 @@ grid-area: info-col-1;
     }
 
     .project img {
-        height: auto; /* Let the height adjust automatically for mobile */
-        object-fit: contain; /* Ensure the image fits without cutting off parts */
+        height: 250px; /* auto /Let the height adjust automatically for mobile */
+        object-fit: cover; /* contain /Ensure the image fits without cutting off parts */
     }
 
 
