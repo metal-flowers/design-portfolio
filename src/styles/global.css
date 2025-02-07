@@ -260,6 +260,7 @@ grid-area: info-col-1;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 1em;
+    padding: 0 4%;
     grid-template-areas: 
     "about about about about about about"
     "project-grid project-grid project-grid project-grid project-grid project-grid"
@@ -280,6 +281,13 @@ grid-area: info-col-1;
       grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
       grid-gap: 20px;
       grid-area: project-grid;
+    }
+
+    .full-project-grid {
+      grid-column: span 6;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
     }
   
   .project {

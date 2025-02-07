@@ -5,6 +5,15 @@ dist/
 
 # pages
 src/pages/temp-oldies/
+src/pages/projects/curated-magazine
+src/pages/projects
+src/pages/projects/mixpanel-blog-redesign
+src/pages/projects/mixpanel-rebrand
+src/pages/projects/april-webtape
+
+
+
+
 
 # dependencies
 node_modules/
