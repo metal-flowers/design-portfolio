@@ -144,7 +144,7 @@ html {
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: #D73A18;
+  background-color: #e66027;/*#D73A18;*/
   border-radius: 4px;
   padding: 1% 0;
   transition: 0.4s ease-in-out;
@@ -662,13 +662,13 @@ p.project-type, .project-year {
 
 
 a:hover  {
-  background-color: #D73A18;
+  background-color: #e66027; /* #D73A18; */
   border-radius: 4px;
   transition: 0.4s ease-in-out;
 }
 
 h2.project-title a:hover {
-  background-color: #D73A18;
+  background-color: #e66027; /* #D73A18;*/
   border-radius: 4px;
   transition: 0.4s ease-in-out;
 }
