@@ -15,10 +15,11 @@ const { title, description, date, tags, author, image} = frontmatter;
     </header>
 
     <div class="post-content">
+        <div class="blog-info">
             <h1>{frontmatter.title}</h1>
-                <p><em>{frontmatter.description}</em></p> 
-                <p>{frontmatter.pubDate.toString().slice(0,10)}</p>
-            <p>{frontmatter.tags}</p>
+                <h2>{frontmatter.description}</h2> 
+                <h6>{frontmatter.pubDate.toString().slice(0,10)}  • {frontmatter.tags}</h6>
+        </div>
             <slot />
     </div>
 

@@ -115,7 +115,7 @@ html {
     display: flex;
     justify-content: space-between; /* This moves the logo to the left and nav items to the right */
     align-items: center;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
   }
 
   /* General Styles */
@@ -267,7 +267,6 @@ grid-area: info-col-1;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 1em;
-    padding: 0 2%;
     grid-template-areas: 
     "about about about about about about"
     "project-grid project-grid project-grid project-grid project-grid project-grid"
@@ -417,7 +416,7 @@ a.read-more {
 /* PROJECT DESCRIPTION SECTION */
 
 h3.description-heading {
-  margin: 4% 0 0 0;
+  margin: 4% 0 2% 0;
 }
 
 
@@ -425,7 +424,7 @@ h3.description-heading {
   display: grid;
   grid-column-start: 2;
   grid-column-end: 5;
-  grid-gap: 1em;
+/*  grid-gap: 1em; */
   grid-template-columns: repeat(1, 1fr); /* 6 equal columns */
 }
 
@@ -644,7 +643,9 @@ p {
   font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.600rem;
+  margin-bottom: 3%;
 }
+
 
 #colophon p {
   font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
@@ -822,9 +823,8 @@ h2.project-title a:hover {
 footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   grid-area: footer;
-  margin: 3% 0 0 0;
+  margin: 2% 0 0 0;
 }
 
 footer p {
@@ -905,11 +905,47 @@ padding: 0 1% 0 0;
 .post-content {
   display: grid;
   grid-column-start: 1;
-  grid-column-end:6;
+  grid-column-end:5;
+  border-right: 1px solid black;
+  padding: 0 4% 0 0;
+}
+
+.post-index {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end:7;  
+}
+
+.post-index ul li {
+border-bottom: 1px solid black;
+padding: 2% 0;
 }
 
 .blog-post-image-lg {
   width: 100%;
-  margin: 2% 0;
+  margin: 1% 0 2%;
   border-radius: 16px;
+}
+
+.blog-post-image-sm {
+  width: 50%;
+  margin: 1% 2%;
+  border-radius: 16px;
+}
+
+.blog-post-image-md {
+  width: 80%;
+  margin: 4% 0;
+  border-radius: 16px;
+}
+
+.blog-info {
+}
+
+.blog-info h6 {
+  font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
+  font-size: 0.778rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+  margin: 1% 0.6%;
 }
