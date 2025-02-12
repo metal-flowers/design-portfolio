@@ -15,4 +15,4 @@ draft: false
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1739338538/66bad9bd970af5e30eadc371_66bad9ab29e48ef3ce5e4c88_Bildschirmfoto-2024-08-12-um-22.35.02_bgvgw9.jpg">
 
 
-Today we presented our Type West Term 2 projects! Here’s a sneak peek of the new typeface I worked on for 10 weeks and our type design crew. Hoping to add a good chunk of the work from this term soon—once I’m not utterly exhausted!
+Today we presented our Type West Term 2 projects! Here’s a sneak peek of the new typeface I worked on for 10 weeks, alongside our type design crew. Hoping to add a good chunk of the work from this term soon—once I’m not utterly exhausted!
