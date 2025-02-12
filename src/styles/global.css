@@ -173,6 +173,7 @@ html {
 @media (max-width: 768px) {
 
 
+
   .nav-links {
       display: none; /* Hidden by default */
       position: absolute;
@@ -216,7 +217,7 @@ html {
 
   .about {
     grid-area: about;
-    margin-bottom: 4%;
+    margin-bottom: 2%;
   }
 
   .info-col-1 {
@@ -325,6 +326,10 @@ grid-area: info-col-1;
         gap: 1em;
     }
 
+    .page-container {
+      padding: 1%;
+    }
+
     .project-grid {
         grid-template-columns: 1fr; /* One column for each project on mobile */
         grid-gap: 20px;
@@ -359,6 +364,7 @@ grid-area: info-col-1;
     display: none;
     border-top: 1px solid;
   }
+
 
 }
 
@@ -810,6 +816,8 @@ h2.project-title a:hover {
     grid-area: contact;
   }
 
+    
+
   }
 
 
@@ -948,4 +956,15 @@ padding: 2% 0;
   line-height: 1.8rem;
   font-weight: 400;
   margin: 1% 0.6%;
+}
+
+/* Responsive Styles for Tablet & Mobile */
+@media (max-width: 768px) {
+
+  .post-content {
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    border: none;
+  }
 }
