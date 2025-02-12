@@ -454,6 +454,10 @@ h3.resume {
   line-height: 2.2rem;
 }
 
+.resume-section p {
+  margin-bottom: 0;
+}
+
 
 #experience, #education, #volunteer, #continued-learning {
 grid-column-start: 4;
