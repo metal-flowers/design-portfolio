@@ -1,12 +1,13 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: DRONE(((E)))SCAPES No. 04
+date: 8/30/2023
 description: "New Drone Track"
 image:
     url: "https://docs.astro.build/assets/rays.webp"
     alt: "The Astro logo on a dark background with rainbow rays."
-pubDate: 8/30/2023
-tags: ["design work", "music"]
+tags: ["Music"]
+draft: false
 ---
 
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1739348117/64eda90b86baea73fe48e026_DRONE_E_SCAPES_04_pqpwsk.png" alt="">

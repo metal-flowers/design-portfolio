@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Webtape'
-pubDate: 8/13/2024
+date: 8/13/2024
 description: 'Album design for April’s new release'
 image:
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/v1739321673/66bc5f7600c8c739c07a2664_april-webtape-album-md-1_ae39oj.jpg'
     alt: 'The Astro logo on a dark background with a pink glow.'
-tags: ["Design Work"]
-draft: 
+tags: ["Graphic Design"]
+draft: false
 ---
 
 

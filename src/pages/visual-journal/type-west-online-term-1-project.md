@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Beatrice No. 30'
-pubDate: 6/6/2024
+date: 6/6/2024
 description: 'Type West Online : Term 1 Project'
 image:
     url: 'https://docs.astro.build/assets/rose.webp'
     alt: 'The Astro logo on a dark background with a pink glow.'
-tags: ["design work"]
-draft: 
+tags: ["Type Design"]
+draft: false
 ---
 
 

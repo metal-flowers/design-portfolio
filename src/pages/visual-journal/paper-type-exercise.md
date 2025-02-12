@@ -1,17 +1,17 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Paper Type Exercise'
-pubDate: 10/27/2023
+date: 10/27/2023
 description: 'Learning through Practice'
 image:
     url: 'https://docs.astro.build/assets/rose.webp'
     alt: 'The Astro logo on a dark background with a pink glow.'
-tags: ["design work"]
-draft: 
+tags: ["Type Design"]
+draft: false
 ---
 
 
-<img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1739344227/65532813cf5bdf94e34d9689_papert-type-photo-1_s7ssdo.jpg">
+<img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_50/v1739344227/65532813cf5bdf94e34d9689_papert-type-photo-1_s7ssdo.jpg">
 
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1739347817/65532cbe5b84962b090e62dc_Paper-type-sektchesIMG_6993_copy_2_eia91m.png">
 
