@@ -1,172 +1,247 @@
 ---
-const pageTitle = "Beatrice No. 30";
-const author = "Annie Szafranski";
-const pageDescription = "Reviving a 19th Century typeface for Type West.";
+const title = "Beatrice No. 30";
+const description = "Reviving a 19th Century typeface for Type West.";
 
-import '../../styles/global.css';
-import Favicon from '../../components/Favicon.astro';
-import Logotype from '../../components/Logotype.astro';
-import Navigation from '../../components/Navigation.astro';
-import Footer from '../../components/Footer.astro';
+import "../../styles/global.css";
+import BaseLayout from "../../layouts/BaseLayout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle} | {author}</title>
-		<meta name="author" content={author} />
-		<meta name="description" content={pageDescription} />
-		<Favicon />
-		<Logotype />
-	</head>
+<BaseLayout {title} {description}>
+  <!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
 
-	<body>
-		<Navigation/>
+  <section class="project-info">
+    <h1>{title}</h1>
+    <h2>{description}</h2>
+    <a class="read-more" href="#project-description">Read More</a>
+  </section>
 
-			<main class="grid-container">
+  <!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
 
-        
-<!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
+  <section class="project-photos">
+    <figure>
+      <img
+        style="background: rgb(37, 46, 26);"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_20/v1738893268/beatrice-no-30_1_s1aaoh.webp"
+        alt="Opening introductory card with a green overlay over an illustration from Dante's Purgatory with Beatrice No. 30 written front and center"
+      />
+      <figcaption></figcaption>
+    </figure>
 
-				<section class="project-info">
-                    <h1>{pageTitle}</h1>
-                    <h2>Reviving a 19th Century typeface for Type West</h2>
-                    <a class ="read-more" href ="#project-description">Read More</a>
-				</section>
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1738893338/beatrice-no-30_2_g6fldd.jpg"
+        alt="Open spread of original source material from Dante. Opening to the same illustration previewed in the first image."
+      />
+      <figcaption></figcaption>
+    </figure>
 
+    <figure>
+      <img
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1738893337/beatrice-no-30_3_qux8w9.jpg"
+        alt="Additional source material pulled for reference from Bruce's Specimen Book and Bruce Old Style No. 31"
+      />
+      <figcaption></figcaption>
+    </figure>
 
+    <figure>
+      <img
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1738893337/beatrice-no-30_4_qoaiy1.jpg"
+        alt="Photograph of a 10x micro lens / loupe on top of a page of Dante's Pergatory."
+      />
+      <figcaption></figcaption>
+    </figure>
 
+    <figure>
+      <img
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1738893337/beatrice-no-30_5_ih6jmn.jpg"
+        alt="Preview of original type referenced next to my type work for Beatrice No. 30"
+      />
+      <figcaption></figcaption>
+    </figure>
 
+    <figure>
+      <img
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738893499/beatrice-no-30_6_juzu5v.jpg"
+        alt="Large capital A next to a lowercase a using black and an olive green"
+      />
+      <figcaption></figcaption>
+    </figure>
 
-<!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
-				
-                <section class="project-photos">
-                    <figure>
-						<img
-							style="background: rgb(37, 46, 26);"
-							src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_20/v1738893268/beatrice-no-30_1_s1aaoh.webp" alt="Opening introductory card with a green overlay over an illustration from Dante's Purgatory with Beatrice No. 30 written front and center">
-						<figcaption></figcaption>
-					</figure>
+    <figure>
+      <img
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738893336/beatrice-no-30_7_jzd7jz.jpg"
+        alt="Olive green background with large black captial letters spelling: Mountain, Brightness and Celestial"
+      />
+      <figcaption></figcaption>
+    </figure>
 
-					<figure>
-						<img
-						style="background: rgb(6, 6, 6);"
-							src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1738893338/beatrice-no-30_2_g6fldd.jpg" alt="Open spread of original source material from Dante. Opening to the same illustration previewed in the first image.">
-						<figcaption></figcaption>
-					</figure>
+    <figure>
+      <img
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738893337/beatrice-no-30_8_zvjmva.jpg"
+        alt="Black background with olive green text pulling words from Dante's Purgatory written in Beatrice No. 30"
+      />
+      <figcaption></figcaption>
+    </figure>
 
+    <figure>
+      <img
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1738893497/beatrice-no-30_9_v82kmn.jpg"
+        alt="Illustration of angel from Purgatory on the left with a green overlay, next to a snippet of canto XIX in different font sizes."
+      />
+      <figcaption></figcaption>
+    </figure>
 
-					<figure>
-						<img loading="lazy" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1738893337/beatrice-no-30_3_qux8w9.jpg" alt="Additional source material pulled for reference from Bruce's Specimen Book and Bruce Old Style No. 31">
-						<figcaption></figcaption>
-					</figure>
+    <figure>
+      <img
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738893495/beatrice-no-30_10_wridaa.jpg"
+        alt="Snippets from Canto XXX on a white background, showing different font sizes."
+      />
+      <figcaption></figcaption>
+    </figure>
 
+    <figure>
+      <img
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738893495/beatrice-no-30_11_kpfjxc.jpg"
+        alt="highlighing the full character set of Beatrice No. 30 with black text on a white background."
+      />
+      <figcaption></figcaption>
+    </figure>
 
-					<figure>
-						<img loading="lazy" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1738893337/beatrice-no-30_4_qoaiy1.jpg" alt="Photograph of a 10x micro lens / loupe on top of a page of Dante's Pergatory.">
-						<figcaption></figcaption>
-					</figure>
+    <figure>
+      <img
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1738893499/beatrice-no-30_12_bfdyqu.jpg"
+        alt="highlighing the full character set of Beatrice No. 30 with black text on a white background."
+      />
+      <figcaption></figcaption>
+    </figure>
 
-		
-					<figure>
-						<img loading="lazy" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1738893337/beatrice-no-30_5_ih6jmn.jpg" alt="Preview of original type referenced next to my type work for Beatrice No. 30">
-						<figcaption></figcaption>
-					</figure>
+    <figure>
+      <img
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738893493/beatrice-no-30_13_lmhxdq.jpg"
+        alt="highlighing the full character set of Beatrice No. 30 with black text on a white background."
+      />
+      <figcaption></figcaption>
+    </figure>
 
+    <figure>
+      <img
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738894336/beatrice-no-30_14_yt1r7i.jpg"
+        alt="Photograph of an open spread of Dante's Inferno on a table, at an angle surrounded by light."
+      />
+      <figcaption></figcaption>
+    </figure>
+  </section>
 
-					<figure>
-						<img loading="lazy" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738893499/beatrice-no-30_6_juzu5v.jpg" alt="Large capital A next to a lowercase a using black and an olive green">
-						<figcaption></figcaption>
-					</figure>
+  <!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
 
-					<figure>
-						<img loading="lazy" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738893336/beatrice-no-30_7_jzd7jz.jpg" alt="Olive green background with large black captial letters spelling: Mountain, Brightness and Celestial">
-						<figcaption></figcaption>
-					</figure>
+  <article class="project-description">
+    <a id="project-description"></a>
 
-					<figure>
-						<img loading="lazy" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738893337/beatrice-no-30_8_zvjmva.jpg" alt="Black background with olive green text pulling words from Dante's Purgatory written in Beatrice No. 30">
-						<figcaption></figcaption>
-					</figure>
+    <h3 class="description-heading">About the Project</h3>
+    <p>
+      Type revivals embody a rich history in type design and play an essential
+      role in the development of typefaces across changing technologies. They
+      can be true to form like their original or take on new shapes and faces of
+      their own—transforming into something quite different in the process. 
+      <p>
+        Beatrice No. 30 is a type revival, one that primarily stays true to its
+        printed source, with a small number of design adjustments made during
+        the interpretation and digitization process. Though revivals can often
+        start with a known typeface from the metal type era, this revival
+        started as an unknown—unstated in the selected source material from
+        where it was found. However, after spending time with its magnified
+        forms and reviewing 19th century type specimens, a close match pointed
+        to Long-Primer, No. 20 from the Bruce Foundry in New York—where an old
+        printed American edition of Dante Aligheri’s, <em
+          >The Vision of Purgatory</em
+        >, was also published.
+      </p>
+      <p>
+        This classic piece of Italian literature, one of three parts to
+        Aligheri’s <em
+          >La Divina Commedia (Inferno, Purgatorio, and Paradiso)</em
+        >, was not only chosen for its typographic source material, but for its
+        rich poetic symbolism, historical significance, and beautiful
+        illustrations by <a
+          href="https://en.wikipedia.org/wiki/Gustave_Dor%C3%A9"
+          target="_blank">Gustave Doré</a
+        >—all of which helped provide inspiration and direction for this
+        revival, despite being a great distance removed from its original
+        manuscripts and early printed editions. On revisiting older, yet,
+        tangible editions in the local library stacks, my focus shifted and
+        centered around Beatrice rather than Virgil or Dante. Beatrice,
+        referenced throughout the poem, can be seen as Dante’s love and divine
+        guiding light on his journey to the heavens and the guide for this
+        revival—Beatrice No. 30.
+      </p>
 
+      <h3 class="description-heading">About the Type</h3>
+      <p>
+        The type found in this 19th century American edition of Purgatory, was a
+        journey of discovery in itself. The typeface used can be referenced as a
+        transitional typeface, despite having old style qualities, including old
+        style figures. The axis is vertical as visible in the ‘o’ and represents
+        a shift away from the calligraphic hand and a step closer to modern
+        typefaces like Bodoni. However, its primary characteristics remain
+        closer to a Baskerville, making it more suitable for text due to its
+        reduced contrast when compared to higher-contrast modern forms.
+      </p>
+      <p>
+        The color of the text on the page remains quite light due to the
+        lightweight nature of the letterforms themselves, its generous spacing,
+        which has been reduced slightly in the revival, and its moderate
+        contrast. The letterforms carry more weight on top and bottom with its
+        use of bracketed serifs and angled caps. The ball shape terminals are
+        another defining feature, which remain in tact, but reduced in scale for
+        improved readability for contemporary readers. Together, these details
+        and characteristics allow for a clear and enjoyable reading experience
+        that works best in text sizes rather than larger display sizes.
+      </p>
+      <p>
+        In its current state, Beatrice No. 30 is limited to a single Regular
+        weight and style and to basic latin languages. An extensive character
+        set with more language support, styles, and weights may potentially be
+        added in the future to make it more applicable for varied use.
+      </p>
+      <p>
+        Beatrice No. 30, therefore, is unreleased and will remain as such until
+        it meets a more complete and polished state. More importantly, it has
+        been an incredible learning process; I know I will carry the knowledge
+        and learnings with me into future type projects—which is what it's all
+        about in these early stages.
+      </p>
 
-					<figure>
-						<img loading="lazy" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1738893497/beatrice-no-30_9_v82kmn.jpg" alt="Illustration of angel from Purgatory on the left with a green overlay, next to a snippet of canto XIX in different font sizes.">
-						<figcaption></figcaption>
-					</figure>
+      <h3 class="description-heading">Thank You</h3>
+      <p>
+        Beatrice No. 30 was created with the excellent guidance and support of
+        the Type West Online instructors and teaching assistants.
+      </p>
+      <p>
+        Lead Instructor: Sahar Afshar<br />
+        Co-Instructor: Michele Patanè<br />
+        Type History and Theory Instructor: Ewan Clayton<br />
+        TAs: Nora Warschewski, Allie Schmitz, and Kurt F. Shaffert
+      </p>
 
-
-					<figure>
-						<img loading="lazy" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738893495/beatrice-no-30_10_wridaa.jpg" alt="Snippets from Canto XXX on a white background, showing different font sizes.">
-						<figcaption></figcaption>
-					</figure>
-
-
-					<figure>
-						<img loading="lazy" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738893495/beatrice-no-30_11_kpfjxc.jpg" alt="highlighing the full character set of Beatrice No. 30 with black text on a white background.">
-						<figcaption></figcaption>
-					</figure>
-
-					<figure>
-						<img loading="lazy" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1738893499/beatrice-no-30_12_bfdyqu.jpg" alt="highlighing the full character set of Beatrice No. 30 with black text on a white background.">
-						<figcaption></figcaption>
-					</figure>
-
-					<figure>
-						<img loading="lazy" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738893493/beatrice-no-30_13_lmhxdq.jpg" alt="highlighing the full character set of Beatrice No. 30 with black text on a white background.">
-						<figcaption></figcaption>
-					</figure>
-
-					<figure>
-						<img loading="lazy" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738894336/beatrice-no-30_14_yt1r7i.jpg" alt="Photograph of an open spread of Dante's Inferno on a table, at an angle surrounded by light.">
-						<figcaption></figcaption>
-					</figure>
-
-	
-
-				</section>
-
-				    
-                
-
-<!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
-
-
-                <article class="project-description"><a id="project-description"></a>
-
-                   <h3 class="description-heading">About the Project</h3>
-						<p>Type revivals embody a rich history in type design and play an essential role in the development of typefaces across changing technologies. They can be true to form like their original or take on new shapes and faces of their own—transforming into something quite different in the process. 
-						<p>Beatrice No. 30 is a type revival, one that primarily stays true to its printed source, with a small number of design adjustments made during the interpretation and digitization process. Though revivals can often start with a known typeface from the metal type era, this revival started as an unknown—unstated in the selected source material from where it was found. However, after spending time with its magnified forms and reviewing 19th century type specimens, a close match pointed to Long-Primer, No. 20 from the Bruce Foundry in New York—where an old printed American edition of Dante Aligheri’s, <em>The Vision of Purgatory</em>, was also published.</p>
-						<p>This classic piece of Italian literature, one of three parts to Aligheri’s <em>La Divina Commedia (Inferno, Purgatorio, and Paradiso)</em>, was not only chosen for its typographic source material, but for its rich poetic symbolism, historical significance, and beautiful illustrations by <a href="https://en.wikipedia.org/wiki/Gustave_Dor%C3%A9" target="_blank">Gustave Doré</a>—all of which helped provide inspiration and direction for this revival, despite being a great distance removed from its original manuscripts and early printed editions. On revisiting older, yet, tangible editions in the local library stacks, my focus shifted and centered around Beatrice rather than Virgil or Dante. Beatrice, referenced throughout the poem, can be seen as Dante’s love and divine guiding light on his journey to the heavens and the guide for this revival—Beatrice No. 30.</p>
-
-
-					<h3 class="description-heading">About the Type</h3>
-						<p>The type found in this 19th century American edition of Purgatory, was a journey of discovery in itself. The typeface used can be referenced as a transitional typeface, despite having old style qualities, including old style figures. The axis is vertical as visible in the ‘o’ and represents a shift away from the calligraphic hand and a step closer to modern typefaces like Bodoni. However, its primary characteristics remain closer to a Baskerville, making it more suitable for text due to its reduced contrast when compared to higher-contrast modern forms.</p>
-						<p>The color of the text on the page remains quite light due to the lightweight nature of the letterforms themselves, its generous spacing, which has been reduced slightly in the revival, and its moderate contrast. The letterforms carry more weight on top and bottom with its use of bracketed serifs and angled caps. The ball shape terminals are another defining feature, which remain in tact, but reduced in scale for improved readability for contemporary readers. Together, these details and characteristics allow for a clear and enjoyable reading experience that works best in text sizes rather than larger display sizes.</p>
-						<p>In its current state, Beatrice No. 30 is limited to a single Regular weight and style and to basic latin languages. An extensive character set with more language support, styles, and weights may potentially be added in the future to make it more applicable for varied use.</p>
-						<p>Beatrice No. 30, therefore, is unreleased and will remain as such until it meets a more complete and polished state. More importantly, it has been an incredible learning process; I know I will carry the knowledge and learnings with me into future type projects—which is what it's all about in these early stages.</p>
-
-					<h3 class="description-heading">Thank You</h3>
-						<p>Beatrice No. 30 was created with the excellent guidance and support of the Type West Online instructors and teaching assistants.</p>
-						<p>Lead Instructor: Sahar Afshar<br>
-						Co-Instructor: Michele Patanè<br>
-						Type History and Theory Instructor: Ewan Clayton<br>
-						TAs: Nora Warschewski, Allie Schmitz, and Kurt F. Shaffert</p>
-
-						<p>View on the <a href="https://typewest.letterformarchive.org/2024/revivals/" target="_blank">Letterform Archive website</a>, along with the revivals of the whole Type West Online 2024 cohort.</p>
-
-
-					
-				</article>
-            </main>
-
-		<Footer />
-
-		<script>		
-			import "../../scripts/menu.js";
-		</script>
-		
-	</body>
-</html>
+      <p>
+        View on the <a
+          href="https://typewest.letterformarchive.org/2024/revivals/"
+          target="_blank">Letterform Archive website</a
+        >, along with the revivals of the whole Type West Online 2024 cohort.
+      </p>
+    </p>
+  </article>
+</BaseLayout>

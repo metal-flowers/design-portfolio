@@ -102,9 +102,10 @@ html {
   body {
     margin: 0 auto;
     width: 100%;
-    padding: 1% 2%;
+    /* padding: 1% 2%; */
     background-color: #e4e4e4;
-    min-height: 100vh;
+
+
   }
 
 
@@ -254,7 +255,13 @@ grid-area: info-col-1;
   }
 
 
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the container takes full viewport height */
+    padding: 1% 2%;
 
+  }
 
   .grid-container {
     display: grid;
@@ -265,7 +272,12 @@ grid-area: info-col-1;
     "about about about about about about"
     "project-grid project-grid project-grid project-grid project-grid project-grid"
     "main main main main main main"
-    "project-photos project-photos project-photos project-photos project-photos project-photos"
+    "project-photos project-photos project-photos project-photos project-photos project-photos";
+
+    }
+
+    .content {
+      flex-grow: 1;
     }
 
   .grid-container-info {
@@ -885,3 +897,19 @@ padding: 0 1% 0 0;
     margin: 0 2%;    
     }
   }
+
+
+
+
+  /* BLOG */
+.post-content {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end:6;
+}
+
+.blog-post-image-lg {
+  width: 100%;
+  margin: 2% 0;
+  border-radius: 16px;
+}

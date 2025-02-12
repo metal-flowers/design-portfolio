@@ -1,150 +1,197 @@
 ---
-const pageTitle = "Primitiv Text";
-const author = "Annie Szafranski";
-const pageDescription = "An original font inspired by fundamental waveforms of synthesized sound.";
+const title = "Primitiv Text";
+const description =
+  "An original font inspired by fundamental waveforms of synthesized sound.";
 
-
-import '../../styles/global.css';
-import Favicon from '../../components/Favicon.astro';
-import Logotype from '../../components/Logotype.astro';
-import Navigation from '../../components/Navigation.astro';
-import Footer from '../../components/Footer.astro';
-
+import "../../styles/global.css";
+import BaseLayout from "../../layouts/BaseLayout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle} | {author}</title>
-		<meta name="author" content={author} />
-		<meta name="description" content={pageDescription} />
-		<Favicon />
-		<Logotype />
-	</head>
+<BaseLayout {title} {description}>
+  <!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
 
-	<body>
-		<Navigation />
+  <section class="project-info">
+    <h1>{title}</h1>
+    <h2>{description}</h2>
+    <a class="read-more" href="#project-description">Read More</a>
+  </section>
 
-			<main class="grid-container">
+  <!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
 
-        
-<!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
+  <section class="project-photos">
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_50/v1738902608/primitiv-text_1_jmow5m.png"
+        alt="Introductory slide showing the name of a new Type Family: Primitiv Text. Background of is of a nameless synthesizer and the font name is on a white background."
+      />
+      <figcaption></figcaption>
+    </figure>
 
-				<section class="project-info">
-                    <h1>{pageTitle}</h1>
-                    <h2>An original font inspired by fundamental waveforms of synthesized sound.</h2>
-                    <a class ="read-more" href ="#project-description">Read More</a>
-				</section>
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_20/v1738902606/primitiv-text_2_qjwrzh.png"
+        alt="Font weights are displayed in order from backslant, regular, medium, semibold and bold in white text on a black background with a synthesizer and oscilloscope in view"
+      />
+      <figcaption></figcaption>
+    </figure>
 
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738902606/primitiv-text_3_mg958w.png"
+        alt="3 column view of primary styles: regular, backslant, and bold in white text on a black background: listing synth related words"
+      />
+      <figcaption></figcaption>
+    </figure>
 
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738902605/primitiv-text_4_gkev8l.png"
+        alt="2 column view of type features: weight on the left, slant on the right"
+      />
+      <figcaption></figcaption>
+    </figure>
 
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738902605/primitiv-text_5_swa2e7.png"
+        alt="Full glyph set view in regular weight. Each glyph is in its own box with the unicode below. Boxes and text is in yellow on a black background."
+      />
+      <figcaption></figcaption>
+    </figure>
 
-<!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
-				
-                <section class="project-photos">
-                    <figure>
-						
-					<img 
-						style="background: rgb(6, 6, 6);"
-						src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_50/v1738902608/primitiv-text_1_jmow5m.png" alt="Introductory slide showing the name of a new Type Family: Primitiv Text. Background of is of a nameless synthesizer and the font name is on a white background.">
-						<figcaption></figcaption>
-					</figure>
+    <figure>
+      <img
+        style="background: rgb(255, 255, 255);"
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_50/v1738902607/primitiv-text_6_cilmss.png"
+        alt="Collection of a single paragraph in every style for Primitv text in black text on a light gray background. Paragraph is about subtractive synthesis."
+      />
+      <figcaption></figcaption>
+    </figure>
 
-					<figure>
-						<img 
-						style="background: rgb(6, 6, 6);"
-						src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_20/v1738902606/primitiv-text_2_qjwrzh.png" alt="Font weights are displayed in order from backslant, regular, medium, semibold and bold in white text on a black background with a synthesizer and oscilloscope in view">
-						<figcaption></figcaption>
-					</figure>
+    <figure>
+      <img
+        style="background: rgb(255, 255, 255);"
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_50/v1738902605/primitiv-text_7_tgizwq.png"
+        alt="Full glyph set in each primary style: regular, backslant, and bold in black text on a light gray background."
+      />
+      <figcaption></figcaption>
+    </figure>
 
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1738902609/primitiv-text_8_be0f4w.png"
+        alt="Collection of ephemeral pieces highlighting Primitiv Text in different styles: showing a club flyer, a one sheet of technical writing, and 2 graphics on sound with a label underneath. All sitting on top of a textured black and white background."
+      />
+      <figcaption></figcaption>
+    </figure>
 
-					<figure>
-						<img 
-						style="background: rgb(6, 6, 6);"
-						src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738902606/primitiv-text_3_mg958w.png" alt="3 column view of primary styles: regular, backslant, and bold in white text on a black background: listing synth related words">
-						<figcaption></figcaption>
-					</figure>
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1738902609/primitiv-text_9_qvp8eg.png"
+        alt="A final shot of Primitiv Text front and center, on a textured and colorful vhs background, pulled from my upcoming video."
+      />
+      <figcaption></figcaption>
+    </figure>
 
-					<figure>
-						<img
-						style="background: rgb(6, 6, 6);" loading="lazy" 
-						src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738902605/primitiv-text_4_gkev8l.png" alt="2 column view of type features: weight on the left, slant on the right">
-						<figcaption></figcaption>
-					</figure>
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_80/v1738902615/primitiv-text_10_pzhnmi.png"
+        alt="Open spread of a book with the original font replaced and swapped for Beatrice No. 30"
+      />
+      <figcaption></figcaption>
+    </figure>
+  </section>
 
-					<figure>
-						<img style="background: rgb(6, 6, 6);" loading="lazy" 
-						src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738902605/primitiv-text_5_swa2e7.png" alt="Full glyph set view in regular weight. Each glyph is in its own box with the unicode below. Boxes and text is in yellow on a black background.">
-						<figcaption></figcaption>
-					</figure>
+  <!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
 
-					<figure>
-						<img style="background: rgb(255, 255, 255);" loading="lazy" 
-						src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_50/v1738902607/primitiv-text_6_cilmss.png" alt="Collection of a single paragraph in every style for Primitv text in black text on a light gray background. Paragraph is about subtractive synthesis.">
-						<figcaption></figcaption>
-					</figure>
+  <article class="project-description">
+    <a id="project-description"></a>
 
+    <h3 class="description-heading">About the Project</h3>
+    <p>
+      Textured synthesized sound of pioneering electronic music, oscillated
+      waveforms changing shape, text-rich technical synthesizer manuals—these
+      are the foundational sources of inspiration for Primitiv Text, a new type
+      family created across Term 2 and Term 3 of Type West through the
+      Letterform Archive.
+    </p>
+    <p>
+      It’s ambitious to turn abstract inspiration rooted from sound into type,
+      but how else does one start an idea for a typeface, especially one with
+      multiple styles? Big and abstract is okay. However, if we focus on
+      foundations and add a few additional objectives to learn from, that makes
+      some of the design decisions easier. For Primitiv Text, the first decision
+      is to create an original text typeface, not based on a revival, and the
+      second is to construct a variable font with interpolated instances. These
+      initial thoughts can be added to the official requirements for Type West,
+      which are: to design a 3-style type family consisting of a regular,
+      bold, and italic. Primitiv Text does this in the form of a regular, bold,
+      and a backslant instead of a traditional italic. Additionally, two new
+      instances are created from interpolation—medium and semibold.
+    </p>
+    <p>
+      Since the origins for Primitiv Text began with inspiration from electronic
+      music, initial curiosities formed around creating type inspired by old
+      magnetic tape packaging and, relatedly, the early experimental collages of
+      recorded sound of musique concrète, a precursor to electronic music
+      developed by Pierre Schaeffer in the 1940s. However, the challenge seemed
+      too vast and esoteric. I shifted to a more familiar period of the 1970s
+      and 1980s, where electronic music as we know it today was expanding, and
+      experimentation became more accessible and expressive through the use of
+      synthesizers.
+    </p>
+    <p>
+      Finding inspiration through the lens of early electronic music and its
+      technology and tools became a helpful way to reference and develop the
+      concept that started to form Primitiv Text. Oscilloscopes, oscillators,
+      waveform shapes (especially triangle, sawtooth, and square), synthesizers
+      and their labels and manuals, all came to mind while offering visual
+      guidance outside of traditional design and typographic sources. Together,
+      these formed a helpful starting point to sketch abstract ideas around,
+      without interpretation from music alone.
+    </p>
 
-					<figure>
-						<img style="background: rgb(255, 255, 255);" loading="lazy" 
-						src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_50/v1738902605/primitiv-text_7_tgizwq.png" alt="Full glyph set in each primary style: regular, backslant, and bold in black text on a light gray background.">
-						<figcaption></figcaption>
-					</figure>
-
-					<figure>
-						<img style="background: rgb(6, 6, 6);" loading="lazy" 
-						src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1738902609/primitiv-text_8_be0f4w.png" alt="Collection of ephemeral pieces highlighting Primitiv Text in different styles: showing a club flyer, a one sheet of technical writing, and 2 graphics on sound with a label underneath. All sitting on top of a textured black and white background.">
-						<figcaption></figcaption>
-					</figure>
-
-					<figure>
-						<img style="background: rgb(6, 6, 6);" loading="lazy" 
-						src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1738902609/primitiv-text_9_qvp8eg.png" alt="A final shot of Primitiv Text front and center, on a textured and colorful vhs background, pulled from my upcoming video.">
-						<figcaption></figcaption>
-					</figure>
-
-					<figure>
-						<img style="background: rgb(6, 6, 6);" loading="lazy" 
-						src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_80/v1738902615/primitiv-text_10_pzhnmi.png" alt="Open spread of a book with the original font replaced and swapped for Beatrice No. 30">
-						<figcaption></figcaption>
-					</figure>
-
-				</section>
-
-				    
-                
-
-<!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
-
-
-                <article class="project-description"><a id="project-description"></a>
-
-					<h3 class="description-heading">About the Project</h3>
-						<p>Textured synthesized sound of pioneering electronic music, oscillated waveforms changing shape, text-rich technical synthesizer manuals—these are the foundational sources of inspiration for Primitiv Text, a new type family created across Term 2 and Term 3 of Type West through the Letterform Archive.</p>
-						<p>It’s ambitious to turn abstract inspiration rooted from sound into type, but how else does one start an idea for a typeface, especially one with multiple styles? Big and abstract is okay. However, if we focus on foundations and add a few additional objectives to learn from, that makes some of the design decisions easier. For Primitiv Text, the first decision is to create an original text typeface, not based on a revival, and the second is to construct a variable font with interpolated instances. These initial thoughts can be added to the official requirements for Type West, which are: to design a 3-style type family consisting of a regular, bold, and italic. Primitiv Text does this in the form of a regular, bold, and a backslant instead of a traditional italic. Additionally, two new instances are created from interpolation—medium and semibold.</p>
-						<p>Since the origins for Primitiv Text began with inspiration from electronic music, initial curiosities formed around creating type inspired by old magnetic tape packaging and, relatedly, the early experimental collages of recorded sound of musique concrète, a precursor to electronic music developed by Pierre Schaeffer in the 1940s. However, the challenge seemed too vast and esoteric. I shifted to a more familiar period of the 1970s and 1980s, where electronic music as we know it today was expanding, and experimentation became more accessible and expressive through the use of synthesizers.</p>
-						<p>Finding inspiration through the lens of early electronic music and its technology and tools became a helpful way to reference and develop the concept that started to form Primitiv Text. Oscilloscopes, oscillators, waveform shapes (especially triangle, sawtooth, and square), synthesizers and their labels and manuals, all came to mind while offering visual guidance outside of traditional design and typographic sources. Together, these formed a helpful starting point to sketch abstract ideas around, without interpretation from music alone.</p>
-				
-					<h3 class="description-heading">About the Type</h3>
-                        <p>Primitiv Text is a geometric sans serif text typeface with a comfortably noisy texture and primitive forms. It is heavily inspired by fundamental waveform shapes of synthesized sound—triangle, sawtooth, and square waves—visualized through an oscilloscope. Additionally, it pulls inspiration from dense technical synthesizer manuals that describe said machines and how to use them. Primitiv Text is constructed with vertical, horizontal, and diagonal lines to create curves without curves, and includes four weights and a backslant to create a textured reading experience.</p>
-						<p>Primitiv Text is unavailble and unreleased, for still much work and thorough testing needs to be done. If you wish to help me release this in the future, please be in touch!</p>
-					<h3 class="description-heading">Thanks</h3>
-						<p>Primitiv Text was created with the excellent guidance and support of the Type West Online instructors and teaching assistants.</p>
-						<p>Lead Instructor: Sahar Afshar<br>
-						Co-Instructor: Fer Cozzi<br>
-						TAs: Nora Warschewski and Allie Schmitz</p>
-
-					
-				</article>
-            </main>
-
-		<Footer />
-
-		<script>		
-			import "../../scripts/menu.js";
-		</script>
-		
-	</body>
-</html>
+    <h3 class="description-heading">About the Type</h3>
+    <p>
+      Primitiv Text is a geometric sans serif text typeface with a comfortably
+      noisy texture and primitive forms. It is heavily inspired by fundamental
+      waveform shapes of synthesized sound—triangle, sawtooth, and square
+      waves—visualized through an oscilloscope. Additionally, it pulls
+      inspiration from dense technical synthesizer manuals that describe said
+      machines and how to use them. Primitiv Text is constructed with vertical,
+      horizontal, and diagonal lines to create curves without curves, and
+      includes four weights and a backslant to create a textured reading
+      experience.
+    </p>
+    <p>
+      Primitiv Text is unavailble and unreleased, for still much work and
+      thorough testing needs to be done. If you wish to help me release this in
+      the future, please be in touch!
+    </p>
+    <h3 class="description-heading">Thanks</h3>
+    <p>
+      Primitiv Text was created with the excellent guidance and support of the
+      Type West Online instructors and teaching assistants.
+    </p>
+    <p>
+      Lead Instructor: Sahar Afshar<br />
+      Co-Instructor: Fer Cozzi<br />
+      TAs: Nora Warschewski and Allie Schmitz
+    </p>
+  </article>
+</BaseLayout>

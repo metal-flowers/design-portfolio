@@ -1,76 +1,48 @@
 ---
-const pageTitle = "Page Not Found";
-const author = "Annie Szafranski";
-const pageDescription = "Oops, this page is not here";
+const title = "Page Not Found";
+const description = "Oops, this page is not here";
 
-import '../styles/global.css';
-import Navigation from '../components/Navigation.astro';
-import Logotype from '../components/Logotype.astro';
-import Footer from '../components/Footer.astro';
-import Favicon from '../components/Favicon.astro';
-import Hamburger from '../components/Hamburger.astro';
-
+import "../styles/global.css";
+import Navigation from "../components/Navigation.astro";
+import Logotype from "../components/Logotype.astro";
+import Footer from "../components/Footer.astro";
+import Favicon from "../components/Favicon.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<html lang="en">
+<BaseLayout {title} {description}>
+  <section class="about">
+    <h1>
+      Oops, that page does not exist anymore, or right now, if it ever did.
+      Moving things around as I rebuild this website.
+    </h1>
+  </section>
 
+  <section class="project-grid">
+    <!---------- PROJECT 1 ------------>
 
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image" href="/favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle} | {author}</title>
-		<meta name="author" content= {author} />
-		<meta name="description" content={pageDescription}/>
-		<Favicon />
-		<Logotype />
-	</head>
+    <div class="project">
+      <a href="/projects/beatrice-no-30-type-revival"
+        ><img src="/images/beatrice-no-30/beatrice-no-30_0.jpg" /></a
+      >
+      <h2 class="project-title">
+        <a href="projects/beatrice-no-30-type-revival">Beatrice No. 30</a>
+      </h2>
+      <p class="project-type">Type Design</p>
+    </div>
 
-	<body>
-		<Navigation />
-	
-			<main class="grid-container">
-				
-			
-				<section class="about">
-						<h1>Oops, that page does not exist anymore, or right now, if it ever did. Moving things around as I rebuild this website.</h1>
-				
-				</section>
-				
+    <!---------- PROJECT 2 ------------>
 
+    <div class="project">
+      <a href="/projects/marlborough-titling"
+        ><img src="/images/marlborough-titling/marlborough-titling_10.png" /></a
+      >
+      <h2 class="project-title">
+        <a href="projects/marlborough-titling">Marlborough Titling</a>
+      </h2>
+      <p class="project-type">Type Design</p>
+    </div>
 
-				<section class="project-grid">
-
-				<!---------- PROJECT 1 ------------>
-
-				<div class="project">
-					<a href="/projects/beatrice-no-30-type-revival"><img src="/images/beatrice-no-30/beatrice-no-30_0.jpg"></a>
-					<h2 class="project-title"><a href="projects/beatrice-no-30-type-revival">Beatrice No. 30</a></h2>
-						<p class="project-type">Type Design</p>
-				</div>	
-
-				<!---------- PROJECT 2 ------------>
-						
-						<div class="project">
-							<a href="/projects/marlborough-titling"><img src="/images/marlborough-titling/marlborough-titling_10.png"></a>
-							<h2 class="project-title"><a href="projects/marlborough-titling">Marlborough Titling</a></h2>
-								<p class="project-type">Type Design</p>
-						</div>	
-
-				<!---------- PROJECT 3 ------------>
-
-				</section>
-
-		</main>
-	
-	</div>
-
-		<Footer />
-
-		<script>		
-			import "../scripts/menu.js";
-		</script>
-
-	  </body>
-</html>
+    <!---------- PROJECT 3 ------------>
+  </section>
+</BaseLayout>

@@ -1,17 +1,15 @@
 ---
-title: 'My First Blog Post'
-pubDate: 2022-07-01
-description: 'This is the first post of my new Astro blog.'
-author: 'Annie Szafranski'
+layout: ../../layouts/MarkdownPostLayout.astro
+title: Souvenir Du Lido Des Champs Élysées
+author: Astro Learner
+description: "I had some challenges, but asking in the community really helped!"
 image:
-    url: 'https://docs.astro.build/assets/rose.webp'
-    alt: 'The Astro logo on a dark background with a pink glow.'
-category: ["design-inspiration"]
-
+    url: "https://docs.astro.build/assets/rays.webp"
+    alt: "The Astro logo on a dark background with rainbow rays."
+pubDate: 2017-08-09
+tags: ["astro", "learning in public", "setbacks", "community"]
 ---
-# Souvenir Du Lido Des Champs Élysées
 
-Published on: 2017-08-09
 
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
 

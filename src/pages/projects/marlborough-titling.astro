@@ -1,136 +1,187 @@
 ---
-const pageTitle = "Marlborough Titling";
-const author = "Annie Szafranski";
-const pageDescription = "Type design concept based on a vintage hand-painted video store signage.";
+const title = "Marlborough Titling";
+const description =
+  "Type design concept based on a vintage hand-painted video store signage.";
 
-import '../../styles/global.css';
-import Favicon from '../../components/Favicon.astro';
-import Logotype from '../../components/Logotype.astro';
-import Navigation from '../../components/Navigation.astro';
-import Footer from '../../components/Footer.astro';
-
+import "../../styles/global.css";
+import BaseLayout from "../../layouts/BaseLayout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle} | {author}</title>
-          <meta name="author" content={author} />
-          <meta name="description" content={pageDescription} />
-          <Favicon />
-          <Logotype />
-	</head>
-     
-	<body>
-		<Navigation />
+<BaseLayout {title} {description}>
+  <!--   <div class="project-case-study"> -->
 
-		<main class="grid-container">
+  <!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
 
-     <!--   <div class="project-case-study"> --> 
+  <section class="project-info">
+    <h1>{title}</h1>
+    <h2>
+      {description}
+    </h2>
+    <a class="read-more" href="#project-description">Read More</a>
+  </section>
 
-        
-<!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
+  <!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
 
-				<section class="project-info">
-                    <h1>{pageTitle}</h1>
-                    <h2>A type design concept based on vintage hand-painted video store signage</h2>
-                    <a class ="read-more" href ="#project-description">Read More</a>
-				</section>
+  <section class="project-photos">
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895232/marlborough-titling_01_m6xgst.png"
+        alt="Intro to Modern Type Design"
+      />
+      <figcaption></figcaption>
+    </figure>
 
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895232/marlborough-titling_02_wmgm9m.png"
+        alt="Introducing Marlborough Titling v0.1"
+      />
+      <figcaption></figcaption>
+    </figure>
 
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895233/marlborough-titling_03_je41mh.png"
+        alt="A mono-weight, semi-condensed, grotesk, sans serif."
+      />
+      <figcaption></figcaption>
+    </figure>
 
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895233/marlborough-titling_04_z9mo3a.png"
+        alt="Waterfall of text"
+      />
+      <figcaption></figcaption>
+    </figure>
 
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895232/marlborough-titling_05_w4r5oz.png"
+        alt="Full character set displayed"
+      />
+      <figcaption></figcaption>
+    </figure>
 
-<!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
-				
-                <section class="project-photos">
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895237/marlborough-titling_06_kltisx.png"
+        alt="Photo of original signage Marlborough takes inspiration from"
+      />
+      <figcaption></figcaption>
+    </figure>
 
-                    <figure>
-                         <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895232/marlborough-titling_01_m6xgst.png" alt="Intro to Modern Type Design">
-                         <figcaption></figcaption>
-                    </figure>
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895235/marlborough-titling_07_dqxjsm.png"
+        alt="Photo close up of letters G, M and R"
+      />
+      <figcaption></figcaption>
+    </figure>
 
-                    <figure>
-                         <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895232/marlborough-titling_02_wmgm9m.png" alt="Introducing Marlborough Titling v0.1">
-                         <figcaption></figcaption>
-                    </figure>
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895236/marlborough-titling_08_d9kzgu.png"
+        alt="Character sketches overlayed on photo"
+      />
+      <figcaption></figcaption>
+    </figure>
 
-                    <figure>
-                         <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895233/marlborough-titling_03_je41mh.png" alt="A mono-weight, semi-condensed, grotesk, sans serif.">
-                         <figcaption></figcaption>
-                    </figure>
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895234/marlborough-titling_09_npdsha.png"
+        alt="Uppercase and lowercase letter samples"
+      />
+      <figcaption></figcaption>
+    </figure>
 
-                    <figure>
-                         <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895233/marlborough-titling_04_z9mo3a.png" alt="Waterfall of text">
-                         <figcaption></figcaption>
-                    </figure>
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895234/marlborough-titling_10_gffzii.png"
+        alt="Marlborough titling in use on an example film club flyer and film signage"
+      />
+      <figcaption></figcaption>
+    </figure>
 
-                    <figure>
-                         <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895232/marlborough-titling_05_w4r5oz.png" alt="Full character set displayed">
-                         <figcaption></figcaption>
-                    </figure>
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895237/marlborough-titling_11_tqdpvn.jpg"
+        alt="Black and white photo of original lettered signage, front and center, in the design studio"
+      />
+      <figcaption></figcaption>
+    </figure>
+  </section>
 
-                    <figure>
-                         <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895237/marlborough-titling_06_kltisx.png" alt="Photo of original signage Marlborough takes inspiration from">
-                         <figcaption></figcaption>
-                    </figure>
+  <!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
 
-                    <figure>
-                         <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895235/marlborough-titling_07_dqxjsm.png" alt="Photo close up of letters G, M and R">
-                         <figcaption></figcaption>
-                    </figure>
+  <article class="project-description">
+    <a id="project-description"></a>
 
-                    <figure>
-                         <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895236/marlborough-titling_08_d9kzgu.png" alt="Character sketches overlayed on photo">
-                         <figcaption></figcaption>
-                    </figure>
-
-                    <figure>
-                         <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895234/marlborough-titling_09_npdsha.png" alt="Uppercase and lowercase letter samples">
-                         <figcaption></figcaption>
-                    </figure>
-
-                    <figure>
-                         <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895234/marlborough-titling_10_gffzii.png" alt="Marlborough titling in use on an example film club flyer and film signage">
-                         <figcaption></figcaption>
-                    </figure>
-
-                    <figure>
-                         <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1738895237/marlborough-titling_11_tqdpvn.jpg" alt="Black and white photo of original lettered signage, front and center, in the design studio">
-                         <figcaption></figcaption>
-                    </figure>
-               
-               </section>
-
-
-
-
-				    
-                
-
-<!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
-
-
-                <article class="project-description"><a id="project-description"></a>
-
-                   <h3 class="description-heading">About the Project</h3>
-                         <p>To kick off 2023, I signed up for a 10-week type design workshop, <a href="https://letterformarchive.org/events/view/intro-to-modern-type-design-spring-2023/" target="_blank">Introduction to Modern Type Design</a>, through the <a href="https://letterformarchive.org/" target="_blank">Letterform Archive</a>. It was my first official Letterform Archive workshop after years of support from afar, and also the first workshop I've taken specific to type design. Kel Troughton of <a href="https://overlaptype.com/" target="_blank">Overlap Type</a> taught the class, along with <a href="https://jamesplattner.com/" target="_blank">James Plattner</a>, who TA'd (he also just released <a href="https://store.overlaptype.com/fonts/outgo" target="_blank">Outgo</a> through Overlap Type). We had some lovely surprise guests towards the end of the workshop, like Libbie Bischoff of <a href="https://www.typedunord.com/" target="_blank">Type Du Nord</a> and James Edmondson of <a href="https://ohnotype.co/" target="_blank">OhnoTypeCo</a>—super inspiring!</p>                    
-                         <p>The goal of the IMTD workshop was to get our feet wet in the world of type design and finish the workshop with a type concept of our own and a basic glyph set. Due to the level and length of the course, we weren't expected to finish with a completed type family. Instead, we'd have all the uppercase and lowercase letterforms, numerals, and select glyphs—whatever we had time for—in a single weight.</p>
-                         <p>Thus, Marlborough Titling (v0.1) was born! Marlborough Titling is shamelessly inspired by an old hand painted sign from a local video store that shut down years ago—Kensington Video. I have been obsessed with the sign and fortunately had the pleasure of meeting the person who hand-painted it for their family-owned business many years ago. The name comes from the street where it was painted.</p>
-                         <p>Working on Marlborough Titling has been wonderful and exciting. It was challenging, of course, but also a valuable learning experience for a graphic designer who has worked closely with type for years. Some of the biggest challenges for me, were getting the weights balanced on all the characters—especially between uppercase and lowercase letters. Setting the spacing and creating the punctuation were also a challenge, so a good amount of it was a struggle each week.</p>
-                         <p>One of my favorite aspects of this project was envisioning and creating the lowercase character set out of reference material that only included uppercase letters. Thinking about the specific qualities that made up my source material, and therefore helped inform Marlborough Titling, was an exercise in studying letterforms and their characteristics closely; it felt like solving a mystery of what those new letters would look like based on the clues I did have to complete the system.</p>
-                         <p>I hope to jump back into creating Marlborough Titling soon and finish the regular weight with a more extensive glyph set. Though I am interested in seeing this project in other weights, the scope will most likely stay fairly limited since this is my first type design project. </p>
-                    
-
-                </article>
-               </main>
-
-		<Footer />
-          <script>		
-			import "../../scripts/menu.js";
-		</script>
-	</body>
-</html>
+    <h3 class="description-heading">About the Project</h3>
+    <p>
+      To kick off 2023, I signed up for a 10-week type design workshop, <a
+        href="https://letterformarchive.org/events/view/intro-to-modern-type-design-spring-2023/"
+        target="_blank">Introduction to Modern Type Design</a
+      >, through the <a href="https://letterformarchive.org/" target="_blank"
+        >Letterform Archive</a
+      >. It was my first official Letterform Archive workshop after years of
+      support from afar, and also the first workshop I've taken specific to type
+      design. Kel Troughton of <a
+        href="https://overlaptype.com/"
+        target="_blank">Overlap Type</a
+      > taught the class, along with <a
+        href="https://jamesplattner.com/"
+        target="_blank">James Plattner</a
+      >, who TA'd (he also just released <a
+        href="https://store.overlaptype.com/fonts/outgo"
+        target="_blank">Outgo</a
+      > through Overlap Type). We had some lovely surprise guests towards the end
+      of the workshop, like Libbie Bischoff of <a
+        href="https://www.typedunord.com/"
+        target="_blank">Type Du Nord</a
+      > and James Edmondson of <a href="https://ohnotype.co/" target="_blank"
+        >OhnoTypeCo</a
+      >—super inspiring!
+    </p>
+    <p>
+      The goal of the IMTD workshop was to get our feet wet in the world of type
+      design and finish the workshop with a type concept of our own and a basic
+      glyph set. Due to the level and length of the course, we weren't expected
+      to finish with a completed type family. Instead, we'd have all the
+      uppercase and lowercase letterforms, numerals, and select glyphs—whatever
+      we had time for—in a single weight.
+    </p>
+    <p>
+      Thus, Marlborough Titling (v0.1) was born! Marlborough Titling is
+      shamelessly inspired by an old hand painted sign from a local video store
+      that shut down years ago—Kensington Video. I have been obsessed with the
+      sign and fortunately had the pleasure of meeting the person who
+      hand-painted it for their family-owned business many years ago. The name
+      comes from the street where it was painted.
+    </p>
+    <p>
+      Working on Marlborough Titling has been wonderful and exciting. It was
+      challenging, of course, but also a valuable learning experience for a
+      graphic designer who has worked closely with type for years. Some of the
+      biggest challenges for me, were getting the weights balanced on all the
+      characters—especially between uppercase and lowercase letters. Setting the
+      spacing and creating the punctuation were also a challenge, so a good
+      amount of it was a struggle each week.
+    </p>
+    <p>
+      One of my favorite aspects of this project was envisioning and creating
+      the lowercase character set out of reference material that only included
+      uppercase letters. Thinking about the specific qualities that made up my
+      source material, and therefore helped inform Marlborough Titling, was an
+      exercise in studying letterforms and their characteristics closely; it
+      felt like solving a mystery of what those new letters would look like
+      based on the clues I did have to complete the system.
+    </p>
+    <p>
+      I hope to jump back into creating Marlborough Titling soon and finish the
+      regular weight with a more extensive glyph set. Though I am interested in
+      seeing this project in other weights, the scope will most likely stay
+      fairly limited since this is my first type design project.
+    </p>
+  </article>
+</BaseLayout>
