@@ -267,7 +267,7 @@ grid-area: info-col-1;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 1em;
-    padding: 0 4%;
+    padding: 0 2%;
     grid-template-areas: 
     "about about about about about about"
     "project-grid project-grid project-grid project-grid project-grid project-grid"
