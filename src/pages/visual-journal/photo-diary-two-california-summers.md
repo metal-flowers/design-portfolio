@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: Photo Diary | Two California Summers
+title: 'Photo Diary: Two California Summers'
 date: 7/27/2023
 description: "Ilford Sprite 35 II + Expired Film"
 image:

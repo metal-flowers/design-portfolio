@@ -6,7 +6,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 //Utils Imports
 import { formatBlogPosts } from "../scripts/utils";
 
-const title = "visual journal";
+const title = "Visual Journal";
 const allPosts = await Astro.glob('../pages/visual-journal/*.md');
 const formattedPosts = formatBlogPosts(allPosts);
 
