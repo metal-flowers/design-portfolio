@@ -9,11 +9,13 @@ import { formatBlogPosts } from "../scripts/utils";
 const title = "Visual Journal";
 const allPosts = await Astro.glob('../pages/visual-journal/*.md');
 const formattedPosts = formatBlogPosts(allPosts);
+const description = "graphic design and typography related snippets of design work, works in progress, and inspiration from Annie Szafranski";
+
 
 
 ---
 
-<BaseLayout {title}>
+<BaseLayout {title} {description}>
 	<div class="post-index">
 	<ul>
 		{formattedPosts.map((post: any) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
