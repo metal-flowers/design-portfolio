@@ -653,7 +653,7 @@ p {
   font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.600rem;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
 }
 
 
@@ -919,7 +919,7 @@ padding: 0 1% 0 0;
   grid-column-start: 1;
   grid-column-end:5;
   border-right: 1px solid black;
-  padding: 0 4% 0 0;
+  padding: 0 6% 0 0;
 }
 
 .post-index {
@@ -930,24 +930,30 @@ padding: 0 1% 0 0;
 
 .post-index ul li {
 border-bottom: 1px solid black;
-padding: 2% 0;
 }
 
+.post-index ul li a {
+    display: flex;
+    height: 100%;
+    padding: 1% 0;
+  }
+
+  
 .blog-post-image-lg {
   width: 100%;
-  margin: 1% 0 2%;
+  margin: 1% 0 3%;
   border-radius: 16px;
 }
 
 .blog-post-image-sm {
   width: 50%;
-  margin: 1% 2%;
+  margin: 2% 0;
   border-radius: 16px;
 }
 
 .blog-post-image-md {
   width: 80%;
-  margin: 4% 0;
+  margin: 2% 0;
   border-radius: 16px;
 }
 
@@ -957,7 +963,7 @@ padding: 2% 0;
   font-size: 0.778rem;
   line-height: 1.8rem;
   font-weight: 400;
-  margin: 1% 0.6%;
+  margin: 1% 0;
 }
 
 /* Responsive Styles for Tablet & Mobile */

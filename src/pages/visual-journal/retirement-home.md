@@ -10,7 +10,7 @@ tags: ["Graphic Design"]
 draft: false
 ---
 
-<img class="blog-post-image-lg" src="https://uploads-ssl.webflow.com/5f57275c7ce6c81dd8cbce52/6378ae68e86a4564712d525c_2022-02_TAXES_Cover_Square_1800.jpg">
+<img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1739408881/6378ae68e86a4564712d525c_2022-02_TAXES_Cover_Square_1800_hgprqn.jpg">
 
 It’s out! It’s out! And so worth the wait. I've been dropping the Taxes singles here as they come out, but this month we are blessed with the full Retirement Home album. And it's. so. freaking. good. I got to listen to the album while working on the design and I can't tell you how many times I've listened to this already. You can stream it wherever you stream music. 
 
