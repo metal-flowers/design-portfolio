@@ -236,6 +236,8 @@ grid-area: info-col-1;
     flex-direction: column;
     min-height: 100vh; /* Ensure the container takes full viewport height */
     padding: 1% 2%;
+    max-width: 1440px;
+    margin: 0 auto;
 
   }
 
@@ -894,8 +896,6 @@ padding: 0 1% 0 0;
   display: grid;
   grid-column-start: 1;
   grid-column-end:5;
-  border-right: 1px solid black;
-  padding: 0 6% 0 0;
 }
 
 .post-index {
