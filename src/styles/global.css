@@ -633,6 +633,7 @@ p {
   font-weight: normal;
   line-height: 1.600rem;
   margin-bottom: 2%;
+  text-wrap: pretty;
 }
 
 
@@ -747,6 +748,7 @@ h2.project-title a:hover {
     line-height: 2.2rem;
     font-weight: normal;
     margin-bottom: 1rem;
+    text-wrap: pretty;
   }
 
   h1 a {
@@ -934,6 +936,10 @@ border-bottom: 1px solid black;
   border-radius: 16px;
 }
 
+.blog-info {
+  border-bottom: 1px solid #000;
+  margin-bottom: 4%;
+}
 
 .blog-info h6 {
   font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
@@ -942,6 +948,35 @@ border-bottom: 1px solid black;
   font-weight: 400;
   margin: 1% 0;
 }
+
+
+
+/* TESTING BLOG INDEX HOVER */
+
+.post-index li {
+  position: relative;
+}
+
+.post-index li img {
+  position: absolute;
+  left: 40%;  /*Places the image to the right of the text */
+  top: -150%;
+  width: 300px; /* Adjust width as needed */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  pointer-events: none; /* Prevents interaction when hidden */
+  transition: opacity 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.post-index li:hover img {
+  opacity: 1;
+}
+
+
+
 
 /* Responsive Styles for Tablet & Mobile */
 @media (max-width: 768px) {

@@ -4,8 +4,8 @@ title: 'Retirement Home'
 date: 11/4/2022
 description: 'By Taxes'
 image:
-    url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/v1739321673/66bc5f7600c8c739c07a2664_april-webtape-album-md-1_ae39oj.jpg'
-    alt: 'The Astro logo on a dark background with a pink glow.'
+    url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_60/v1739408881/6378ae68e86a4564712d525c_2022-02_TAXES_Cover_Square_1800_hgprqn.jpg'
+    alt: ''
 tags: ["Graphic Design"]
 draft: false
 ---

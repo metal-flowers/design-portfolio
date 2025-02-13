@@ -4,8 +4,8 @@ title: 'Photo Diary: Trips With an Ilford HP5 Plus B&W Disposable'
 date: 7/23/2023
 description: 'Film from 2018, 2021, 2022'
 image:
-    url: 'https://docs.astro.build/assets/rose.webp'
-    alt: 'The Astro logo on a dark background with a pink glow.'
+    url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_auto/v1739398215/64bdc4dbec69631e31fadfe8_Disposable-HP5-10_ric38u.jpg'
+    alt: ''
 tags: ["Photography"]
 draft: false
 ---

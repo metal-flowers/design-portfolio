@@ -4,8 +4,7 @@ title: DRONE(((E)))SCAPES No. 03
 date: 9/10/2022
 description: "New Drone Track"
 image:
-    url: "https://docs.astro.build/assets/rays.webp"
-    alt: "The Astro logo on a dark background with rainbow rays."
+    url: "https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_40/v1739406377/631ec7dc11a5acf44cc8f7b8_DRONE_E_SCAPES_03_ART_1_vwdosl.png"
 tags: ["Music"]
 draft: false
 ---

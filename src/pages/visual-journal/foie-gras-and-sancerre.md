@@ -4,7 +4,7 @@ title: 'Foie Gras & Sancerre'
 date: 7/15/2022
 description: 'by Taxes'
 image:
-    url: ''
+    url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_50/v1739406096/62d4dc717556584689ef59a9_TAXES_Single_Foie-Gras-and-Sancerre_72ppi_1_mbygiz.jpg'
     alt: ''
 tags: ["Graphic Design"]
 draft: false

@@ -4,8 +4,7 @@ title: "Frozen Lake"
 date: 9/9/2022
 description: "By Taxes"
 image:
-    url: "https://docs.astro.build/assets/rays.webp"
-    alt: "The Astro logo on a dark background with rainbow rays."
+    url: "https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_50/v1739405814/631eee5df39f26f69118ae67_TAXES_Single_Frozen-Lake_150ppi_xffz1r.png"
 tags: ["Graphic Design"]
 draft: false
 ---

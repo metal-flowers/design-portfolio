@@ -4,7 +4,7 @@ title: 'Actually Using A Sketchbook'
 date: 1/27/2023
 description: 'Some Lettering Sketches of Movie Titles I Like'
 image:
-    url: ''
+    url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_50/v1739402136/63d636436f089e5cf4af1c57_movie-type-sketching_dblc25.gif'
     alt: ''
 tags: ["Type Design"]
 draft: false

@@ -14,6 +14,7 @@ const description = "graphic design and typography related snippets of design wo
 
 
 ---
+<!---
 
 <BaseLayout {title} {description}>
 	<div class="post-index">
@@ -22,3 +23,17 @@ const description = "graphic design and typography related snippets of design wo
 	</ul>
 	</div>
 </BaseLayout>
+
+ -->
+ <BaseLayout {title} {description}>
+	<div class="post-index">
+	  <ul>
+		{formattedPosts.map((post: any) => (
+		  <li>
+			<a href={post.url} class="block p-2 hover:text-blue-500">{post.frontmatter.title}</a>
+			<img src={post.frontmatter.image.url} alt={post.frontmatter.image.alt} />
+		  </li>
+		))}
+	  </ul>
+	</div>
+  </BaseLayout>
