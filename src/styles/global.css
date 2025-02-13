@@ -991,4 +991,18 @@ border-bottom: 1px solid black;
   .post-index ul li a {
     padding: 4% 0;
   }
+
+  .post-index li {
+    position: relative;
+  }
+  
+  .post-index li img {
+  display: none;
+  }
+  
+  .post-index li:hover img {
+    opacity: 1;
+  } 
+
+
 }
