@@ -975,4 +975,8 @@ border-bottom: 1px solid black;
     grid-column-end: 7;
     border: none;
   }
+
+  .post-index ul li a {
+    padding: 4% 0;
+  }
 }
