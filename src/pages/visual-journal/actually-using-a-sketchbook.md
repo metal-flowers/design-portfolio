@@ -4,11 +4,12 @@ title: 'Actually Using A Sketchbook'
 date: 1/27/2023
 description: 'Some Lettering Sketches of Movie Titles I Like'
 image:
-    url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/v1739321673/66bc5f7600c8c739c07a2664_april-webtape-album-md-1_ae39oj.jpg'
-    alt: 'The Astro logo on a dark background with a pink glow.'
+    url: ''
+    alt: ''
 tags: ["Type Design"]
 draft: false
 ---
+
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_50/v1739402136/63d636436f089e5cf4af1c57_movie-type-sketching_dblc25.gif">
 
 In a somewhat recent night when my mind and body simply would not let me sleep until 5am, I was thinking about the great [Ed Ruscha](https://edruscha.com/) and some of his beautiful and delicate [work](https://edruscha.com/works/hey-2-2/) work with [graphite](https://edruscha.com/works/annie-2-2/). It was a random thought, but certainly a welcomed one (they're rarely so generous), as it inspired me to open a sketchbook for the first time in years. 

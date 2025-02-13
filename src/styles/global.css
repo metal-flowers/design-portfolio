@@ -90,6 +90,7 @@ html {
     justify-content: space-between; /* This moves the logo to the left and nav items to the right */
     align-items: center;
     margin-bottom: 2%;
+    height: 83px;
   }
 
   /* General Styles */
@@ -557,6 +558,7 @@ h1 {
   line-height: 3.88rem;
   font-weight: normal;
   margin-bottom: 0.40rem;
+  text-wrap: pretty;
 }
 
 h1.info {
