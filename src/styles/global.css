@@ -31,60 +31,34 @@ input, textarea, button {
 @font-face {
   font-family: "Resonay-Solid-Light";
   src: url("/fonts/Resonay-Solid-Light.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face { 
   font-family: "Resonay-Solid-Regular";
   src: url("/fonts/Resonay-Solid-Regular.woff2") format("woff2");
+  font-display: swap;
 }
 
 
 @font-face { 
   font-family: "SplineSans-Regular";
   src: url("/fonts/SplineSans-Regular.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face { 
   font-family: "SplineSans-Light";
   src: url("/fonts/SplineSans-Light.woff2") format("woff2");
+  font-display: swap;
 }
 
 
 @font-face { 
   font-family: "SplineSans-SemiBold";
   src: url("/fonts/SplineSans-SemiBold.woff2") format("woff2");
+  font-display: swap;
 }
-
-
-/* TESTING PRIMITIV TEXT */
-
-
-@font-face { 
-  font-family: "PrimitivText-Backslant";
-  src: url("/fonts/PrimitivText-Backslant.woff2") format("woff2");
-}
-
-
-@font-face { 
-  font-family: "PrimitivText-Regular";
-  src: url("public/fonts/PrimitivText-Regular.woff2") format("woff2");
-}
-
-@font-face { 
-  font-family: "PrimitivText-Medium";
-  src: url("public/fonts/PrimitivText-Medium.woff2") format("woff2");
-}
-
-@font-face { 
-  font-family: "PrimitivText-Semibold";
-  src: url("/fonts/PrimitivText-Semibold.woff2") format("woff2");
-}
-
-@font-face { 
-  font-family: "PrimitivText-Bold";
-  src: url("/fonts/PrimitivText-Bold.woff2") format("woff2");
-}
-
 
 
 
