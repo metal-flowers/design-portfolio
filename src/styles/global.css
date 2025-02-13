@@ -113,7 +113,6 @@ html {
   font-size: 1rem;
   font-weight: normal;
   text-transform: uppercase;
-  letter-spacing: 0.06rem;
   border-radius: 4px;
   padding: 1% 0;
 }
@@ -125,6 +124,8 @@ html {
   padding: 1% 0;
   transition: 0.4s ease-in-out;
 }
+
+
 
 /* Hamburger Styles */
 .hamburger {
@@ -372,7 +373,7 @@ grid-area: info-col-1;
 
 a.read-more {
   margin-top: 2%;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.600rem;
   font-size: 1.000rem;
