@@ -20,4 +20,4 @@ The type was inspired by an old hand painted sign outside of a neighborhood vide
 
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1738895234/marlborough-titling_09_npdsha.png" loading="lazy" id="" width="auto" height="auto" alt="2 images side by side: 1. A caps A-Z 2. Lowercase a-z and some punctuation">
 
-<img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1738895237/marlborough-titling_11_tqdpvn.jpg" loading="lazy" id="" width="auto" height="auto" alt="black and white photograph of a graphic design studio with a large painted side in the middle which writes 'classic and foreign films' in all caps.">
+<img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1738895237/marlborough-titling_11_tqdpvn.jpg" loading="lazy" id="" width="auto" height="auto" alt="black and white photograph of a graphic design studio with a large painted side in the middle which writes 'classic and foreign films' in all caps.">

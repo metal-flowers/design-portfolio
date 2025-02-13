@@ -10,7 +10,7 @@ tags: ["Graphic Design"]
 draft: false
 ---
 
-<img class="blog-post-image-md" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1739406096/62d4dc717556584689ef59a9_TAXES_Single_Foie-Gras-and-Sancerre_72ppi_1_mbygiz.jpg">
+<img class="blog-post-image-md" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1739406096/62d4dc717556584689ef59a9_TAXES_Single_Foie-Gras-and-Sancerre_72ppi_1_mbygiz.jpg">
 
 The latest Taxes single release "Foie Gras and Sancerre" is out! You can read the lovely article written about the track in [New Noise Magazine](https://newnoisemagazine.com/premieres/track-premiere-taxes-foie-gras-sancerre/) and you can listen to it wherever you stream.
 

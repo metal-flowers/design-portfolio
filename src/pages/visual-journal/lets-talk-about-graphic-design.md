@@ -10,7 +10,7 @@ tags: ["Graphic Design"]
 draft: false
 ---
 
-<img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1739400771/647aa97bde546464ebff701b_o_farrell-graphic-design-talk_ynbkdn.png">
+<img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1739400771/647aa97bde546464ebff701b_o_farrell-graphic-design-talk_ynbkdn.png">
 
 This year I had the opportunity to speak to a group of high school seniors about graphic design. Though I've always shied away from public speaking of any kind, this year just feels different (did I mention I graduated from therapy?) and this was the perfect opportunity to push myself in new ways. Plus, more importantly, I wanted to volunteer my time and talk to students who genuinely wanted to learn more about a field they don't know much about (aside what they see on Instagram or TikTok). I know I would've valued hearing from a graphic designer when I was a senior.
 
