@@ -291,6 +291,13 @@ grid-area: info-col-1;
     margin-bottom: 2%;
   }
 
+  .project video {
+    width: 100%;
+    object-fit: cover; /* Ensures the image covers the area while maintaining its aspect ratio */
+    border-radius: 16px;
+    margin-bottom: 2%;
+  }
+
 
   /* MEDIA QUERIES FOR GRID */
 
