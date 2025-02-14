@@ -1,0 +1,19 @@
+<picture>
+    <!-- Mobile (≤480px) -->
+    <source 
+      srcset={`
+        https://res.cloudinary.com/dzv7ytxjh/image/upload/c_fill,w_360,f_auto,q_60/${Astro.props.fileName} 1x, 
+        https://res.cloudinary.com/dzv7ytxjh/image/upload/c_fill,w_720,f_auto,q_60/${Astro.props.fileName} 2x`}
+      media="(max-width: 480px)">
+  
+    <!-- Default (Larger screens) -->
+    <source 
+      srcset={`
+        https://res.cloudinary.com/dzv7ytxjh/image/upload/c_fill,w_436,f_auto,q_60/${Astro.props.fileName} 1x, 
+        https://res.cloudinary.com/dzv7ytxjh/image/upload/c_fill,w_872,f_auto,q_60/${Astro.props.fileName} 2x`}>
+  
+    <!-- Fallback image for browsers that don't support <picture> -->
+    <img 
+      src={`https://res.cloudinary.com/dzv7ytxjh/image/upload/c_fill,w_872,f_auto,q_60/${Astro.props.fileName}`}
+      alt={Astro.props.alt}>
+  </picture>
