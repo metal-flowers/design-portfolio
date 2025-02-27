@@ -650,7 +650,7 @@ h3 {
 }
 
 h4 {
-  font-family: "SplineSans-SemiBold", Helvetica, Arial, sans-serif;
+  font-family: var(--primary-body-headline), Helvetica, Arial, sans-serif;
   font-size: 1.0rem;
   font-weight: 700;
   line-height: 1.20rem;
@@ -1036,6 +1036,10 @@ border-bottom: var(--primary-border-weight) solid var(--primary-text);
   .post-index li:hover img {
     opacity: 1;
   } 
+
+  .blog-info {
+    margin-bottom: 6%;
+  }
 
 
 }
