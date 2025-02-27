@@ -10,6 +10,7 @@
   --charcoal: #121212; 
   --primary-body-font: "SplineSans-Regular";
   --primary-body-headline: "SplineSans-SemiBold";
+  --primary-border-weight: 1px;
 }
 
 /* Dark Mode Colors */
@@ -21,6 +22,7 @@
     --primary-muted-text: #666;
     --primary-body-font: "SplineSans-Light";
     --primary-body-headline: "SplineSans-Regular";
+    --primary-border-weight: .5px;
   }
 }
 
@@ -408,7 +410,7 @@ grid-area: info-col-1;
   grid-column: 1 / span 6; /* Spans across all 6 columns */
   margin-bottom: 1%;
   padding-bottom: 2%;
-  border-bottom: 1px solid var(--primary-text);
+  border-bottom: var(--primary-border-weight) solid var(--primary-text);
 }
 
 a.read-more {
@@ -464,7 +466,7 @@ h3.resume {
   font-size: 0.750rem;
   letter-spacing: 0.1rem;
   margin: 2% 0;
-  border-top: 1px solid var(--primary-text);
+  border-top: var(--primary-border-weight) solid var(--primary-text);
 }
 
 .resume-section h2 {
@@ -487,8 +489,8 @@ grid-column-end: 7;
   grid-column-start: 3;
   grid-column-end: 6;
   padding: 0 4%;
-  border-left: 1px solid;
-  border-right: 1px solid;
+  border-left: var(--primary-border-weight) solid;
+  border-right: var(--primary-border-weight) solid;
 }
 
 #resume-intro {
@@ -753,7 +755,7 @@ h2.project-title a:hover {
     }
 
     h1 a {
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid var(--primary-text);
     }
 
     p {
@@ -829,8 +831,6 @@ h2.project-title a:hover {
     font-weight: normal;
   }
 
-
-
   .contact {
     margin: 12% 0 6% 0;
     grid-area: contact;
@@ -856,7 +856,7 @@ footer {
 }
 
 footer p {
-  font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
+  font-family: var(--primary-body-font), Helvetica, Arial, sans-serif;
   font-size: 0.778rem;
   font-weight: normal;
   color: var(--primary-muted-text);
@@ -945,7 +945,7 @@ padding: 0 1% 0 0;
 }
 
 .post-index ul li {
-border-bottom: 1px solid var(--primary-text);
+border-bottom: var(--primary-border-weight) solid var(--primary-text);
 }
 
 .post-index ul li a {
@@ -974,12 +974,12 @@ border-bottom: 1px solid var(--primary-text);
 }
 
 .blog-info {
-  border-bottom: 1px solid var(--primary-text);
+  border-bottom: var(--primary-border-weight) solid var(--primary-text);
   margin-bottom: 4%;
 }
 
 .blog-info h6 {
-  font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
+  font-family: var(--primary-body-font), Helvetica, Arial, sans-serif;
   font-size: 0.778rem;
   line-height: 1.8rem;
   font-weight: 400;
@@ -988,7 +988,7 @@ border-bottom: 1px solid var(--primary-text);
 
 
 
-/* TESTING BLOG INDEX HOVER */
+/* BLOG INDEX HOVER */
 
 .post-index li {
   position: relative;
@@ -998,7 +998,7 @@ border-bottom: 1px solid var(--primary-text);
   position: absolute;
   left: 40%;  /*Places the image to the right of the text */
   top: -150%;
-  width: 300px; /* Adjust width as needed */
+  width: 350px; /* Adjust width as needed */
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
