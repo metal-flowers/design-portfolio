@@ -295,7 +295,7 @@ grid-area: info-col-1;
 
   .grid-container-info {
     display: grid;
-    grid-template-columns: repeat (6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 1em;
     row-gap: 0;
   }
@@ -347,7 +347,7 @@ grid-area: info-col-1;
     }
 
     .page-container {
-      padding: 1%;
+      padding: 1% 2%;
     }
 
     .project-grid {
@@ -385,6 +385,10 @@ grid-area: info-col-1;
     border-top: 1px solid;
   }
 
+  #info-intro {
+    grid-column: 2 / 5;
+    margin: 2% 4%;
+  }
 
 }
 
@@ -504,52 +508,6 @@ grid-column-end: 7;
   margin-bottom: 4%;
 }
 
-    /* RESUME MEDIA QUERIES */
-
-    /* Medium Screens (Tablets, Small Laptops) - 600px to 992px */
-@media (max-width: 992px) {
-  #experience, #education, #volunteer, #continued-learning, #info-intro {
-    grid-column-start: 1;
-    grid-column-end: 7;
-    }
-
-    #resume-intro {
-      grid-column-start:1;
-      grid-column-end: 7;
-      position: relative;
-    }
-
-    #info-intro, #info-text {
-      grid-column-start:1;
-      grid-column-end: 7;
-      position: relative;
-    }
-  
-    #colophon-grid-lines {
-      display: none;
-    }
-
-  }
-
-  /* Small Screens (Mobile) - less than 600px */
-@media (max-width: 600px) {
-
-
-  .resume-section {
-    margin-bottom: 10%;
-}
-
-#resume-intro {
-  grid-column-start:1;
-  grid-column-end: 7;
-  position: relative;
-}
-
-.resume-section h2 {
-margin: 0 0 2% 0;
-}
-
-  }
 
 
 
@@ -576,9 +534,7 @@ margin: 0 0 2% 0;
 /* ABOUT SECTION */
 
 #info-intro {
-  grid-column-start:1;
-  grid-column-end: 3;
-  top: 0;
+  grid-column: 1/3;
 }
 
 #info-intro img {
@@ -832,12 +788,75 @@ h2.project-title a:hover {
     grid-area: contact;
   }
 
-    
-
   }
 
 
 
+
+
+   /* RESUME MEDIA QUERIES */
+
+    /* Medium Screens (Tablets, Small Laptops) - 600px to 992px */
+    @media (max-width: 992px) {
+      #experience, #education, #volunteer, #continued-learning {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        }
+    
+        #resume-intro {
+          grid-column-start:1;
+          grid-column-end: 7;
+          position: relative;
+        }
+    
+       #info-text {
+          grid-column-start:1;
+          grid-column-end: 7;
+          position: relative;
+        }
+        
+    
+        #info-intro {
+          grid-column: 2 / 5;
+          margin-bottom: 6%;
+        }
+    
+        #colophon {
+          grid-column: 1/6;
+        }
+
+        #colophon-grid-lines {
+          display: none;
+        }
+        
+    
+      }
+    
+      /* Small Screens (Mobile) - less than 600px */
+    @media (max-width: 600px) {
+    
+    
+     .resume-section {
+        margin-bottom: 10%;
+      }
+    
+    #resume-intro {
+      grid-column-start:1;
+      grid-column-end: 7;
+      position: relative;
+    }
+    
+    .resume-section h2 {
+    margin: 0 0 2% 0;
+    }
+    
+    #info-intro {
+      grid-column: 2 / 5;
+      margin-bottom: 6%;
+    }
+
+    
+      }
 
 
 
