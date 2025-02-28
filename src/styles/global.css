@@ -583,7 +583,7 @@ margin: 0 0 2% 0;
 
 #info-intro img {
   width: 100%;
-  height: 400px; /* Adjust the height as needed */
+  height: auto; /* Adjust the height as needed */
   object-fit: cover; /* Ensures the image covers the area while maintaining its aspect ratio */
   border-radius: 16px;
 }
