@@ -1,0 +1,65 @@
+---
+const title = "April: Webtape";
+const description = "Album design for California ambient band, April.";
+
+import "../../styles/global.css";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout {title} {description}>
+  <!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
+
+  <section class="project-info">
+    <h1>{title}</h1>
+    <h2>{description}</h2>
+    <a class="read-more" href="#project-description">Read More</a>
+  </section>
+
+  <!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
+
+  <section class="project-photos">
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1738967076/april-webtape-1_msdg4j.jpg"
+        alt="Photo of the CD angled at a distance on a back background. The CD cover has a painting of a ghost on it with the band name somewhat hidden in the fabric of the ghost "
+      />
+      <figcaption></figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1738967075/april-webtape-2_sgwiuq.jpg"
+        alt="Photo of the CD angled at a distance on a back background. The CD cover has a painting of a ghost on it with the band name somewhat hidden in the fabric of the ghost "
+      />
+      <figcaption></figcaption>
+    </figure>
+  </section>
+
+  <!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
+
+  <article class="project-description">
+    <a id="project-description"></a>
+
+    <h3 class="description-heading">About the Project</h3>
+    <p>
+      <em>Webtape</em>, is 51 minutes of reversed piano, microseconds of 90s pop music, archival footage, 16-bit reverb, voice memos, the sound of rain, and lots of noise.
+      It is the second album from California band, April. I worked closely
+      with the group to establish CD pacakaging that would refelct the themes and sound of the album, which is 
+      very much wrapped in nostalgia.
+    </p>
+    <p>
+      For the packaging, we went with a layered approach using a combination of vellum and transparency
+      which each hold different layers of printed text, like the layers of textures and sound within the album. 
+      <em>Webtape</em> is available for puchase on <a href="https://listentoapril.bandcamp.com/album/webtape" target="_blank">Bandcamp</a>
+      and available to stream anywhere.
+    </p>
+
+    <h3 class="description-heading">Project Credits</h3>
+    <p>
+      Album Concept by April <br />
+      Mixed by Paul Corley and Nathan Salon <br />
+      Mastered by Heba Kadry <br />
+      Designed by Annie Szafranski
+    </p>
+  </article>
+</BaseLayout>
