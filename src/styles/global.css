@@ -350,7 +350,7 @@ grid-area: info-col-1;
       padding: 1% 2%;
     }
 
-    .project-grid {
+    .project-grid, .full-project-grid {
         grid-template-columns: 1fr; /* One column for each project on mobile */
         grid-gap: 20px;
     }
