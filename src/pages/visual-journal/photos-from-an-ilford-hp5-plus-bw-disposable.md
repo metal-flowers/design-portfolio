@@ -31,8 +31,10 @@ We know film is precious and expensive, even from a disposable camera. So the tw
 
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1739399864/64bdc5e1a7cb1c7fd41b9f28_Disposable-HP5-05_likugx.jpg" alt="In B&W: California coastal town amongst the open field and ocean." loading="lazy">
 
+<img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1739399785/64bdc5cbec69631e31fbe9fa_Disposable-HP5-03_nbn7su.jpg" alt="In B&W: Coastal view with a white wave graphic on asphalt" loading="lazy">
+
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1739399956/64be21cf622a1dc4ea668274_Disposable-HP5-IG-11_ogkwei.jpg" alt="In B&W: Vertical shot on the beach with sharp rocks, taking up the lower third" loading="lazy">
 
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1739400136/64bdc7b97424858fa673d008_Disposable-HP5-14_n2foe4.jpg" alt="In B&W: Surrounded by trees and snow." loading="lazy">
 
-<img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1739400136/64bdc7b97424858fa673d008_Disposable-HP5-14_n2foe4.jpg" alt="In B&W: View of a snow covered town next to a train track." loading="lazy">
+<img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1739400279/64bdcb3ae4373e7e73ece33d_Disposable-HP5-16_w6llw0.jpg" alt="In B&W: View of a snow covered town next to a train track." loading="lazy">
