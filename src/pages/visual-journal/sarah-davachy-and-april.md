@@ -13,7 +13,7 @@ draft: false
 
 My good friends in the band April are playing a new show this month on <a href="https://digitalgym.org/movies/live-sound-bath-sarah-davachi-and-april/">Saturday, April 19th at Digital Gym</a> in San Diego. They'll be opening for <a href="https://www.sarahdavachi.com/">Sarah Davachi</a>, who will perform her piece, <a href="https://sarahdavachi.bandcamp.com/album/music-for-a-bellowing-room"> Music for a Bellowing Room</a>, and April will be performing songs from <a href="https://listentoapril.bandcamp.com/album/webtape"> Webtape</a> (and potentially some new ones). 
 
-I was thrilled to make the poster for the event, knowing I'd find inspiration from her compositions, and later from old 19th century printing borders and ornamentation. I used contemporary type from Blaze Type, Overlap Type, and a Goudy revival. Together, I found them all work really nicely together in an elegant bellowing listlessness. 
+I was thrilled to make the poster for the event, knowing I'd find inspiration from her compositions, and later from old 19th century printing borders and ornamentation. I used contemporary type from Blaze Type, Overlap Type, and a Goudy revival. Together, I found they all work nicely together in an elegant manner. 
 
 
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_80/v1744449286/sarah-davachi-and-april-show_gwl6rm.png" alt="a poster with a light pink background and green foliage around a circle that reads: Sarah Davachi performing music for a bellowing room. With film by Dicky Bahto. Opening performance by April. Live audio visual sound bath: Saturday April 19th. Digital Gym San Diego. 4:30pm and 7pm. digitalgym.org.">
