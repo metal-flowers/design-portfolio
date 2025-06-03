@@ -26,7 +26,7 @@ With a spot on the list and a donation, I participated in the small workshop put
 
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/f_auto,q_60/v1748931868/000000010027_sotklw.jpg" alt="Final poster result: an orange poster background with black type that says 'community' in different fonts, vertically centered.">
 
-The poster (pictured above, out of focus) background and concept itself was designed by Christopher and Kathleen Sleboda of Draw Down Books (who also designed the <a href="https://www.printedmatter.org/programs/events/2007">LA Art Book Fair</a> identity). It was collaboratively typeset by those of us in the workshop, and of course, Archetype Press.
+The poster (pictured above, out of focus) background and concept itself was designed by Christopher and Kathleen Sleboda of Draw Down Books (who also designed the <a href="https://www.printedmatter.org/programs/events/2007">LA Art Book Fair</a> identity). It was collaboratively typeset by all of us in the workshop, and of course, Archetype Press.
 
 Everyone involved was so kind and generous with their time, and happily shared their knowledge. It was a different way to experience the art book fair, and one I quite appreciated. It was energizing and exciting to be surrounded by so much type, numerous letterpress machines, and cool people who have spent time learning the craft and are sharing it with fellow type and print lovers. 
 
