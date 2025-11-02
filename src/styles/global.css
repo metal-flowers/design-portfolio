@@ -113,6 +113,45 @@ html {
   }
 
 
+
+  /** MASONRY TESTS **/
+  .masonry {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: masonry;
+    gap: 20px;
+}
+
+
+.m-item {
+  background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.m-item:hover {
+  transform: translateY(-10px);
+}
+
+.item1 { grid-row: span 2;}
+.item2 { grid-row: span 2;}
+.item3 { grid-row: span 1;}
+.item4 { grid-row: span 2;}
+.item5 { grid-row: span 3;}
+.item6 { grid-row: span 1;}
+.item7 { grid-row: span 2;}
+.item8 { grid-row: span 1;}
+.item9 { grid-row: span 2;}
+.item10 { grid-row: span 3;}
+
+
+
+
 /* NAV STYLES */
 
   nav {
