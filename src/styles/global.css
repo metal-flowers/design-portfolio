@@ -714,10 +714,13 @@ h2.project-title a:hover {
   transition: 0.4s ease-in-out;
 }
 
+.project a {
+  display: block;
+}
 
 .project a:hover {
   background-color: transparent;
-  transform: scale(1.2); /* Enlarge image by 20% */
+  transform: scale(1.01); /* Enlarge image by 20% */
 }
 
 .project img {
@@ -728,6 +731,7 @@ h2.project-title a:hover {
   transform: scale(1.040); /* Scale up image slightly */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Add drop shadow on hover */
 }
+
 
 
 
