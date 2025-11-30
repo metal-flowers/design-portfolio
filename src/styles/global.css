@@ -342,8 +342,8 @@ grid-area: info-col-1;
 
   .project-grid {
       display: grid;
-      /*grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));*/
-      grid-template-columns: repeat(auto-fit, minmax(450px, 2fr));
+      grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
+      /* grid-template-columns: repeat(auto-fit, minmax(450px, 2fr)); */
       grid-gap: 20px;
       grid-area: project-grid;
     }

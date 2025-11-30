@@ -1,0 +1,49 @@
+---
+const title = "Dame Fest Lettering";
+const description = "Custom lettering for a local Shop Anniversary Event";
+
+import "../../styles/global.css";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout {title} {description}>
+  <!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
+
+  <section class="project-info">
+    <h1>{title}</h1>
+    <h2>{description}</h2>
+    <a class="read-more" href="#project-description">Read More</a>
+  </section>
+
+  <!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
+
+  <section class="project-photos">
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1764469444/dame-fest-lettering-postcard_irk8dw.png"
+        alt=""
+      />
+      <figcaption></figcaption>
+    </figure>
+  </section>
+
+  <!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
+
+  <article class="project-description">
+    <a id="project-description"></a>
+
+    <h3 class="description-heading">About the Project</h3>
+    <p>
+      
+    </p>
+    <p>
+     Custom lettering for a local artist-run shop, Little Dame, for their 1 year anniversary event. The event brought together local artists and vendors for a night of music and supporting artists and community. The lettering is fluid and forms the shape of a heart.
+    </p>
+
+    <h3 class="description-heading">Project Credits</h3>
+    <p>
+      Collage and Lettering by Annie Szafranski<br />
+      Imagery scaned and assembled from personal source collection
+    </p>
+  </article>
+</BaseLayout>

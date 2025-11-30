@@ -1,0 +1,57 @@
+---
+const title = "April Merch";
+const description = "Custom lettering for California ambient band, April.";
+
+import "../../styles/global.css";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout {title} {description}>
+  <!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
+
+  <section class="project-info">
+    <h1>{title}</h1>
+    <h2>{description}</h2>
+    <a class="read-more" href="#project-description">Read More</a>
+  </section>
+
+  <!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
+
+  <section class="project-photos">
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/w_2800,f_auto,q_auto/v1764467471/april-lettering-merch_okeiz3.png"
+        alt="Photo of the CD angled at a distance on a back background. The CD cover has a painting of a ghost on it with the band name somewhat hidden in the fabric of the ghost "
+      />
+      <figcaption></figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/w_2800,f_auto,q_auto/v1764467972/april-black-metal-merch-bw_m0yeor.jpg"
+        alt="Photo of the CD angled at a distance on a back background. The CD cover has a painting of a ghost on it with the band name somewhat hidden in the fabric of the ghost "
+      />
+      <figcaption></figcaption>
+    </figure>
+  </section>
+
+  <!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
+
+  <article class="project-description">
+    <a id="project-description"></a>
+
+    <h3 class="description-heading">About the Project</h3>
+    <p>
+      Local band, April, came to me with a request to create a metal-inspired logo for them to use for merch. The justaposition would be quite fun considering they’re an ambient band. For this design I used an old straw method on paper and went from there. Geoff Rickly, from Thursday, may or may not have this shirt!
+    </p>
+    <p>Available for purchase on their <a href="https://listentoapril.bandcamp.com/merch/the-classic-black-band-tee-2">Bandcamp.</a></p>
+
+    <h3 class="description-heading">Project Credits</h3>
+    <p>
+      Custom lettering by Annie Szafranski<br />
+      Tee Shirt design by Annie Szafranski <br />
+      Top photo by Annie Szafranski<br />
+      Bottom Photo by April<br />
+    </p>
+  </article>
+</BaseLayout>

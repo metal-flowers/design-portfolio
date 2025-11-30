@@ -1,0 +1,72 @@
+---
+const title = "Sarah Davachi and April Poster";
+const description =
+  "A poster designed for a night of music with Sarah Davachi and April.";
+
+const url = "https.www.annieszafranski.com/work/primitiv-text-process-manual";
+  import "../../styles/global.css";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+---
+
+<BaseLayout {title} {description}>
+  <!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
+
+  <section class="project-info">
+    <h1>{title}</h1>
+    <h2>{description}</h2>
+    <a class="read-more" href="#project-description">Read More</a>
+  </section>
+
+  <!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
+
+  <section class="project-photos">
+
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/w_2800,f_auto,q_60/v1764475760/sarah-davachi-april-poster-elsewhere-market-1_ankass.jpg"
+        alt=""
+      />
+      <figcaption></figcaption>
+    </figure>
+
+
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/w_2800,f_auto,q_60/v1764475762/sarah-davachi-april-poster_pzpmzi.jpg"
+        alt="select scans of a wire-o bound process book for Primitiv Text, showing different spreads in gif form"
+      />
+      <figcaption></figcaption>
+    </figure>
+
+
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/w_2800,f_auto,q_60/v1764475762/sarah-davachi-april-poster-elsewhere-market-2_rkmlkn.jpg"
+        alt=""
+      />
+      <figcaption></figcaption>
+    </figure>
+
+</section>
+
+  <!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
+
+  <article class="project-description">
+    <a id="project-description"></a>
+
+    <h3 class="description-heading">About the Project</h3>
+    <p>
+     Coming soon.
+    </p>
+
+    <h3 class="description-heading">Thanks</h3>
+    <p>
+      Coming soon.
+    </p>
+  </article>
+</BaseLayout>
