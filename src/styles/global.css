@@ -173,7 +173,7 @@ html {
 
 .nav-links li {
   display: inline;
-  padding: 0 0.6rem;
+  padding: 0 0.4rem;
 }
 
 .nav-links a {
@@ -310,7 +310,7 @@ grid-area: info-col-1;
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Ensure the container takes full viewport height */
-    padding: 1% 2%;
+    padding: 0 2%;
     max-width: 1440px;
     margin: 0 auto;
 
@@ -416,8 +416,8 @@ grid-area: info-col-1;
     grid-gap: 20px;
   }
 
-  .contact {
-    display: none;
+  .contact, .design-services {
+
   }
 
   #colophon-grid-lines {
@@ -579,7 +579,7 @@ grid-column-end: 7;
 
 #info-intro img {
   width: 100%;
-  height: auto; /* Adjust the height as needed */
+  height: 50%; /* Adjust the height as needed */
   object-fit: cover; /* Ensures the image covers the area while maintaining its aspect ratio */
   border-radius: 16px;
 }
@@ -642,7 +642,7 @@ h3 {
 }
 
 .contact h4 {
-  margin: 3% 0 0 0;
+  margin: 4% 0 2% 0;
 }
 
 h4 {
@@ -650,7 +650,7 @@ h4 {
   font-size: 1.0rem;
   font-weight: 700;
   line-height: 1.20rem;
-  margin: 3% 0 1% 0;
+  margin: 4% 0 2% 0;
 }
 
 h5 {
@@ -682,7 +682,7 @@ p {
 #colophon {
   grid-column-start: 1;
   grid-column-end: 3;
-  padding: 20px 0 40px 0;
+  padding: 0 0 40px 0;
 }
 
 #colophon-grid-lines {
@@ -859,10 +859,18 @@ h2.project-title a:hover {
           position: relative;
         }
         
+        #info-intro img {
+          width: 100%;
+          height: auto; /* Adjust the height as needed */
+          object-fit: cover; /* Ensures the image covers the area while maintaining its aspect ratio */
+          border-radius: 16px;
+          margin-bottom: 2%;
+        }
+        
     
         #info-intro {
           grid-column: 2 / 5;
-          margin-bottom: 6%;
+          /*margin-bottom: 6%;*/
         }
     
         #colophon {
