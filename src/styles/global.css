@@ -387,7 +387,7 @@ grid-area: info-col-1;
     }
 
     .page-container {
-      padding: 1% 2%;
+      padding: 0% 2%;
     }
 
     .project-grid, .full-project-grid {
