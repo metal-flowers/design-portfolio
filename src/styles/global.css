@@ -832,6 +832,10 @@ h2.project-title a:hover {
     grid-area: contact;
   }
 
+  #info-intro {
+    display: none;
+  }
+
   }
 
 
