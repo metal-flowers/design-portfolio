@@ -29,3 +29,5 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+src/pages/visual-journal/freelancing-fixing-what-doesnt-work.md
+src/pages/visual-journal/a-box-of-dirt-for-your-car.md

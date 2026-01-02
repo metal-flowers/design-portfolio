@@ -18,4 +18,4 @@ I wrote a short little [portfolio update](https://annieszafranski.com/projects/t
 
 Please listen and enjoy!
 
-<iframe allowfullscreen="true" frameborder="0" scrolling="no" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fopen.spotify.com%2Fembed%2Falbum%2F3xrUpYjOnT0bX7TJrcTmhz%3Futm_source%3Doembed&display_name=Spotify&url=https%3A%2F%2Fopen.spotify.com%2Falbum%2F3xrUpYjOnT0bX7TJrcTmhz&image=https%3A%2F%2Fi.scdn.co%2Fimage%2Fab67616d00001e02409f7553e7d2afe153fa2ff7&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=spotify" title="Retirement Home"></iframe>
+<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/retirement-home/1652181884"></iframe>

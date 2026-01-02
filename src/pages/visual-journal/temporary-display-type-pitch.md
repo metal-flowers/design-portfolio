@@ -7,7 +7,7 @@ image:
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_auto/v1739524203/5f91028f37d05f1aba24bb5a_Temporary_Display_E2_80_93Type_Pitch-01_gfyxxe.png'
     alt: ''
 tags: ["Graphic Design"]
-draft: false
+draft: true
 ---
 
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1739524203/5f91028f37d05f1aba24bb5a_Temporary_Display_E2_80_93Type_Pitch-01_gfyxxe.png">

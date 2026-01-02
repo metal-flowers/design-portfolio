@@ -7,7 +7,7 @@ image:
     url: "https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600/v1739523004/5f9286e349df6fd2574e52d1_Little-Dame-Tattoo-Gift-Cards_vmsnmv.gif"
     alt: ""
 tags: ["Graphic Design"]
-draft: false
+draft: true
 ---
 
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1739523004/5f9286e349df6fd2574e52d1_Little-Dame-Tattoo-Gift-Cards_vmsnmv.gif" alt="Little Dame Tattoo | Gift Cards | San Diego">
