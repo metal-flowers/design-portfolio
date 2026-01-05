@@ -8,6 +8,7 @@ image:
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_50/v1739521099/66c071adf3cad496f1eb54ac_66c06df416651c0ece6f8463_6028e231996e0e3e8fd72c68_chimera-voter-guide_y5bedx.png'
     alt: 'Unfolded voter guide with mini poster on back'
 tags: ["Graphic Design"]
+category: Graphic Design
 draft: false
 ---
 
