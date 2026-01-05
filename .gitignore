@@ -5,7 +5,9 @@ dist/
 
 # pages
 src/pages/temp-oldies/
-
+src/content
+src/content/
+src/pages/rss.xml.js
 
 
 
