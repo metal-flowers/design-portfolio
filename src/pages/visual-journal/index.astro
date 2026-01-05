@@ -1,15 +1,15 @@
 ---
 
-import '../styles/global.css';
-import BaseLayout from '../layouts/BaseLayout.astro';
+import '../../styles/global.css';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 
 //Utils Imports
-import { formatBlogPosts } from "../scripts/utils";
+import { formatBlogPosts } from "../../scripts/utils";
 
 const title = "Visual Journal";
-const allPosts = await Astro.glob('../pages/visual-journal/*.md');
+const allPosts = await Astro.glob('../../pages/visual-journal/*.md');
 const formattedPosts = formatBlogPosts(allPosts);
-const description = "graphic design and typography related snippets of design work, works in progress, and inspiration from Annie Szafranski";
+const description = "graphic design and typography related snippets of design work, works in progress, and inspiration";
 
 
 
