@@ -8,6 +8,8 @@ image:
     alt: ''
 category: ["Graphic Design"]
 draft: false
+slug: foie-gras-and-sancerre
+
 ---
 The latest Taxes single release "Foie Gras and Sancerre" is out! You can read the lovely article written about the track in [New Noise Magazine](https://newnoisemagazine.com/premieres/track-premiere-taxes-foie-gras-sancerre/) and you can listen to it wherever you stream.
 <img class="blog-post-image-md" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_50/v1739406096/62d4dc717556584689ef59a9_TAXES_Single_Foie-Gras-and-Sancerre_72ppi_1_mbygiz.jpg">

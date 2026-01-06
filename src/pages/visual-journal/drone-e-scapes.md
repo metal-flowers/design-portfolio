@@ -9,6 +9,7 @@ image:
     alt: 'pattern driven greyscale album artwork of a series of noisy dots'
 category: ["Music"]
 draft: false
+slug: drone-e-scapes
 ---
 
 Early in the pandemic, I briefly mentioned some of the music of [Éliane Radigue](https://www.annieszafranski.com/visual-journal/onward-19-by-eliane-radigue) and how I was listening to her frequently to de-stress and try to reduce the constant headaches I was experiencing. I'd listen to her with headphones and an eyemask on while lying mostly in the dark, trying to not think about anything. But I was listening to the same songs over and over, which, of course, wasn't a bad thing—it just really inspired me to make music. Why? New listening options and an excuse to finally make something for myself. No clients. No work.

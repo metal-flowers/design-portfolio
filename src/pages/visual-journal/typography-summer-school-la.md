@@ -8,6 +8,7 @@ image:
     alt: ''
 category: ["Graphic Design"]
 draft: true
+slug: typography-summer-school-la
 ---
 
 

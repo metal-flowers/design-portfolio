@@ -7,6 +7,7 @@ image:
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_60/v1756198001/20250823_SONIC_ZONES_ARTWORK_ulkefi.png'
 category: ["Music"]
 draft: false
+slug: sonic-zones-august-2025
 ---
 
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1756198001/20250823_SONIC_ZONES_ARTWORK_ulkefi.png">

@@ -8,6 +8,7 @@ image:
     alt: 'The Astro logo on a dark background with a pink glow.'
 category: ["Type Design"]
 draft: false
+slug: type-west-online-term-1-project
 ---
 
 

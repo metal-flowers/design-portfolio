@@ -8,6 +8,7 @@ image:
     alt: 'typographic driven album art for webtape'
 category: ["Graphic Design"]
 draft: false
+slug: april-webtape-album-design
 ---
 
 April’s second album, _webtape_, is officially out! I worked closely with the band to design the CD and ensure the packaging visually represented _webtape_ conceptually, much of which was wrapped in layers of nostalgia. So much love went into this album and it was inspiring to see full album come together. 

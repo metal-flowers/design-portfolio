@@ -8,6 +8,7 @@ image:
     alt: ''
 category: ["Type Design"]
 draft: false
+slug: type-west-online-term-2-project
 ---
 
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1739338691/66bad775171f42e6aecc8a59_66bad684408ad77d36ed9c98_2024-08-12_Primitiv-Text_01_y5dvar.jpg">

@@ -8,6 +8,7 @@ image:
     alt: ''
 category: ["Type Design"]
 draft: false
+slug: actually-using-a-sketchbook
 ---
 
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_50/v1739402136/63d636436f089e5cf4af1c57_movie-type-sketching_dblc25.gif">

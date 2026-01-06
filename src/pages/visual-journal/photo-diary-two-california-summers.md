@@ -8,6 +8,7 @@ image:
     alt: ""
 category: ["Photography"]
 draft: false
+slug: photo-diary-two-california-summers
 ---
 
 A few years ago, I purchased an [Ilford Sprite 35-II ](https://www.shopmoment.com/products/ilford-sprite-35-ii-camera)camera. After having a few disposable cameras lingering around my house for years, I wanted a fun and cheap film camera that was reusable and less wasteful. I noted this in my [last post](https://www.annieszafranski.com/visual-journal/photos-from-an-ilford-hp5-plus-bw-disposable), but I finally shot my first roll with that camera, and hey, it wasn't completely blank (but I did have a lot of terrible shots and exposures). These are some of my favorites, which I took in San Francisco and Oceanside. They're all shot from the same roll of expired film (2009) that I either picked up at a swap meet years ago, or from a small camera shop when I lived in SF. I haven't shot with film much since those SF days, so I was excited to see how these would turn out!

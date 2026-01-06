@@ -8,6 +8,7 @@ image:
     alt: ''
 category: ["Music"]
 draft: false
+slug: sonic-zones-october-2021
 ---
 
 

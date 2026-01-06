@@ -8,6 +8,7 @@ image:
     alt: 'one sheet for April'
 category: ["Graphic Design"]
 draft: true
+slug: april-band-electronic-press-kit
 ---
 
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1739524997/5f9102866521432c60d36bdc_2019_07_16_APRIL_Electronic_Press_Kit.Final_wok2bh.jpg">

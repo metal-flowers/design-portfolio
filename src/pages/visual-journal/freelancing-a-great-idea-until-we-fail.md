@@ -7,6 +7,7 @@ image:
     url: "https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_50/v1766864463/5f8fe44502a4a5500536f9fa_IMG_9115_iw5i7m.jpg"
 category: ["Freelancing"]
 draft: true
+slug: freelancing-a-great-idea-until-we-fail
 ---
 
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1766864463/5f8fe44502a4a5500536f9fa_IMG_9115_iw5i7m.jpg">

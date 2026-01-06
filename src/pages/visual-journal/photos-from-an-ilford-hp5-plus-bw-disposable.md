@@ -8,6 +8,7 @@ image:
     alt: ''
 category: ["Photography"]
 draft: false
+slug: photos-from-an-ilford-hp5-plus-bw-disposable
 ---
 
 We know film is precious and expensive, even from a disposable camera. So the two I had stayed with me for years. I didn't have a full disposable from one specific trip but on various trips mostly across California; Los Angeles, San Francisco, Sea Ranch, Truckee, and even a little Encinitas. Outside of California, I brought it to Arizona. These are some of my favorites from those two Illford single-use cameras, which are now gone. I have since replaced it with an [Ilford Sprite 35mm ii point and shoot](https://www.shopmoment.com/reviews/ilford-sprite-35mm-ii-hands-on-review) I bought a few years ago. My first film roll from that is in development now (finally), so I'm curious how those will turn out and if they will at all.

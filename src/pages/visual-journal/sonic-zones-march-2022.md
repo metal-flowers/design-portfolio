@@ -8,6 +8,7 @@ image:
     alt: ''
 category: ["Music"]
 draft: false
+slug: sonic-zones-march-2022
 ---
 
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1739498051/6236e0673f25e833c8680637_20210907_SZ01_ART_sm_1_vpazsz.png">

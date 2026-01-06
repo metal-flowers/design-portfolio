@@ -9,6 +9,7 @@ image:
     alt: 'Unfolded voter guide with mini poster on back'
 category: ["Graphic Design"]
 draft: false
+slug: sarah-davachy-and-april
 ---
 
 My good friends in the band April are playing a new show this month on <a href="https://digitalgym.org/movies/live-sound-bath-sarah-davachi-and-april/">Saturday, April 19th at Digital Gym</a> in San Diego. They'll be opening for <a href="https://www.sarahdavachi.com/">Sarah Davachi</a>, who will perform her piece, <a href="https://sarahdavachi.bandcamp.com/album/music-for-a-bellowing-room"> Music for a Bellowing Room</a>, and April will be performing songs from <a href="https://listentoapril.bandcamp.com/album/webtape"> Webtape</a> (and potentially some new ones). 

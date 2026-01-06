@@ -8,6 +8,7 @@ image:
     alt: ""
 category: ["Type Design"]
 draft: false
+slug: marlborough-titling
 ---
 
 At the end of 2022, I signed up for a 10-week [Intro to Type Design Workshop](https://letterformarchive.org/events/view/intro-to-modern-type-design-spring-2023/) through the [Letterform Archive](https://letterformarchive.org). I was feeling bold, generally frustrated, and decided to just let myself have this nice thing that I may or may not do terribly at. Fortunately, I fucking loved it and did not do too terribly either. It actually gave me some reassurance in a strange way, even though I found it all really difficult and daunting. It reenergized me…and maybe even helped me end therapy?

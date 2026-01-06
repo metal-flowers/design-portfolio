@@ -8,6 +8,7 @@ image:
     alt: ''
 category: ["Type Design"]
 draft: false
+slug: paper-type-exercise
 ---
 
 

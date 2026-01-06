@@ -8,6 +8,7 @@ image:
     alt: ''
 category: ["Photography"]
 draft: false
+slug: photo-diary-mh-detour
 ---
 
 

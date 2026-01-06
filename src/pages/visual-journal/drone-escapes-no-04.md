@@ -7,6 +7,7 @@ image:
     url: "https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_60/v1739348117/64eda90b86baea73fe48e026_DRONE_E_SCAPES_04_pqpwsk.png"
 category: ["Music"]
 draft: false
+slug: drone-escapes-no-04
 ---
 
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1739348117/64eda90b86baea73fe48e026_DRONE_E_SCAPES_04_pqpwsk.png" alt="">

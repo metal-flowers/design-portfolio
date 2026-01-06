@@ -8,6 +8,7 @@ image:
     alt: ""
 category: ["Graphic Design"]
 draft: true
+slug: little-dame-re-opening-invite
 ---
 
 <!--<img class="blog-post-image-sm" style="margin: 0 auto" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_auto/v1739522342/5f9286dea4e8b209350bd293_Insta-LD-ReOpening-Invite_q90cag.gif" alt="Little Dame Re-Opening Invite, 2019. Pink background. Black text.">-->

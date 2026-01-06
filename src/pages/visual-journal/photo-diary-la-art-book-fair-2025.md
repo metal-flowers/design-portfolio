@@ -8,6 +8,7 @@ image:
     alt: ''
 category: ["Photography"]
 draft: false
+slug: photo-diary-la-art-book-fair-2025
 ---
 
 This year, the LA Art Book Fair was held at the ArtCenter campus in Pasadena. I wasn't originally planning to go, but I couldn't resist a trip up and went on the final day. Rather than spend the day anxiously trying to see everything, I spent most of my time in the letterpress studio on campus—the home of <a href="https://www.artcenter.edu/about/campus/south-campus/facilities/archetype-press.html">Archetype Press.</a>

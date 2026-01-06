@@ -8,6 +8,7 @@ image:
     alt: 'My Baldessari Attempt'
 category: ["Misc"]
 draft: true
+slug: compass-sd-costume-competition
 ---
 
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1739521752/61dfa5abcbbc7f66531d0553_202010_Baldessari_competition_jc2gvh.jpg" alt="My Baldessari Attempt">

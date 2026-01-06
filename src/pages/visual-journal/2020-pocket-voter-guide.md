@@ -9,6 +9,7 @@ image:
     alt: 'Unfolded voter guide with mini poster on back'
 category: ["Graphic Design"]
 draft: false
+slug: 2020-pocket-voter-guide
 ---
 
 <img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1739521099/66c071adf3cad496f1eb54ac_66c06df416651c0ece6f8463_6028e231996e0e3e8fd72c68_chimera-voter-guide_y5bedx.png" alt="Unfolded voter guide with mini poster on back">

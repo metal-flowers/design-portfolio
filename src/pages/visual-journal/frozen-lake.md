@@ -7,6 +7,7 @@ image:
     url: "https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_50/v1739405814/631eee5df39f26f69118ae67_TAXES_Single_Frozen-Lake_150ppi_xffz1r.png"
 category: ["Graphic Design"]
 draft: false
+slug: frozen-lake
 ---
 
 The latest Taxes single, "Frozen Lake" is out and it's the final one I designed for them until the grand album release! Excited for you to see it and listen to it when the time comes. It's quickly approaching. Enjoy the singles until then!
