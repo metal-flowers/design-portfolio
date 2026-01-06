@@ -6,7 +6,7 @@ description: "Celebrating their new space"
 image:
     url: "https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600/v1739522437/5f9286de6f3af292ecaefe6b_LittleDame-Reopening-Invite_rfu04j.png"
     alt: ""
-tags: ["Graphic Design"]
+category: ["Graphic Design"]
 draft: true
 ---
 

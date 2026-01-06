@@ -7,7 +7,7 @@ image:
 
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_500,f_auto,q_80/v1744449286/sarah-davachi-and-april-show_gwl6rm.png'
     alt: 'Unfolded voter guide with mini poster on back'
-tags: ["Graphic Design"]
+category: ["Graphic Design"]
 draft: false
 ---
 

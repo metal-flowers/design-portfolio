@@ -6,7 +6,7 @@ description: "Intro to Modern type Design"
 image:
     url: "https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_60/v1739401556/64322fb3637d3906f9d152d5_Marlborough-Titling-01_bymwtl.png"
     alt: ""
-tags: ["Type Design"]
+category: ["Type Design"]
 draft: false
 ---
 

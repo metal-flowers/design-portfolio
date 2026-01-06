@@ -6,7 +6,7 @@ description: '➔ Marin Headlands | 2014'
 image:
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_50/v1739523721/5f9286e9cdada1d16d388bb7_48604640047_b0b0de1eca_k_bspmag.jpg'
     alt: ''
-tags: ["Photography"]
+category: ["Photography"]
 draft: false
 ---
 

@@ -6,7 +6,7 @@ description: "Available at littledameshop.com"
 image:
     url: "https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600/v1739523004/5f9286e349df6fd2574e52d1_Little-Dame-Tattoo-Gift-Cards_vmsnmv.gif"
     alt: ""
-tags: ["Graphic Design"]
+category: ["Graphic Design"]
 draft: true
 ---
 

@@ -6,7 +6,7 @@ description: 'September 2021 Mix'
 image:
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_60/v1739500073/613b0021be08f41360aac55f_20210909_SZ01_ART_Med_1_a2tdne.png'
     alt: ''
-tags: ["Music"]
+category: ["Music"]
 draft: false
 ---
 

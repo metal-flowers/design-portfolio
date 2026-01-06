@@ -6,7 +6,7 @@ description: 'Summer Intensive | June 15–16, 2019'
 image:
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_60/v1739525692/5f910288b04ca6c93c4782be_Typography_Summer_School_LA_2C_Week_2_7C_June_2019_jnxvng.jpg'
     alt: ''
-tags: ["Graphic Design"]
+category: ["Graphic Design"]
 draft: true
 ---
 

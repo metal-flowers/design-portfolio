@@ -6,7 +6,7 @@ description: "Ilford Sprite 35 II + Expired Film"
 image:
     url: "https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_auto/v1739349713/64c22f3855deb0f9ee6759ed_2023-Expired-Film-Oceanside-3_exxydy.jpg"
     alt: ""
-tags: ["Photography"]
+category: ["Photography"]
 draft: false
 ---
 

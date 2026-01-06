@@ -6,7 +6,7 @@ description: 'Learning through Practice'
 image:
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_50/v1739344227/65532813cf5bdf94e34d9689_papert-type-photo-1_s7ssdo.jpg'
     alt: ''
-tags: ["Type Design"]
+category: ["Type Design"]
 draft: false
 ---
 

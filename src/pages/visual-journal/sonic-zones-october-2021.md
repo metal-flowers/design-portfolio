@@ -6,7 +6,7 @@ description: 'October 2021 Mix'
 image:
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_60/v1739499355/61df95d4dc841c2d8db9676b_20211021_SZ02_ART.png_S_1_hrikmq.jpg'
     alt: ''
-tags: ["Music"]
+category: ["Music"]
 draft: false
 ---
 

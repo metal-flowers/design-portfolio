@@ -6,7 +6,7 @@ description: "A Talk for High School Seniors"
 image:
     url: "https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_60/v1739400771/647aa97bde546464ebff701b_o_farrell-graphic-design-talk_ynbkdn.png"
     alt: ""
-tags: ["Graphic Design"]
+category: ["Graphic Design"]
 draft: true
 ---
 

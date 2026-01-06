@@ -6,7 +6,7 @@ description: 'Type West Online : Term 2 Project'
 image:
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_60/v1739338691/66bad775171f42e6aecc8a59_66bad684408ad77d36ed9c98_2024-08-12_Primitiv-Text_01_y5dvar.jpg'
     alt: ''
-tags: ["Type Design"]
+category: ["Type Design"]
 draft: false
 ---
 

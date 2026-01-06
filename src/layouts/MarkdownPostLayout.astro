@@ -1,25 +1,24 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 const { frontmatter } = Astro.props;
-const { title, description, date, tags, author, image} = frontmatter;
+const { title, description, author, date, tag} = frontmatter;
 
 ---
 
-<BaseLayout {title} {description}>
-    <header>
-        <div class="container">
-            <small>
-            </small>
-        </div>
 
-    </header>
+<BaseLayout {title} {description}>
 
     <div class="post-content">
+
+    <!--- Blog metadata: Title, Description, Date, Category --->
+
         <div class="blog-info">
             <h1>{frontmatter.title}</h1>
                 <h2>{frontmatter.description}</h2> 
-                <h6>{frontmatter.date.toString().slice(0,10)}  • {frontmatter.tags}</h6>
+                <h6>{frontmatter.date.toString().slice(0,10)}  • {frontmatter.category}</h6>
         </div>
+
+    <!--- Blog post (.md) gets slotted in here --->
             <slot />
     </div>
 

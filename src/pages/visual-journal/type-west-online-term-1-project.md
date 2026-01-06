@@ -6,7 +6,7 @@ description: 'Type West Online : Term 1 Project'
 image:
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_auto/v1739343409/66bac97eb74dc46b673b19c4_66bac722171f42e6aebc02c7_Beatrice-No-30_Process-Book_sm_1_lsfwlf.gif'
     alt: 'The Astro logo on a dark background with a pink glow.'
-tags: ["Type Design"]
+category: ["Type Design"]
 draft: false
 ---
 

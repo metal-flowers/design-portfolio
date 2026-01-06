@@ -6,7 +6,7 @@ description: 'Letterpress Workshop with Draw Down Books & Archetype Press'
 image:
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_500,f_auto,q_60/v1748930940/54539920082_0b5c613b69_3k_vph6kt.jpg'
     alt: ''
-tags: ["Photography"]
+category: ["Photography"]
 draft: false
 ---
 

@@ -6,7 +6,7 @@ description: 'Compass Costume Contest [SD/OC Team]'
 image:
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload//w_600,f_auto,q_80/v1739521752/61dfa5abcbbc7f66531d0553_202010_Baldessari_competition_jc2gvh.jpg'
     alt: 'My Baldessari Attempt'
-tags: ["Misc"]
+category: ["Misc"]
 draft: true
 ---
 

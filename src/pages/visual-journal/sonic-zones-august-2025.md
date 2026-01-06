@@ -5,7 +5,7 @@ date: 8/23/2025
 description: 'August 2025 Mix'
 image:
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_60/v1756198001/20250823_SONIC_ZONES_ARTWORK_ulkefi.png'
-tags: ["Music"]
+category: ["Music"]
 draft: false
 ---
 

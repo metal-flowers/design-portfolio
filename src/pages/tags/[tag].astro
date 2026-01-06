@@ -3,10 +3,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import MarkdownPostLayout from '../../layouts/MarkdownPostLayout.astro';
 export async function getStaticPaths() {
 const allPosts = Object.values(import.meta.glob('../visual-journal/*.md', { eager: true }));
-const uniqueTags = [...new Set(allPosts.map((post: any) => post.frontmatter.tags).flat())];
+const uniquecategory = [...new Set(allPosts.map((post: any) => post.frontmatter.category).flat())];
 
-return uniqueTags.map((tag) => {
-    const filteredPosts = allPosts.filter((post: any) => post.frontmatter.tags.includes(tag));
+return uniquecategory.map((tag) => {
+    const filteredPosts = allPosts.filter((post: any) => post.frontmatter.category.includes(tag));
     return {
       params: { tag },
       props: { posts: filteredPosts },
@@ -16,7 +16,7 @@ return uniqueTags.map((tag) => {
 
 const { tag } = Astro.params;
 const { posts } = Astro.props;
-const filteredPosts = posts.filter((post: any) => post.frontmatter.tags?.includes(tag));
+const filteredPosts = posts.filter((post: any) => post.frontmatter.category?.includes(tag));
 
 ---
 

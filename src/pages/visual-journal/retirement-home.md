@@ -6,7 +6,7 @@ description: 'By Taxes'
 image:
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_60/v1739408881/6378ae68e86a4564712d525c_2022-02_TAXES_Cover_Square_1800_hgprqn.jpg'
     alt: ''
-tags: ["Graphic Design"]
+category: ["Graphic Design"]
 draft: false
 ---
 

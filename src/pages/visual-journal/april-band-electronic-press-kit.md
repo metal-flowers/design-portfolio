@@ -6,7 +6,7 @@ description: 'April EPK, July 2019'
 image:
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_auto/v1739524997/5f9102866521432c60d36bdc_2019_07_16_APRIL_Electronic_Press_Kit.Final_wok2bh.jpg'
     alt: 'one sheet for April'
-tags: ["Graphic Design"]
+category: ["Graphic Design"]
 draft: true
 ---
 

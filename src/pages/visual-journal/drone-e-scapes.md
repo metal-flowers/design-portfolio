@@ -7,7 +7,7 @@ image:
 
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_80/v1739507753/60ada7cfdf6c050e3ad147ab_DRONE_E_SCAPES_02_1_nqqqex.png'
     alt: 'pattern driven greyscale album artwork of a series of noisy dots'
-tags: ["Music"]
+category: ["Music"]
 draft: false
 ---
 

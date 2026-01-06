@@ -6,7 +6,7 @@ description: 'Album design for April’s new release'
 image:
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_80/v1739321673/66bc5f7600c8c739c07a2664_april-webtape-album-md-1_ae39oj.jpg'
     alt: 'typographic driven album art for webtape'
-tags: ["Graphic Design"]
+category: ["Graphic Design"]
 draft: false
 ---
 

@@ -6,7 +6,7 @@ description: 'March 2022 Mix'
 image:
     url: 'https://res.cloudinary.com/dzv7ytxjh/image/upload/w_600,f_auto,q_60/v1739498051/6236e0673f25e833c8680637_20210907_SZ01_ART_sm_1_vpazsz.png'
     alt: ''
-tags: ["Music"]
+category: ["Music"]
 draft: false
 ---
 
