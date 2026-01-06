@@ -8,8 +8,6 @@ import Navigation from "../components/Navigation.astro";
 import Logotype from "../components/Logotype.astro";
 import Footer from "../components/Footer.astro";
 import Favicon from "../components/Favicon.astro";
-import Hamburger from "../components/Hamburger.astro";
-
 ---
 
 <html lang="en">
@@ -21,12 +19,6 @@ import Hamburger from "../components/Hamburger.astro";
     <title>{Astro.props.title} | {author}</title>
     <meta name="author" content={author} />
     <meta name="description" content={Astro.props.description} />
-
-    <meta property="og:title" content={Astro.props.title}/>
-    <meta property="og:description" content={Astro.props.description} />
-    <meta property="og:image" content="https://res.cloudinary.com/dzv7ytxjh/image/upload/c_fill,w_872,f_auto,q_60/Primitiv-Text_thumb_gc4qrs.jpg" />
-    <meta property="og:image:alt" content="Primitiv Text: A font family inspired by fundamental waveforms of synthesized sound." />
-    <meta property="og:type" content="website" />
   </head>
 
     <Favicon />
