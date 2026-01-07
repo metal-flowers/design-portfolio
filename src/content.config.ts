@@ -20,7 +20,8 @@ const visualJournal = defineCollection({
 			image: z.object({
         url: z.string(),
         alt: z.string().optional(),
-    }).optional(),
+    })
+  .optional(),
       category: z.string().optional(),
       draft: z.boolean(),
       slug: z.string(),
