@@ -1,7 +1,16 @@
 ---
 import BaseLayout from './BaseLayout.astro';
-const { frontmatter } = Astro.props;
-const { title, description, author, date, category} = frontmatter;
+// const { frontmatter } = Astro.props;
+const { 
+    title, 
+    description, 
+    date, 
+    updatedDate, 
+    heroImage, 
+    category, 
+    draft, 
+    slug,
+} = Astro.props;
 
 ---
 
@@ -13,9 +22,9 @@ const { title, description, author, date, category} = frontmatter;
     <!--- Blog metadata: Title, Description, Date, Category --->
 
         <div class="blog-info">
-            <h1>{frontmatter.title}</h1>
-                <h2>{frontmatter.description}</h2> 
-                <h6>{frontmatter.date.toString().slice(0,10)}  •  {frontmatter.category}</h6>
+            <h1>{title}</h1>
+                <h2>{description}</h2> 
+                <h6>{date.toLocaleDateString('en-US', {month: 'long', day: 'numeric', year: 'numeric',})}  •  {category}</h6>
         </div>
 
     <!--- Blog post (.md) gets slotted in here --->
