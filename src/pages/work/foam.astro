@@ -1,0 +1,86 @@
+---
+const title = "foam Logotype";
+const description =
+  "Custom logotype for a startup that helps engineers resolve production errors.";
+
+1  import "../../styles/global.css";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+---
+
+<BaseLayout {title} {description}>
+  <!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
+
+  <section class="project-info">
+    <h1>{title}</h1>
+    <h2>{description}</h2>
+    <a class="read-more" href="#project-description">Read More</a>
+  </section>
+
+  <!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
+
+  <section class="project-photos">
+
+
+
+
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1767851891/foam-01_kaffgz.png"
+        alt=""
+      />
+      <figcaption></figcaption>
+    </figure>
+
+
+    <figure>
+        <img
+          style="background: rgb(6, 6, 6);"
+          loading="lazy"
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/w_2800,f_auto,q_60/v1767851891/foam-02_rggqzr.png"
+          alt=""
+        />
+        <figcaption></figcaption>
+      </figure>
+
+      <figure>
+        <img
+          style="background: rgb(6, 6, 6);"
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/w_2800,f_auto,q_60/v1767851889/foam-09_moeb09.jpg"
+          alt="select scans of a wire-o bound process book for Primitiv Text, showing different spreads in gif form"
+        />
+        <figcaption></figcaption>
+      </figure>
+  
+
+      
+      
+</section>
+
+  <!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
+
+  <article class="project-description">
+    <a id="project-description"></a>
+
+    <h3 class="description-heading">About the Project</h3>
+    <p>
+      Poster design for a <a href="https://www.sarahdavachi.com/about">Sarah Davachi</a> and <a href="https://listentoapril.bandcamp.com/">April</a> show at <a href="https://digitalgym.org/">Digital Gym</a> in San Diego, where Sarah performed her piece, <a href="https://sarahdavachi.bandcamp.com/album/music-for-a-bellowing-room">Music for a Bellowing Room.</a> Opening for Sarah, April, performed songs from their album, <a href="https://listentoapril.bandcamp.com/album/webtape">Webtape.</a>
+    </p>
+    <p>
+      This special show was paired with a parallel event, Elsewhere Market, where local shops, vendors, and community members gathered in the lobby to shop and support local across coffee, music, books, and more.</p>
+    </p>
+    <p>
+      For the design of the event, I found inspiration from Sarah Davachi’s beautiful compositions, and looked to old sources of inspiration from 19th century prints and books. I carried the design inspiration into Elsewehere Market, since the events would have much of crossover due to being in the same space.
+    </p>
+
+    <h3 class="description-heading">Credits</h3>
+    <p>
+      <a href="https://blazetype.eu/typefaces/emeritus">Emeritus</a> by Tim Vanhille, Léon Hugues, Matthieu Salvaggio @ Blaze Type</br>
+      <a href="https://store.overlaptype.com/fonts/outgo">Outgo</a> by James Plattner through Overlap Type</br>
+      <a href="https://www.theleagueofmoveabletype.com/sorts-mill-goudy">Sorts Mill Goudy</a> by Barry Schwartz through The League of Movable Type</br>
+      Poster printed by <a href="https://www.defranceprinting.com/">Defrance Printing</a> in National City</br>
+    </p>
+  </article>
+</BaseLayout>
