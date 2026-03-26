@@ -1,0 +1,103 @@
+---
+const title = "foam Logotype";
+const description =
+  "Custom logotype for a startup that helps engineers resolve production errors.";
+
+1  import "../../styles/global.css";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+---
+
+<BaseLayout {title} {description}>
+  <!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
+
+  <section class="project-info">
+    <h1>{title}</h1>
+    <h2>{description}</h2>
+    <a class="read-more" href="#project-description">Read More</a>
+  </section>
+
+  <!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
+
+  <section class="project-photos">
+
+
+
+
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1767851891/foam-01_kaffgz.png"
+        alt=""
+      />
+      <figcaption></figcaption>
+    </figure>
+
+
+    <figure>
+        <img
+          style="background: rgb(6, 6, 6);"
+          loading="lazy"
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/w_2800,f_auto,q_60/v1767851891/foam-02_rggqzr.png"
+          alt=""
+        />
+        <figcaption></figcaption>
+      </figure>
+
+
+      <figure>
+        <img
+          style="background: rgb(6, 6, 6);"
+          loading="lazy"
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1774562693/foam-12_c8pfml.png"
+          alt=""
+        />
+        <figcaption></figcaption>
+      </figure>
+
+
+
+      <figure>
+        <img
+          style="background: rgb(6, 6, 6);"
+          loading="lazy"
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1774562953/foam-11_iobpgb.png"
+          alt=""
+        />
+        <figcaption></figcaption>
+      </figure>
+
+
+      <figure>
+        <img
+          style="background: rgb(6, 6, 6);"
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1774561503/foam-07_ba4d50.jpg"
+          alt="select scans of a wire-o bound process book for Primitiv Text, showing different spreads in gif form"
+        />
+        <figcaption></figcaption>
+      </figure>
+  
+
+      
+      
+</section>
+
+  <!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
+
+  <article class="project-description">
+    <a id="project-description"></a>
+
+    <h3 class="description-heading">About the Project</h3>
+    <p>
+      foam is an AI tool that spots production issues in code as they first occur, without an engineer spending hours debugging. foam helps explain what went wrong, why, and suggests how an engineer can fix it.
+  </p>
+  <p>
+      I worked directly with the co-founders to quickly create a new logo and brand (see brand project <a href="/work/foam-branding">here</a>). The logotype was inspired significantly by the name itself and how they wanted to position themselves in the market. 
+      The logotype was ultimately created through a series of overlapping contours, and included an optical logo (small and large) for size-dependent use, like navigation versus larger marketing usage.
+  </p>
+  <p>
+    Note: I have been hesitant to even share this project. It was the first freelance gig I got after leaving my last job, which came as a surprise. However, this is the first and last AI product I will do any work for. I am fundamentally against it, for it is at odds with the people and at odds with a better future.
+</p>
+  </article>
+</BaseLayout>

@@ -1,0 +1,115 @@
+---
+const title = "foam Branding";
+const description = "Branding for a small tech startup.";
+
+import "../../styles/global.css";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout {title} {description}>
+  <!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
+
+  <section class="project-info">
+    <h1>{title}</h1>
+    <h2>{description}</h2>
+    <a class="read-more" href="#project-description">Read More</a>
+  </section>
+
+  <!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
+
+  <section class="project-photos">
+
+
+    <figure>
+        <img
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1774561503/foam-03_foi0oj.png"
+          alt=""
+        />
+        <figcaption></figcaption>
+      </figure>
+
+
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1774561503/foam-04_r5r0st.png"
+          alt=""
+        />
+        <figcaption></figcaption>
+      </figure>
+
+
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1774561505/foam-05_fovrmp.png"
+          alt=""
+        />
+        <figcaption></figcaption>
+      </figure>
+
+
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1774562066/foam-10_xyccqg.jpg"
+          alt=""
+        />
+        <figcaption></figcaption>
+      </figure>
+
+
+          <figure>
+        <img
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1774561503/foam-06_bextk2.jpg"
+          alt=""
+        />
+        <figcaption></figcaption>
+      </figure>
+
+
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1774561503/foam-07_ba4d50.jpg"
+          alt=""
+        />
+        <figcaption></figcaption>
+      </figure>
+
+
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1774560065/foam-08_cl5xc4.jpg"
+          alt=""
+        />
+        <figcaption></figcaption>
+      </figure>
+
+
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1774561503/foam-09_yfrcen.jpg"
+          alt=""
+        />
+        <figcaption></figcaption>
+      </figure>
+
+      
+
+
+  </section>
+
+  <!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
+
+  <article class="project-description">
+    <a id="project-description"></a>
+
+    <h3 class="description-heading">About the Project</h3>
+    <p>
+        foam is an AI tool that spots production issues in code as they first occur, without an engineer spending hours debugging. foam helps explain what went wrong, why, and suggests how an engineer can fix it.
+    </p>
+    <p>
+        I worked directly with the co-founders to quickly create a mini brand to help solidify their identity while raising funding. They wanted to present themselves in the market as a friendly coworker that is helpful and precise. The brand included a fully custom logotype, color palette, figma design library, type selections, email templates, a slide deck template, and a general landing page.
+    </p>
+    <p>
+        Note: I have been hesitant to even share this project. It was the first freelance gig I got after leaving my last job, which came as a surprise. However, this is the first and last AI product I will do any work for. I am fundamentally against it, for it is at odds with the people and at odds with a better future.
+    </p>
+  </article>
+</BaseLayout>
