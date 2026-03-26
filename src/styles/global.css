@@ -267,7 +267,7 @@ html {
 
   .about {
     grid-area: about;
-    margin-bottom: 2%;
+    margin: 2% 0;
   }
 
   .info-col-1 {
