@@ -9,7 +9,7 @@ draft: false
 slug: 'drone-escapes-no-03'
 ---
 
-<img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_40/v1739406377/631ec7dc11a5acf44cc8f7b8_DRONE_E_SCAPES_03_ART_1_vwdosl.png" alt="">
+<a href="https://www.mixcloud.com/metal-flowers/droneescapes-no-03/"><img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_40/v1739406377/631ec7dc11a5acf44cc8f7b8_DRONE_E_SCAPES_03_ART_1_vwdosl.png" alt=""></a>
 
 I started this 46 minute track about 5 months ago, but after I initially recorded it and had the tracks in Ableton I had to hop on a plane to NY for a week for some work stuff. I wasn't really able to settle back into it since, unfortunately, until the end of August. My PMDD was fucking me up and I just needed this because I still rely on listening to the [first](https://www.mixcloud.com/metal-flowers/droneescapes/) [two](https://www.mixcloud.com/metal-flowers/droneescapes-no02/) tracks I made and wanted more. 
 

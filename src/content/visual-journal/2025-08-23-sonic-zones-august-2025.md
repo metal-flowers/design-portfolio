@@ -9,7 +9,7 @@ draft: false
 slug: 'sonic-zones-august-2025'
 ---
 
-<img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1756198001/20250823_SONIC_ZONES_ARTWORK_ulkefi.png">
+<a href="https://www.mixcloud.com/metal-flowers/soniczones-aug-2025/"><img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1756198001/20250823_SONIC_ZONES_ARTWORK_ulkefi.png"></a>
 
 You know when you just need to make something and can’t focus on anything else until it’s done? That was me for a week, working on this new mix. I had a window of time to work on it and became obsessed with it in the best way. I haven’t made one for 3 years, so I kept it pretty simple by keeping it to 1 hour, using fewer songs, and focusing more on the transitions after learning from the last few. You can listen to the
 [August ’25 Mix here](https://www.mixcloud.com/metal-flowers/soniczones-aug-2025/).

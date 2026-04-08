@@ -9,7 +9,7 @@ draft: false
 slug: 'drone-escapes-no-04'
 ---
 
-<img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1739348117/64eda90b86baea73fe48e026_DRONE_E_SCAPES_04_pqpwsk.png" alt="">
+<a href="https://www.mixcloud.com/metal-flowers/droneescapes-no-04/"><img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1739348117/64eda90b86baea73fe48e026_DRONE_E_SCAPES_04_pqpwsk.png" alt=""></a>
 
 So much time passes between each DRONE(((E)))SCAPES. The problem with the long span of time without working on these is picking up where I left off and trying to remember what I wanted to do next. With pure focus, it comes back fairly quickly though—fortunately. 
 
