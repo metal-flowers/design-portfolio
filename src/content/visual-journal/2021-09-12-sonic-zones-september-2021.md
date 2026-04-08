@@ -10,7 +10,7 @@ draft: false
 slug: 'sonic-zones-september-2021'
 ---
 
-<img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1739500073/613b0021be08f41360aac55f_20210909_SZ01_ART_Med_1_a2tdne.png">
+<a href="https://www.mixcloud.com/metal-flowers/soniczones-september-21/"><img class="blog-post-image-lg" src="https://res.cloudinary.com/dzv7ytxjh/image/upload/f_auto,q_60/v1739500073/613b0021be08f41360aac55f_20210909_SZ01_ART_Med_1_a2tdne.png"></a>
 
 Well, even though I am very casually working on my next [DRONE(((E)))SCAPES](https://www.annieszafranski.com/visual-journal/drone-e-scapes) (this is generous), I wanted to make something else that could technically help me with my next song but be different from the music I'm trying to make. But honestly, I was also just listening to music while playing video games (literally…Sonic) and was ultimately inspired to make a mix. 
 
