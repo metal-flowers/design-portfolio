@@ -1,0 +1,84 @@
+---
+const title = "Taxes: It Never Ends";
+const description = "Album design for Bay Area band, Taxes.";
+
+import "../../styles/global.css";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout {title} {description}>
+  <!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
+
+  <section class="project-info">
+    <h1>{title}</h1>
+    <h2>{description}</h2>
+    <a class="read-more" href="#project-description">Read More</a>
+  </section>
+
+  <!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
+
+  <section class="project-photos">
+
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1774490037/it-never-ends-cover_fzfyty.jpg"
+        alt="Standard top down shot of the CD cover directly centered."
+      />
+      <figcaption></figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1774490036/it-never-ends-interior_i0rl5v.jpg"
+        alt="Top down photo of the CD open"
+      />
+      <figcaption></figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1774490036/it-never-ends-front-back_tyv0to.jpg"
+        alt="Top-down shot of the CD open but flipped so the cover and back show"
+      />
+      <figcaption></figcaption>
+    </figure>
+
+    
+  </section>
+
+  <!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
+
+  <article class="project-description">
+    <a id="project-description"></a>
+
+    <h3 class="description-heading">About the Project</h3>
+    <p>
+      <em>It Never Ends</em>, is the first album from Bay Area rock band, Taxes, 
+      and our first collabroative project together. Using a beautiful painting from 
+      Hickory Mertsching, I pulled inspiration from the artwork to establish the remaining layout. I didn’t quite
+      want to just use the artwork as created, but wanted to add a collage-like element that played with the 
+      foliage and skulls in an interesting way that could be carried through the interior and exterior. The type
+      for this album went with a really simple approach, only utilizing system fonts for the minimal amount of text.
+    </p>
+    <p>
+      The album was featured in Redefine Magazine’s <a href="https://redefinemag.net/2014/album-covers-of-the-year-2014-interviews/9/">
+     Album Covers of the Year</a>.
+    </p>
+    <p>
+        Listen to the album on <a href="https://taxesband.bandcamp.com/album/it-never-ends">Bandcamp</a>.
+    </p>
+
+    <h3 class="description-heading">Project Credits</h3>
+    <p>
+      Album Concept by Robby Cronholm <br />
+      Design by Annie Szafranski <br />
+      Cover Painting by <a href="https://hickorymertsching.com/">Hickory Mertsching</a><br />
+      Printed by DiscMakers
+    </p>
+
+    <h3 class="description-heading">Type Credits</h3>
+    <p>
+      Georgia and Tahoma by Matthew Carter
+    </p>
+  </article>
+</BaseLayout>

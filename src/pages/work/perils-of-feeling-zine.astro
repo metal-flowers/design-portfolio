@@ -1,0 +1,112 @@
+---
+const title = "Perils of Feeling Zine";
+const description = "An abstract 16-page RISO printed zine.";
+
+import "../../styles/global.css";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout {title} {description}>
+  <!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
+
+  <section class="project-info">
+    <h1>{title}</h1>
+    <h2>{description}</h2>
+    <a class="read-more" href="#project-description">Read More</a>
+  </section>
+
+  <!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
+
+
+
+  <section class="project-photos">
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773703839/perils-of-feeling-00_mm8dff.jpg"
+        alt=""
+      />
+      <figcaption></figcaption>
+    </figure>
+
+      <figure>
+        <img 
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773703839/perils-of-feeling-01_bzl20w.jpg"
+          alt=""
+        />
+        <figcaption></figcaption>
+      </figure>
+
+
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773703843/perils-of-feeling-02_n1fcfj.jpg"
+        alt=""
+        />
+      <figcaption></figcaption>
+    </figure>
+
+    <figure>
+        <img
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773703839/perils-of-feeling-03_rcubm4.jpg"
+          alt=""
+          />
+        <figcaption></figcaption>
+      </figure>
+
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773703842/perils-of-feeling-04_eehs1f.jpg"
+          alt=""
+          />
+        <figcaption></figcaption>
+      </figure>
+
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773703840/perils-of-feeling-05_gql0tv.jpg"
+          alt=""
+          />
+        <figcaption></figcaption>
+      </figure>
+
+
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773703839/perils-of-feeling-06_h2sqwh.jpg"
+          alt=""
+          />
+        <figcaption></figcaption>
+      </figure>
+
+
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773703840/perils-of-feeling-07_w4rwlj.jpg"
+          alt=""
+          />
+        <figcaption></figcaption>
+      </figure>
+
+  </section>
+
+  <!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
+
+  <article class="project-description">
+    <a id="project-description"></a>
+
+    <h3 class="description-heading">About the Project</h3>
+
+    <p>
+      What do you do when you get fired from, or quit, the job you hated?
+      What do you do when you are caught in an emotional, quarter-life, crisis?
+      What do you do when writing the thing out isn’t enough? Perhaps you make a zine about it! 
+      The Perils of Feeling is an abstract zine created trying to capture the fun cycle of feeling it all 
+    while trying to keep it all together.
+  </p>
+
+    <h3 class="description-heading">Project Credits</h3>
+    <p>
+      Concepted, Designed, Printed, and Assembled by Annie Szafranski.
+    </p>
+  </article>
+</BaseLayout>

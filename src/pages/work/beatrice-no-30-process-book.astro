@@ -1,0 +1,121 @@
+---
+const title = "Beatrice No. 30 Process Book";
+const description = "Printed booklet showing the process of designing a 19th Century type revival.";
+
+import "../../styles/global.css";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout {title} {description}>
+  <!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
+
+  <section class="project-info">
+    <h1>{title}</h1>
+    <h2>{description}</h2>
+    <a class="read-more" href="#project-description">Read More</a>
+  </section>
+
+  <!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
+
+
+  <section class="project-photos">
+
+    <figure>
+      <img
+        style="background: rgb(0, 0, 0);"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773784033/beatrice-process-book-00_wt5fje.jpg"
+        alt="Opening introductory page with a green overlay over an illustration from Dante's Purgatory with Beatrice No. 30 written front and center"
+      />
+      <figcaption></figcaption>
+    </figure>
+
+
+    <figure>
+      <img
+        style="background: rgb(0, 0, 0);"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773782525/beatrice-process-book-01_kouk4c.jpg"
+        alt="Opening introductory page with a green overlay over an illustration from Dante's Purgatory with Beatrice No. 30 written front and center"
+      />
+      <figcaption></figcaption>
+    </figure>
+
+    <figure>
+      <img
+        style="background: rgb(0,0,0);"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773782516/beatrice-process-book-02_wcwrvj.jpg"
+        alt="Open spread of original source material from Dante. Opening to the same illustration previewed in the first image."
+      />
+      <figcaption></figcaption>
+    </figure>
+
+    <figure>
+      <img
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773782526/beatrice-process-book-03_tvlbw0.jpg"
+        alt="Additional source material pulled for reference from Bruce's Specimen Book and Bruce Old Style No. 31"
+      />
+      <figcaption></figcaption>
+    </figure>
+
+    <figure>
+      <img
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773782524/beatrice-process-book-04_rniddn.jpg"
+        alt="Photograph of a 10x micro lens / loupe on top of a page of Dante's Pergatory."
+      />
+      <figcaption></figcaption>
+    </figure>
+
+    <figure>
+      <img
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773783617/beatrice-process-book-05_qqthie.jpg"
+        alt="Preview of original type referenced next to my type work for Beatrice No. 30"
+      />
+      <figcaption></figcaption>
+    </figure>
+
+    <figure>
+      <img
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773782520/beatrice-process-book-06_jvdyhl.jpg"
+        alt="Large capital A next to a lowercase a using black and an olive green"
+      />
+      <figcaption></figcaption>
+    </figure>
+  </section>
+
+
+
+  <!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
+
+  <article class="project-description">
+    <a id="project-description"></a>
+
+    <h3 class="description-heading">About the Project</h3>
+    <p>
+     A 36-page, thread-and-knot sewn, booklet explaining the process of designing 
+     Beatrice No. 30, a 19th Century type revival. To learn more about the type project itself,
+     visit the <a href="/beatrice-no-30-type-revival">Beatrice No. 30 Type Revival</a>
+    </p>
+
+    <h3 class="description-heading">Thank You</h3>
+    <p>
+      Beatrice No. 30 was created with the excellent guidance and support of
+      the Type West Online instructors and teaching assistants.
+    </p>
+    <p>
+      Lead Instructor: Sahar Afshar<br />
+      Co-Instructor: Michele Patanè<br />
+      Type History and Theory Instructor: Ewan Clayton<br />
+      TAs: Nora Warschewski, Allie Schmitz, and Kurt F. Shaffert
+    </p>
+
+    <p>
+      View on the <a
+        href="https://typewest.letterformarchive.org/2024/revivals/"
+        target="_blank">Letterform Archive website</a
+      >, along with the revivals of the whole Type West Online 2024 cohort.
+    </p>
+  </article>
+</BaseLayout>

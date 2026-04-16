@@ -1,4 +1,4 @@
-/* Light Mode Colors */
+/* Light Mode Colors 
 :root {
   --primary-background: #E4E4E4;
   --primary-text: #000;
@@ -8,21 +8,22 @@
   --auqa: #00ffff;
   --lime: 	#00ff00;
   --charcoal: #121212; 
-  --primary-body-font: "SplineSans-Regular";
+  --primary-body-font: "SplineSans-Regular" ;
   --primary-body-headline: "SplineSans-SemiBold";
   --primary-border-weight: 1px;
 }
+*/
 
 /* Dark Mode Colors */
 @media (prefers-color-scheme: dark) {
   :root {
-    --primary-background:  #111;
-    --primary-text: #E4E4E4;
+    --primary-background:  #0e0e0e;
+    --primary-text: #A4A4A4;
     --primary-accent: #e66027;
     --primary-muted-text: #666;
-    --primary-body-font: "SplineSans-Light";
-    --primary-body-headline: "SplineSans-Regular";
+    --primary-body-font: "utile-narrow", Helvetica, Arial, sans-serif;
     --primary-border-weight: .5px;
+    --primary-blog-font: "odile", serif; 
   }
 }
 
@@ -94,8 +95,6 @@ input, textarea, button {
   src: url("/fonts/SplineSans-SemiBold.woff2") format("woff2");
   font-display: swap;
 }
-
-
 
 
 
@@ -173,21 +172,21 @@ html {
 
 .nav-links li {
   display: inline;
-  padding: 0 0.4rem;
 }
 
 .nav-links a {
   font-family: var(--primary-body-font), Helvetica, Arial, sans-serif;
   display: inline;
   font-size: 1rem;
-  font-weight: normal;
+  font-weight: 300;
   text-transform: uppercase;
   border-radius: 4px;
-  padding: 1% 0;
+  padding: 0 10px;
 }
 
 .nav-links li a:hover {
   background-color: var(--primary-accent);
+  padding: 2px 10px 4px;
 }
 
 
@@ -241,7 +240,6 @@ html {
 
   .nav-links li {
       display: block;
-      padding: 1rem 0;
   }
 
   .nav-links a {
@@ -268,6 +266,7 @@ html {
   .about {
     grid-area: about;
     margin: 2% 0;
+    grid-column: 2/6;
   }
 
   .info-col-1 {
@@ -295,7 +294,7 @@ grid-area: info-col-1;
 
   .contact a {
     font-size: 1.0rem;
-    font-weight: normal;
+    font-weight: 300;
     border-bottom: 1px solid;
 
   }
@@ -348,6 +347,7 @@ grid-area: info-col-1;
       grid-area: project-grid;
     }
 
+
     .full-project-grid {
       grid-column: span 6;
       display: grid;
@@ -356,7 +356,7 @@ grid-area: info-col-1;
     }
   
   .project {
-    margin-bottom: 24px;
+    margin-bottom: 20%;
     grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
     grid-gap: 20px;
   }
@@ -369,6 +369,27 @@ grid-area: info-col-1;
     border-radius: 16px;
     margin-bottom: 2%;
   }
+
+  .corporate-project img {
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    border-radius: 16px;
+    margin-bottom: 2%;
+    object-fit: cover;
+  }
+
+  .corporate-project  a:hover {
+    background: transparent;
+  }
+
+  .corporate-project img:hover {
+    transform: scale(1.040);
+    transition: transform 0.3s ease, box-shadow 0.2s ease;
+  }
+
+  
+
+
 
   .project video {
     width: 100%;
@@ -507,7 +528,7 @@ h3.description-heading {
 /* RESUME */
 h3.resume {
   text-transform: uppercase;
-  font-size: 0.750rem;
+  font-size: 0.8rem;
   letter-spacing: 0.1rem;
   margin: 2% 0;
   border-top: var(--primary-border-weight) solid var(--primary-text);
@@ -594,6 +615,7 @@ logo {
   width: 100%;
 }
 
+
 h1 {
   font-family: "Resonay-Solid-Light", 'Times New Roman', Times, serif;
   font-size: 3.056rem;
@@ -601,6 +623,15 @@ h1 {
   font-weight: normal;
   margin-bottom: 0.40rem;
   text-wrap: pretty;
+}
+
+
+.about h1{
+  font-family: var(--primary-body-font), 'Times New Roman', Times, serif;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.25rem;
+  text-align: center;
 }
 
 h1.info {
@@ -620,25 +651,31 @@ h1 a {
 
 
 h2 {
-  font-family: "SplineSans-Light", Helvetica, Arial, sans-serif;
+  font-family: var(--primary-body-font);
   font-size: 1.556rem;
   font-weight: 200;
   line-height: 2.2rem;
   color: var(--primary-text);
 }
 
+
 h2.project-title {
-  font-family: "SplineSans-Light", Helvetica, Arial, sans-serif;
-  font-size: 1.556rem;
-  line-height: 2.0rem;
-  color: var(--primary-text);
-  letter-spacing: -0.01rem;
-}
+    font-family: Resonay-Solid-Light,Times New Roman,Times,serif;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    color: var(--primary-text);
+    border-top: 1px solid #1B1B1B;
+    padding: 3% 0 0;
+    text-align: center;
+    letter-spacing: .04rem;
+  }
 
 h3 {
-  font-family: var(--primary-body-headline), Helvetica, Arial, sans-serif;
-  font-size: 1.278rem;
+  font-family: var(--primary-body-font), Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
   line-height: 2.0rem;
+  letter-spacing: 0.02rem;
+  font-weight: 500;
 }
 
 .contact h4 {
@@ -646,9 +683,9 @@ h3 {
 }
 
 h4 {
-  font-family: var(--primary-body-headline), Helvetica, Arial, sans-serif;
+  font-family: var(--primary-body-font), Helvetica, Arial, sans-serif;
   font-size: 1.0rem;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.20rem;
   margin: 4% 0 2% 0;
 }
@@ -659,23 +696,26 @@ h5 {
 }
 
 h6 {
-  font-family: var(--primary-body-headline), Helvetica, Arial, sans-serif;
-  font-size: 0.778rem;
+  font-family: var(--primary-body-font), Helvetica, Arial, sans-serif;
+  font-size: 0.88rem;
   line-height: 1.8rem;
 }
 
 
 p {
   font-family: var(--primary-body-font), Helvetica, Arial, sans-serif;
-  line-height: 1.600rem;
-  margin-bottom: 2%;
-  text-wrap: pretty;
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 1.6rem;
+  margin-bottom: 2.2%;
+  letter-spacing: .02em;
+  word-spacing: -.02em;
 }
 
 
 #colophon p {
   font-family: var(--primary-body-font), Helvetica, Arial, sans-serif;
-  font-size: 0.778rem;
+  font-size: 0.88rem;
   line-height: 1.2rem;
 }
 
@@ -698,13 +738,14 @@ p a {
 
 li {
   font-family: var(--primary-body-font), Helvetica, Arial, sans-serif;
-  line-height: 1.600rem;
-  font-size: 1.000rem;
+  font-size: 1.15em;
+  font-weight: 300;
+  letter-spacing: .02em;
 }
 
-
-p.project-type, .project-year {
-  font-size: 0.778rem;
+p.project-type {
+  font-size: .88rem;
+  text-align: center;
 }
 
 
@@ -714,7 +755,9 @@ h2.project-title a:hover {
   transition: 0.4s ease-in-out;
 }
 
-.project a {
+
+/* NEW LAYOUT CSS */
+.project a, .type-project a {
   display: block;
 }
 
@@ -723,13 +766,41 @@ h2.project-title a:hover {
   transform: scale(1.01); /* Enlarge image by 20% */
 }
 
+.type-project a:hover {
+  background-color: transparent;
+  transform: scale(1.01); /* Enlarge image by 20% */
+}
+
+.type-project img {
+  width: 100%;
+  height: 250px;
+  object-fit: scale-down;
+  border-radius: 16px;
+  margin-bottom: 2%;
+}
+
+.type-project img:hover {
+  transform: scale(1.040); /* Scale up image slightly */
+}
+
+.type-project {
+  margin-bottom: 18%;
+}
+
 .project img {
   transition: transform 0.3s ease, box-shadow 0.2s ease; /* Smooth transition for both transform and shadow */
 }
 
+.project img {
+  width: 100%;
+  height: 350px;
+  object-fit: scale-down;
+  border-radius: 16px;
+  margin-bottom: 2%;
+}
+
 .project img:hover {
   transform: scale(1.040); /* Scale up image slightly */
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Add drop shadow on hover */
 }
 
 
@@ -779,11 +850,18 @@ h2.project-title a:hover {
     grid-column-end: 7;
   }
 
-  h1, h1.info {
+  h1 {
     font-family: "Resonay-Solid-Regular", 'Times New Roman', Times, serif;
-    font-size: 1.556rem;
     line-height: 2.2rem;
     font-weight: normal;
+    margin-bottom: 1rem;
+    text-wrap: pretty;
+  }
+
+  h1.info {
+    font-family: "Resonay-Solid-Regular", 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    line-height: 2.6rem;
     margin-bottom: 1rem;
     text-wrap: pretty;
   }
@@ -793,22 +871,23 @@ h2.project-title a:hover {
   }
 
   h2 {
-    font-family: "SplineSans-Light", Helvetica, Arial, sans-serif;
-    font-size: 1.278rem;
-    line-height: 1.88rem;
+    font-family: var(--primary-body-font), Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
   }
 
 
   h3 {
-    font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
+    font-family: var(--primary-body-headline), Helvetica, Arial, sans-serif;
     font-size: 1.000rem;
     font-weight: normal;
     line-height: 2.0rem;
   }
 
   h3.description-heading {
-    font-family: var(--primary-body-headline), Helvetica, Arial, sans-serif;
-    font-size: 1.278rem;
+    font-family: var(--primary-body-font), Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
     line-height: 2.2rem;
     margin: 6% 0 3% 0;
   }
@@ -825,6 +904,14 @@ h2.project-title a:hover {
     font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
     font-size: 1.000rem;
     font-weight: normal;
+  }
+
+  .type-project {
+    margin-bottom: 8%;
+  }
+
+  .project {
+    margin-bottom: 15%;
   }
 
   .contact {
@@ -895,6 +982,11 @@ h2.project-title a:hover {
      .resume-section {
         margin-bottom: 10%;
       }
+
+      .resume-section p {
+        font-size: 1.0rem;
+        line-height: 1.4rem;
+      }
     
     #resume-intro {
       grid-column-start:1;
@@ -903,12 +995,33 @@ h2.project-title a:hover {
     }
     
     .resume-section h2 {
+    font-family: var(--primary-body-font);
+    line-height: 1.2em;
     margin: 0 0 2% 0;
     }
     
+    h3.resume {
+      font-family: var(--primary-body-font);
+    }
+
+
     #info-intro {
       grid-column: 2 / 5;
       margin-bottom: 6%;
+    }
+
+    #info-text {
+      border: none;
+      padding: 0;
+    }
+
+    .blog-info h6 {
+      margin: 1% 0 2% 0;
+    }
+
+    .post-content p {
+      font-size: 1.1rem;
+      line-height: 1.6rem;
     }
 
     
@@ -929,7 +1042,7 @@ footer {
 footer p {
   font-family: var(--primary-body-font), Helvetica, Arial, sans-serif;
   font-size: 0.778rem;
-  font-weight: normal;
+  font-weight: 300;
   color: var(--primary-muted-text);
   text-align: right;
   width: 100%;
@@ -952,7 +1065,7 @@ padding: 0 1% 0 0;
 .footer-links a {
   display: inline;
   font-size: 0.778rem;
-  font-weight: normal;
+  font-weight: 300;
   color: var(--primary-muted-text);
   border-bottom: 1px solid var(--medium-gray);
 }
@@ -960,7 +1073,7 @@ padding: 0 1% 0 0;
 .footer-links a:hover,
 .footer-links a:focus, h1 a:hover, a:hover {
   background-color: var(--primary-accent);
-  color: var(--primary-text);
+  color: var(--primary-background);
   border-radius: 4px;
   transition: 0.4s ease-in-out;
 }
@@ -979,7 +1092,7 @@ padding: 0 1% 0 0;
 
     footer p {
       font-size: 0.778rem;
-      font-weight: normal;
+      font-weight: 300;
       color: var(--primary-muted-text);
       text-align: center;
       width: 100%;
@@ -1007,6 +1120,14 @@ padding: 0 1% 0 0;
   display: grid;
   grid-column-start: 2;
   grid-column-end:6;
+  padding: 0 6%;
+}
+
+.post-content p {
+font-family: var(--primary-blog-font);
+line-height: 1.7rem;
+font-size: 1.1rem;
+font-weight: 300;
 }
 
 .post-index {
@@ -1114,6 +1235,10 @@ border-bottom: var(--primary-border-weight) solid var(--primary-text);
 
   .blog-info {
     margin-bottom: 6%;
+  }
+
+  .nav-links a {
+    font-weight: 300;
   }
 
 
