@@ -240,6 +240,7 @@ html {
 
   .nav-links li {
       display: block;
+      margin: 6% 0;
   }
 
   .nav-links a {
