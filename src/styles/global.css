@@ -14,8 +14,8 @@
 }
 */
 
-/* Dark Mode Colors */
-@media (prefers-color-scheme: dark) {
+/* Dark Mode Color
+@media (prefers-color-scheme: dark) */
   :root {
     --primary-background:  #0e0e0e;
     --primary-text: #A4A4A4;
@@ -25,15 +25,16 @@
     --primary-border-weight: .5px;
     --primary-blog-font: "odile", serif; 
   }
-}
 
-/* gURL Mode Colors */
+/* gURL Mode Colors
 body.gurl-mode {
   --primary-background: #ff00ff;
   --primary-text: #ff00ff;
   --primary-accent: #00ffff;
   --primary-muted-text: #00ff00;
 }
+
+*/
 
 /* Box sizing rules */
 *,
