@@ -24,6 +24,7 @@
     --primary-body-font: "utile-narrow", Helvetica, Arial, sans-serif;
     --primary-border-weight: .5px;
     --primary-blog-font: "odile", serif; 
+    --primitiv-text-font: "202604_Primitiv-Text_v0.01-Regular";
   }
 
 /* gURL Mode Colors
@@ -95,6 +96,12 @@ input, textarea, button {
   font-family: "SplineSans-SemiBold";
   src: url("/fonts/SplineSans-SemiBold.woff2") format("woff2");
   font-display: swap;
+}
+
+
+@font-face { 
+  font-family: "202604_Primitiv-Text_v0.01-Regular";
+  src: url("/fonts/202604_Primitiv-Text_v0.01-Regular.woff2") format("woff2");
 }
 
 
@@ -652,7 +659,6 @@ h1.info {
 }
 
 
-
 h1 a {
   border-bottom: 2px solid var(--primary-text);
 }
@@ -666,6 +672,12 @@ h2 {
   color: var(--primary-text);
 }
 
+h2.primitiv-text-sample {
+  font-family: var(--primitiv-text-font);
+  text-align: center;
+  font-size: 4rem;
+  color: #fff;
+}
 
 h2.project-title {
     font-family: Resonay-Solid-Light,Times New Roman,Times,serif;
