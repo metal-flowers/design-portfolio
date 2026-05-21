@@ -22,7 +22,7 @@
     --primary-accent: #e66027;
     --primary-muted-text: #666;
     --primary-body-font: "utile-narrow", Helvetica, Arial, sans-serif;
-    --primary-border-weight: .5px;
+    --primary-border-weight: 0.056rem;
     --primary-blog-font: "odile", serif; 
     --primitiv-text-font: "202604_Primitiv-Text_v0.01-Regular";
   }
@@ -304,7 +304,7 @@ grid-area: info-col-1;
   .contact a {
     font-size: 1.0rem;
     font-weight: 300;
-    border-bottom: 1px solid;
+    border-bottom: var(--primary-border-weight) solid;
 
   }
 
@@ -753,7 +753,7 @@ p {
 }
 
 p a { 
-  border-bottom: 1px solid var(--primary-text);
+  border-bottom: var(--primary-border-weight) solid var(--primary-text);
 }
 
 li {
@@ -1087,7 +1087,7 @@ padding: 0 1% 0 0;
   font-size: 0.778rem;
   font-weight: 300;
   color: var(--primary-muted-text);
-  border-bottom: 1px solid var(--medium-gray);
+  border-bottom: var(--primary-border-weight) solid var(--medium-gray);
 }
 
 .footer-links a:hover,
