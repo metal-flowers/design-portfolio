@@ -1,0 +1,72 @@
+---
+const title = "Designing A Union";
+const description = "Pamphlet Design for A Book Launch";
+
+import "../../styles/global.css";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout {title} {description}>
+  <!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
+
+  <section class="project-info">
+    <h1>{title}</h1>
+    <h2>{description}</h2>
+    <a class="read-more" href="#project-description">Read More</a>
+  </section>
+
+  <!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
+
+  <section class="project-photos">
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1783022967/P6283876_SM_pzy8sc.jpg"
+        alt=""
+      />
+      <figcaption></figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1783022967/P6273810_SM_rm5jqm.jpg"
+        alt=""
+      />
+      <figcaption></figcaption>
+    </figure>
+
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1783025686/UOOO_Open_zcqbmw.gif"
+          alt=""
+        />
+        <figcaption></figcaption>
+      </figure>
+
+  </section>
+
+  <!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
+
+  <article class="project-description">
+    <a id="project-description"></a>
+
+    <h3 class="description-heading">About the Project</h3>
+    <p>
+      <a href="https://www.haymarketbooks.org/books/2724-unions-of-our-own">Unions of Our Own</a> is a new book by <a href="https://www.haymarketbooks.org/authors/1825-daniel-gross">Daniel Gross</a>, released this year by <a href="https://www.haymarketbooks.org/">Haymarket Books</a>. To accompany its release,
+      I was commissioned by <a href="https://www.sununion.org/">SUN</a> to design an accompanying pamphlet that encompassess key concepts from the book of building a complete union model of your own in 8 steps. 
+    </p>
+    <p>
+        This letter-sized worksheet was designed and printed to be shared and distributed across the intimate book tour, and offers a visual framework to start building within.
+    </p>
+
+
+    <h3 class="description-heading">Credits</h3>
+    <p>
+     Primary Headline: <a href="https://djr.com/fit" target="_blank">Fit</a> by <a href="https://djr.com/" target="_blank">DJR</a><br />
+    Secondary Headlines: <a href="https://www.futurefonts.com/hex/service-gothic">Service Gothic</a> by <a href="https://hex.xyz/" target="_blank">Hex Projects</a><br />
+    Text: <a href="https://www.futurefonts.com/tortillastudio/pigeonette" target="_blank">Pigeonette</a> by <a href="https://tortilla.studio/" target="_blank">Tortilla.Studio</a>
+    <p>Union Printed by <a href="https://www.defranceprinting.com/">DeFrance Printing</a> in National City</p>
+</p>
+
+
+  </article>
+</BaseLayout>
