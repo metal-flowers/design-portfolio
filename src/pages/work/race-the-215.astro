@@ -1,0 +1,69 @@
+---
+const title = "Race The 215";
+const description = "Flyer Design for a Bike Race Against the Bus";
+
+import "../../styles/global.css";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout {title} {description}>
+  <!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
+
+  <section class="project-info">
+    <h1>{title}</h1>
+    <h2>{description}</h2>
+    <a class="read-more" href="#project-description">Read More</a>
+  </section>
+
+  <!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
+
+  <section class="project-photos">
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1783031591/P7023904_MD_s8nbs1.jpg"
+        alt=""
+      />
+      <figcaption></figcaption>
+    </figure>
+
+    <figure>
+      <img
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1783032831/ig-flyer-grid_wiyqeg.png"
+        alt=""
+      />
+      <figcaption></figcaption>
+    </figure>
+
+
+
+  </section>
+
+  <!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
+
+  <article class="project-description">
+    <a id="project-description"></a>
+
+    <h3 class="description-heading">About the Project</h3>
+    <p>
+      Race the 215 is a local event organized by the Ecococialist working group of DSA SD to show San Diegans, and our officals, how slow our most popular bus line is, by organzing a race around it.
+    </p>
+    <p>
+      For this project, I worked directly with the working group to create a graphic that would invite new folks into the event, whether they joined by bike or by bus. 
+      8.5 x 11 in flyers were printed and posted around the city, and a separate instagram-friendly version was made for social.
+    </p>
+    <p>
+    The inaugural event had over 50 attendees to help demand a faster 215, and even led to a few new DSA sign ups. The fastest cyclists beat the bus, after giving the bus a 15 minute head start!
+    See the original social post <a href="https://www.instagram.com/p/DZvkMkClKzR/">here</a> and some highlight photos <a href="https://www.instagram.com/p/DaRWRsimhmo/">here</a>.
+    </p>
+
+
+    <h3 class="description-heading">Credits</h3>
+    <p>Event Organizers: Some core folks in the Ecosocialist working group of DSA SD, with support from local bike orgs RideSD and BikeSD.</p>
+   <p>
+    Primary Headline: <a href="https://store.overlaptype.com/fonts/gnar" target="_blank">GNAR</a> by <a href="https://store.overlaptype.com/" target="_blank">Kel Troughton at Overlap Type</a><br />
+    Secondary Headline: <a href="https://www.futurefonts.com/keltroughton/oaks">Oaks</a> by <a href="https://www.futurefonts.com/keltroughton" target="_blank">Kel Troughton</a><br />
+    Text: Manifold DSA
+</p>
+
+  </article>
+</BaseLayout>
