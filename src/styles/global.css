@@ -566,7 +566,7 @@ grid-column-end: 7;
 #info-text {
   grid-column-start: 3;
   grid-column-end: 6;
-  padding: 0 4%;
+  padding: 0 6%;
   border-left: var(--primary-border-weight) solid;
   border-right: var(--primary-border-weight) solid;
 }
