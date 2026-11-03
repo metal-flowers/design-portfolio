@@ -820,6 +820,13 @@ h2.project-title a:hover {
   margin-bottom: 2%;
 }
 
+.project {
+  margin: 0 auto;
+  margin-bottom: 20%;
+}
+
+
+
 .project img:hover {
   transform: scale(1.040); /* Scale up image slightly */
 }
