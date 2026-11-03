@@ -10,24 +10,32 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 
 <BaseLayout {title} {description}>
 
-  <!-- FILTERS -->
-<div class="portfolio-filters">
-  <!-- CLIENT TYPE -->
-  <div class="filter-group" data-filter-group="client">
-    <h5 class="filter-label">Client Type</h5>
-    <button class="filter-btn active" data-value="all">All</button>
-    <button class="filter-btn" data-value="corporate">Corporate</button>
-    <button class="filter-btn" data-value="community">Community</button>
-    <button class="filter-btn" data-value="personal">Personal</button>
-  </div>
-</div>
+
 
 
   <section class="about">
     <h1>
       Hi, I’m a graphic designer and typographer based in Southern California—let’s work together.
     </h1>
+
+
+    <section class="filters">
+      <div class="client-filters">
+        <!-- CLIENT TYPE -->
+        <div class="filter-group" data-filter-group="client">
+          <!--<h5 class="filter-label">Client Type</h5> -->
+          <button class="filter-btn active" data-value="all">All</button>
+          <button class="filter-btn" data-value="corporate">Corporate</button>
+          <button class="filter-btn" data-value="community">Community</button>
+          <button class="filter-btn" data-value="personal">Personal</button>
+        </div>
+      </div>
+    </section>
+
   </section>
+
+    
+
 
   <section class="project-grid">
 
@@ -38,6 +46,8 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 
 
 <!---------- ROW 1 ------------>
+
+  <!-- FILTERS -->
 
 
 <div class="type-project"
@@ -162,7 +172,7 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
   <div class="project"
   data-services="graphic-design"
   data-client="community">
-<img
+<img style="border-radius: 180px; padding: 8%;"
       src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1793702979/Composition_1_u6k2zi.gif" alt="logo animation for DSA SD, animating between the monogram and wordmark."
     />
   <h2 class="project-title">
