@@ -713,6 +713,7 @@ h4 {
 h5 {
   font-family: var(--primary-body-font), Helvetica, Arial, sans-serif;
   font-size: 1.000rem;
+  font-weight: 300;
 }
 
 h6 {
@@ -849,6 +850,10 @@ h2.project-title a:hover {
       margin-bottom: 4%;
     }  
 
+    .portfolio-filters {
+      display: none;
+    }
+
   }
 
 
@@ -924,6 +929,7 @@ h2.project-title a:hover {
     font-family: "SplineSans-Regular", Helvetica, Arial, sans-serif;
     font-size: 1.000rem;
     font-weight: normal;
+    font-weight: 300;
   }
 
   .type-project {

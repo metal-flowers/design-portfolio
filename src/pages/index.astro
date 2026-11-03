@@ -6,10 +6,23 @@ const description =
 import "../styles/global.css";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
-
 ---
 
 <BaseLayout {title} {description}>
+
+  <!-- FILTERS -->
+<div class="portfolio-filters">
+  <!-- CLIENT TYPE -->
+  <div class="filter-group" data-filter-group="client">
+    <h5 class="filter-label">Client Type</h5>
+    <button class="filter-btn active" data-value="all">All</button>
+    <button class="filter-btn" data-value="corporate">Corporate</button>
+    <button class="filter-btn" data-value="community">Community</button>
+    <button class="filter-btn" data-value="personal">Personal</button>
+  </div>
+</div>
+
+
   <section class="about">
     <h1>
       Hi, I’m a graphic designer and typographer based in Southern California—let’s work together.
@@ -20,12 +33,16 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 
 
 
+
 <!------ PROJECT FLOW --------->
 
-<!---------- ROW 1 COL 1 ------------>
+
+<!---------- ROW 1 ------------>
 
 
-<div class="type-project">
+<div class="type-project"
+    data-services="type-design"
+    data-client="personal">
   <a href="work/primitiv-text">
       <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773037993/primitiv-text-thumb_n03xnw.png">
    </a>
@@ -38,11 +55,9 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 
 
 
-
-<!---------- ROW 1 COL 2 ------------>
-
-
-<div class="type-project">
+<div class="type-project"
+    data-services="type-design"
+    data-client="personal">
 <a href="work/beatrice-no-30-type-revival">
   <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773038223/beatrice-no-30-thumb_cwrpv6.png">
 </a>
@@ -54,10 +69,10 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 
 
 
-<!---------- ROW 1 COL 3 ------------>
 
-
-<div class="type-project">
+<div class="type-project"
+    data-services="type-design"
+    data-client="personal">
 <a href="work/marlborough-titling">
   <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773038787/marlborough-titling-thumb_pifzca.png">
 </a>
@@ -72,10 +87,12 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 
 
 
-<!---------- ROW 2 COL 1 ------------>
+<!---------- ROW 2 ------------>
 
 
-<div class="project">
+<div class="project"
+    data-services="graphic-design"
+    data-client="community">
   <a href="/work/sarah-davachi-and-april-poster"
     ><img
       src="https://res.cloudinary.com/dzv7ytxjh/image/upload/q_70/v1773038496/sarah-davachi-poster_d5jczc.png" alt="a photograph of 3 copies of the same book, lined up at an angle and laying flat on a black background. The book is titled: The Guide to Product Analytics. It is a black hardcover book with metallic silver foil debossing"
@@ -90,9 +107,9 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 
 
 
-<!---------- ROW 2 COL 2 ------------>
-
-  <div class="project">
+  <div class="project"
+    data-services="graphic-design music-packaging"
+    data-client="community">
   <a href="/work/april-webtape"
     ><img
       src="https://res.cloudinary.com/dzv7ytxjh/image/upload/q_70/v1773041371/april-webtape-thumb-_zxivfg.png" alt="A photograph of a CD standing up, front and center, in front of a bright white background. The CD cover is type heavy, with layers of transparency hiding different descriptions and credits of the CD itself. The album is called 'Webtape' by the band, April."
@@ -106,26 +123,26 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 
 
 
-<!---------- ROW 2 COL 3 ---------
-
-<div class="corporate-project">
+<div class="corporate-project"
+    data-services="brand-identity"
+    data-client="corporate">
   <a href="work/foam-branding">
-  <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1776330389/foam-logo-thumb_g9kygu.png">
+  <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1774560065/foam-08_cl5xc4.jpg">
   </a>
   
   <h2 class="project-title">
     <a href="work/foam-logotype">foam</a>
   </h2>
   <p class="project-type">Logotype</p>
-  </div>
+</div>
 
 
 
-  <!---------- ROW 3 COL 1 ------------>
+
+  <!---------- ROW 3 COL -----------
 
 
   <div class="project">
-    <!-- <a href="/work/race-the-215">-->
     <img
           src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1793475980/20261022_DSA101_Flyer_angle_zmezsa.png" alt="An 8.5 x 11in printed flyer in quarter sheets for distribution."
         />
@@ -136,8 +153,11 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
       <p class="project-type">Flyer</p>
     </div>
 
+  -->
 
-<div class="project">
+<div class="project"
+    data-services="graphic-design editorial-design"
+    data-client="community">
   <a href="/work/designing-a-union">
   <img
         src="https://res.cloudinary.com/dzv7ytxjh/image/upload/q_50/v1782807078/UOOO-pamphlet_jwqyfg.gif" alt="The image is a gif with 3 frams that included a folded pamphlet cover, the open interior of the pamphlet, and the folded back cover. The title is, Designing A Union: 8 Building Blocks to a Union of Your Own, written in bold blocky, all caps, type. The interior shows the 8 building blocks with 4 on each side, with room to write. The back cover has a space for notes and below that is a list of next action steps."
@@ -149,14 +169,10 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
   </div>
 
 
- <!---------- ROW 3 COL 2 ------------>
 
-
-
-
-
-
- <div class="project">
+ <div class="project"
+    data-services="graphic-design"
+    data-client="community">
   <a href="/work/race-the-215">
   <img
         src="https://res.cloudinary.com/dzv7ytxjh/image/upload/q_10/v1782804280/race215_thumb_uha4y0.png" alt="An 8.5 x 11in printed flyer for a bike race with our fastest bus. Text is bold and red and says: Race the 215 at the very top. A greyscale map of the route and a cutout bus and bike are placed on top."
@@ -169,10 +185,11 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
   </div>
 
 
-<!---------- ROW 3 COL 3 ------------>
 
 
-  <div class="project">
+  <div class="project"
+  data-services="graphic-design"
+  data-client="community">
     <img
           src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1774997092/no-war-gif-sm_oblbhk.gif" alt="An animated gif of a rotating pin. The pin says NO WAR in large, white, scribbled text on a solid black bacgorund. Around the edges of the button in smaller text says: The King is Mad and Demented! No War With Iran"
         />
@@ -185,9 +202,11 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 
 
 
-<!---------- ROW 4 COL 1 -------->
+<!---------- ROW 4 -------->
 
-<div class="corporate-project">
+<div class="corporate-project"
+    data-services="brand-identity editorial-design"
+    data-client="corporate">
   <a href="work/mixpanel-blog-redesign">
     <img src="/images/mixpanel-signals-and-stories/signals-and-stories-primary.jpg">
   </a>
@@ -200,9 +219,10 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 </div>
 
 
-<!---------- ROW 4 COL 2 ---------->
 
-<div class="corporate-project">
+<div class="corporate-project"
+    data-services="brand-identity"
+    data-client="corporate">
   <a href="work/mixpanel-rebrand">
   <img src="/images/mixpanel-rebrand/mixpanel-brand_15.jpg">
   </a>
@@ -217,9 +237,9 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 
 
 
-<!---------- ROW 4 COL 3 ----------->
-
-<div class="corporate-project">
+<div class="corporate-project"
+    data-services="editorial-design"
+    data-client="corporate">
   <a href="/work/the-guide-to-product-analytics-book-design"
     ><img
       src="/images/mixpanel-guide-to-product-analytics/guide-to-product-analytics-book.jpg" alt="a photograph of 3 copies of the same book, lined up at an angle and laying flat on a black background. The book is titled: The Guide to Product Analytics. It is a black hardcover book with metallic silver foil debossing"
@@ -234,9 +254,11 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 
 
 
-<!---------- ROW 5 COL 1 ------------>
+<!---------- ROW 5 ------------>
 
-<div class="project">
+<div class="project"
+    data-services="graphic-design music-packaging"
+    data-client="community">
   <a href="/work/taxes-retirement-home-album-design"
     ><img
       src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773040028/taxes-retirement-home-thumb_xrt9s6.png" alt="Photo of the CD angled at a distance on a back background. The CD cover has a painting of a ghost on it with the band name somewhat hidden in the fabric of the ghost"
@@ -250,7 +272,9 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 
 
 
-<div class="project">
+<div class="project"
+    data-services="graphic-design editorial-design"
+    data-client="personal">
   <a href="/work/primitiv-text-process-manual"
     ><img
       src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773040949/primitiv-text-process-thumb-_sfpjhr.png"
@@ -264,9 +288,10 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 </div>
 
 
-<!---------- ROW 5 COL 2 ------------>
 
-<div class="project">
+<div class="project"
+  data-services="graphic-design music-packaging"
+  data-client="community">
   <a href="/work/taxes-it-never-ends">
     <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773099662/taxes-it-never-ends-thumb-_b8axj9.png">
   </a>
@@ -279,18 +304,14 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 </div>
 
 
-<!---------- ROW 5 COL 3 ----------->
 
 
+<!---------- ROW 6 ----------->
 
 
-
-
-
-<!---------- ROW 6 COL 1 ----------->
-
-
-<div class="project">
+<div class="project"
+    data-services="graphic-design"
+    data-client="community">
   <img
     src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1774946585/anti-ice-pins-2_uhmfhl.gif"
   />
@@ -301,9 +322,9 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 </div>
 
 
-<!---------- ROW 6 COL 2 ----------->
-
-<div class="project">
+<div class="project"
+    data-services="editorial-design"
+    data-client="corporate">
   <a href="/work/curated-magazine">
     <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1776332835/curated-magazine-cover-thumb_b79fel.png">
   </a>
@@ -317,9 +338,10 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 </div>
 
 
-<!---------- ROW 6 COL 3 ------------>
 
-<div class="project">
+<div class="project"
+  data-services="graphic-design"
+  data-client="community">
   <a href="/work/april-lettering">
     <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773039713/april-lettering-thumb-transparent_l8gjc3.png">
   </a>
@@ -330,9 +352,13 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 </div>
 
 
-<!---------- ROW 7 COL 1 ------------>
 
-<div class="project">
+
+<!---------- ROW 7 ------------>
+
+<div class="project"
+  data-services="type-design editorial-design"
+  data-client="personal">
   <a href="/work/beatrice-no-30-process-book">
   <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773049277/beatrice-no-30-process-thumbnail_dkxbl2.png">
 </a>
@@ -343,10 +369,10 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 </div>
 
 
-<!---------- ROW 7 COL 2 ----------->
 
-
-<div class="project">
+<div class="project"
+  data-services="graphic-design"
+  data-client="community">
   <a href="/work/dame-fest-lettering">
     <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773038693/dame-fest-logo-thumb_r1qzjo.png">
   </a>
@@ -357,10 +383,11 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 </div>
 
 
-<!---------- ROW 7 COL 3 ----------->
 
 
-<div class="project">
+<div class="project"
+  data-services="graphic-design editorial-design"
+  data-client="personal">
   <a href="/work/perils-of-feeling-zine">
     <img src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1773100291/perils-of-feeling-thumb_udwece.png">
   </a>
@@ -373,7 +400,59 @@ import IndexPhotoBrick from "../components/IndexPhotoBrick.astro";
 </div>
 
 
+
+<script>
+  const filterGroups = document.querySelectorAll(".filter-group");
+  const projects = document.querySelectorAll(
+  ".project-grid > .type-project, .project-grid > .project, .project-grid > .corporate-project"
+);
+
+  const selected = {
+    services: "all",
+    client: "all"
+  };
+
+  function filterProjects() {
+    projects.forEach((project) => {
+      const services = (project.dataset.services || "").split(" ");
+      const client = project.dataset.client;
+
+      const matchesService =
+        selected.services === "all" ||
+        services.includes(selected.services);
+
+      const matchesClient =
+        selected.client === "all" ||
+        client === selected.client;
+
+      project.hidden = !(matchesService && matchesClient);
+    });
+  }
+
+  filterGroups.forEach((group) => {
+    const filterType = group.dataset.filterGroup;
+    const buttons = group.querySelectorAll(".filter-btn");
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        selected[filterType] = button.dataset.value;
+
+        buttons.forEach((btn) => {
+          const active = btn === button;
+          btn.classList.toggle("active", active);
+          btn.setAttribute("aria-pressed", String(active));
+        });
+
+        filterProjects();
+      });
+    });
+  });
+</script>
+
+
+
   </section>
+
 
 
 </BaseLayout>
