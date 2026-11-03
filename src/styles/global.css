@@ -722,6 +722,10 @@ h6 {
   line-height: 1.8rem;
 }
 
+figcaption {
+  margin: -2% 0 3% 0;
+}
+
 
 p {
   font-family: var(--primary-body-font), Helvetica, Arial, sans-serif;

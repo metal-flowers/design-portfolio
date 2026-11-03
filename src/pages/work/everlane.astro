@@ -1,0 +1,94 @@
+---
+const title = "Everlane";
+const description =
+  "Select design work for Everlane.";
+
+const url = "https.www.annieszafranski.com/work/everlane";
+  import "../../styles/global.css";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+---
+
+<BaseLayout {title} {description}>
+  <!---------------------- PROJECT INFO SECTION (6 COL)---------------------->
+
+  <section class="project-info">
+    <h1>{title}</h1>
+    <h2>{description}</h2>
+    <a class="read-more" href="#project-description">Read More</a>
+  </section>
+
+  <!---------------------- PROJECT PHOTO SECTION (6 COL)---------------------->
+
+  <section class="project-photos">
+
+
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1793706330/5fd906ae93301a5130054c98_2017_EVERLANE_Pride_Print-01_phdvmo.png"
+        alt=""
+      />
+      <figcaption><p>100% Human Pride Campaign | Art Direction: Carla Poirier | Design: Annie Szafranski<p></figcaption>
+    </figure>
+    
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1793706508/everlane-emails_hj4wop.jpg"
+        alt=""
+      />
+      <figcaption><p>Select Emails | Art Direction: Carla Poirier & Lee Cerré | Design: Annie Szafranski | Copy: Alex Applegate | Photography: Andrea Drake, Grace Brumley, Stephanie DeAngelis<p></figcaption>
+    </figure>
+
+
+
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1793706330/5fd874b9d1dc60441b384f09_2016.17_Everlane_Print-02_pti0sx.jpg"
+        alt=""
+      />
+      <figcaption><p>Art Direction: Carla Poirier and Lee Cerré | Designers: Morgan Ruby and Annie Szafranski</p></figcaption>
+    </figure>
+
+
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1793705540/shoe-park-work_jj6zsb.png"
+        alt=""
+      />
+      <figcaption><p>Art Direction: Carla Poirier and Lee Cerré | Designers: Morgan Ruby and Annie Szafranski</p></figcaption>
+    </figure>
+
+
+    <figure>
+      <img
+        style="background: rgb(6, 6, 6);"
+        loading="lazy"
+        src="https://res.cloudinary.com/dzv7ytxjh/image/upload/v1793707013/shoe-park-emails_urdkar.jpg"
+        alt=""
+      />
+      <figcaption><p>Art Direction: Carla Poirier | Designer: Annie Szafranski | Copy: Alex Applegate</p></figcaption>
+    </figure>
+
+
+
+</section>
+
+  <!---------------------- PROJECT DESCRIPTION SECTION (4 COL) ---------------------->
+
+  <article class="project-description">
+    <a id="project-description"></a>
+
+    <h3 class="description-heading">About the Project</h3>
+    <p>
+      I freelanced for the Everlane creative team for years and worked on a variety of projects, from bi-weekly product launch and event emails, to marketing collateral and experiential signage for pop-ups and store openings. 
+    </p>
+    <p>One of my favorite projects was the concept shop for Shoe Park, which took place in New York over the course of a month. On this project, I worked with the creative team to bring the established art direction to life. I helped with the print production for this project and created experiential graphics that were prominent outside and within the space, from window and wall vinyl signage to checkout counters and pricing stickers for every shoe.
+    </p>
+  </article>
+</BaseLayout>
