@@ -635,17 +635,29 @@ grid-column-end: 7;
   background-color: #fff;
 }
 
-.filter-btn: :hover {
+/* .filter-btn: :hover {
   color: #fff;
-}
+} */
 
 .filter-btn {
   border: 1px solid;
   border-radius: 4px;
   background-color: transparent;
   color: var(--primary-text);
-  padding: 0.25em;
+  padding: 0.25em 0.50em;
   margin: 0 0.25em;
+}
+
+.filter-btn:hover {
+  background-color: var(--primary-accent);
+  border: 1px solid var(--primary-accent);
+  color: var(--primary-background);
+}
+
+.filter-btn:active {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: var(--primary-background);
 }
 
 
