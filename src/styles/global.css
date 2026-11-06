@@ -391,6 +391,19 @@ grid-area: info-col-1;
     object-fit: cover;
   }
 
+  .circle-project {
+    margin: 0 auto;
+  }
+  .circle-project img {
+    width: 350px;
+    height: 350px;
+    padding: 7%;
+    border-radius: 50%;
+    margin-bottom: 2%;
+    margin: 0 auto;
+    object-fit: cover;
+  }
+
   .corporate-project  a:hover {
     background: transparent;
   }
@@ -635,9 +648,6 @@ grid-column-end: 7;
   background-color: #fff;
 }
 
-/* .filter-btn: :hover {
-  color: #fff;
-} */
 
 .filter-btn {
   border: 1px solid;
@@ -864,6 +874,7 @@ h2.project-title a:hover {
   border-radius: 16px;
   margin-bottom: 2%;
 }
+
 
 .project {
   margin: 0 auto;
