@@ -999,7 +999,7 @@ h2.project-title a:hover {
     margin-bottom: 8%;
   }
 
-  .project {
+  .project, .circle-project {
     margin-bottom: 15%;
   }
 
